@@ -1,24 +1,53 @@
 .App {
   text-align: center;
+
+}
+.Background{
+  filter: blur(15px);
+  -webkit-filter: blur(15px);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0%;
 }
 
+.button {
+  background-color: rgb(192, 192, 192); /* Green */
+  border: none;
+  color: rgb(70, 25, 32);
+  margin: 0;
+  padding: 1% 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 85%;
+  position: relative;
+}
+
+.button:hover {
+  background-color: rgb(97, 97, 97); 
+  color:rgb(70, 25, 32);
+  
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.spirit {
+left: 50%;
+margin: 0 auto;
+filter: blur(0px);
+-webkit-filter: blur(0px);
 }
 
+.resize{
+  width: 50%;
+  height: 50%;
+  position: relative;
+  margin: 0;
+}
 .App-link {
   color: #61dafb;
 }
