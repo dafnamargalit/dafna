@@ -1,3 +1,46 @@
 .Navbar{
+    background-color: rgba(0, 0, 0, 0.11);
     text-align: center;
+}
+
+
+.Letters-D{
+    height: 6.8vh;
+    transition: transform .2s; 
+    padding: 0em;
+}
+
+.Letters-D:hover{
+    transform: scale(1.2);
+}
+
+.Letters-A{
+    height: 7vh;
+    transition: transform .2s; 
+    padding: 0em;
+}
+
+.Letters-A:hover{
+    transform: scale(1.2);
+}
+
+.Letters-F{
+    height: 6.5vh;
+    transition: transform .2s; 
+    padding-bottom: 0em;
+    padding-left: 0.4em;
+}
+
+.Letters-F:hover{
+    transform: scale(1.2);
+}
+
+.Letters-N{
+    height: 7vh;
+    transition: transform .2s; 
+    padding: 0em;
+}
+
+.Letters-N:hover{
+    transform: scale(1.2);
 }

@@ -1,0 +1,53 @@
+.Home{
+    background-color: rgb(196, 248, 255);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home-Letters-D{
+    height: 18vh;
+    transition: transform .2s; 
+    padding: 0em;
+}
+
+.Home-Letters-D:hover{
+    transform: scale(1.2);
+}
+
+.Home-Letters-A{
+    height: 18vh;
+    transition: transform .2s; 
+    padding: 0em;
+}
+
+.Home-Letters-A:hover{
+    transform: scale(1.2);
+}
+
+.Home-Letters-F{
+    height: 17vh;
+    transition: transform .2s; 
+    padding-left: .4em;
+}
+
+.Home-Letters-F:hover{
+    transform: scale(1.2);
+}
+
+.Home-Letters-N{
+    height: 18vh;
+    transition: transform .2s; 
+    padding: 0em;
+}
+
+.Home-Letters-N:hover{
+    transform: scale(1.2);
+}
+
+.Home-Click{
+    position:absolute;
+    top: 60vh;
+    height:5vh;
+}
