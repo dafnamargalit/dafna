@@ -60,4 +60,8 @@
 .Home-Footer{
     position: fixed;
     top: 80vh;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

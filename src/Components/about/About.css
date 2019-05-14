@@ -23,7 +23,16 @@
 }
 
 .About-Content{
-    background-color: black;
-    color:white;
     height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About-Footer{
+    top: 100vh;
+    height: 30vh;
+    display: flex;
+    align-items: right;
+    justify-content: center;
 }

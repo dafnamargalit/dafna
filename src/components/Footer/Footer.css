@@ -1,0 +1,15 @@
+
+.Footer-Icons{
+width: 2em;
+height: 2em;
+padding: 0.25em;
+background: none;
+}
+
+.Footer-Icons:hover{
+    filter: invert(0.5);
+}
+
+#svg_2:hover{
+    fill: #ffff;
+}

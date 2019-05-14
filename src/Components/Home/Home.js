@@ -28,9 +28,9 @@ return(
      <Link to="/ask" style={{textDecoration:'none'}}>
         <img src={AP} className='Home-Letters-A' alt="AP"/>
      </Link>
-     {/* <div className="Home-Footer"> */}
+     <div className="Home-Footer">
      <Footer/>
-     {/* </div> */}
+     </div>
     </div>
 
 );

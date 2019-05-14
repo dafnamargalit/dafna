@@ -2,14 +2,37 @@
     background-color:rgb(196, 248, 255);
     height: 100vh;
     text-align: center;
+    /* display: flex;
+    justify-content: center; */
 }
 
 .Folio-Title{
-    align-content: center;
     height:17vh;
+    padding-top: 4em;
+
 }
 
-header{
-    height: 20vh;
-    text-align: left;
+.Folio-Header{
+    height: 30vh;
+    display:flex;
+    /* align-items: center; */
+    justify-content: left;
+    padding: 1em;
+    padding-bottom: 0em;
+    background-color: rgb(196, 248, 255);
+}
+
+.Folio-Content{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Folio-Footer{
+    top: 100vh;
+    height: 30vh;
+    display: flex;
+    align-items: right;
+    justify-content: center;
 }
