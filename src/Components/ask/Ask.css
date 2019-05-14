@@ -1,4 +1,15 @@
 .Ask{
-    background-color: rgb(196, 248, 255);
+    background-color:rgb(196, 248, 255);
     height: 100vh;
+    text-align: center;
+}
+
+.Ask-Title{
+    align-content: center;
+    height:17vh;
+}
+
+header{
+    height: 20vh;
+    text-align: left;
 }

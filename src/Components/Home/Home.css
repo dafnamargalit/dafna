@@ -10,6 +10,7 @@
     height: 18vh;
     transition: transform .2s; 
     padding: 0em;
+    user-select: none;
 }
 
 .Home-Letters-D:hover{
@@ -20,6 +21,7 @@
     height: 18vh;
     transition: transform .2s; 
     padding: 0em;
+    user-select: none;
 }
 
 .Home-Letters-A:hover{
@@ -30,6 +32,7 @@
     height: 17vh;
     transition: transform .2s; 
     padding-left: .4em;
+    user-select: none;
 }
 
 .Home-Letters-F:hover{
@@ -40,6 +43,7 @@
     height: 18vh;
     transition: transform .2s; 
     padding: 0em;
+    user-select: none;
 }
 
 .Home-Letters-N:hover{
@@ -50,4 +54,10 @@
     position:absolute;
     top: 60vh;
     height:5vh;
+    user-select: none;
+}
+
+.Home-Footer{
+    position: fixed;
+    top: 80vh;
 }

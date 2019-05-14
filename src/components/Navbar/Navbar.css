@@ -1,6 +1,10 @@
 .Navbar{
     background-color: rgba(0, 0, 0, 0.11);
-    text-align: center;
+    /* text-align: center; */
+    position:fixed;
+    align-items: center;
+    width: 100%;
+
 }
 
 
@@ -8,20 +12,22 @@
     height: 6.8vh;
     transition: transform .2s; 
     padding: 0em;
+    user-select: none;
 }
 
 .Letters-D:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .Letters-A{
     height: 7vh;
     transition: transform .2s; 
     padding: 0em;
+    user-select: none;
 }
 
 .Letters-A:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .Letters-F{
@@ -29,18 +35,20 @@
     transition: transform .2s; 
     padding-bottom: 0em;
     padding-left: 0.4em;
+    user-select: none;
 }
 
 .Letters-F:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .Letters-N{
     height: 7vh;
     transition: transform .2s; 
     padding: 0em;
+    user-select: none;
 }
 
 .Letters-N:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }

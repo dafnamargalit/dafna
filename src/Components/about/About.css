@@ -1,4 +1,29 @@
 .About{
     background-color:rgb(196, 248, 255);
     height: 100vh;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.About-Title{
+    height:17vh;
+    padding-top: 4em;
+
+}
+
+.About-Header{
+    height: 30vh;
+    display:flex;
+    /* align-items: center; */
+    justify-content: left;
+    padding: 1em;
+    padding-bottom: 0em;
+    background-color: rgb(196, 248, 255);
+}
+
+.About-Content{
+    background-color: black;
+    color:white;
+    height: 30vh;
 }

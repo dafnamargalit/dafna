@@ -1,4 +1,15 @@
 .Folio{
     background-color:rgb(196, 248, 255);
     height: 100vh;
+    text-align: center;
+}
+
+.Folio-Title{
+    align-content: center;
+    height:17vh;
+}
+
+header{
+    height: 20vh;
+    text-align: left;
 }

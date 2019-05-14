@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Footer from '../Footer';
 
 import D from '../images/D.png';
 import A from '../images/A.png';
@@ -27,7 +28,11 @@ return(
      <Link to="/ask" style={{textDecoration:'none'}}>
         <img src={AP} className='Home-Letters-A' alt="AP"/>
      </Link>
+     {/* <div className="Home-Footer"> */}
+     <Footer/>
+     {/* </div> */}
     </div>
+
 );
 }
 
