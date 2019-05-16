@@ -1,38 +1,106 @@
 .About{
     background-color:rgb(196, 248, 255);
-    height: 100vh;
+    height: 100%;
     text-align: center;
-    /* display: flex;
-    justify-content: center; */
+}
+
+.About-Navbar{
+    position: fixed;
+}
+
+.About-Title-Large{
+    height:10vh;
+    user-select: none;   
 }
 
 .About-Title{
-    height:17vh;
-    padding-top: 4em;
-
+    height:5vh;
+    user-select: none;
 }
 
-.About-Header{
-    height: 30vh;
-    display:flex;
-    /* align-items: center; */
-    justify-content: left;
-    padding: 1em;
-    padding-bottom: 0em;
-    background-color: rgb(196, 248, 255);
-}
-
-.About-Content{
-    height: 30vh;
+.About-Wrapper{
     display: flex;
     justify-content: center;
+    align-content: center;
     align-items: center;
 }
 
+.About-Image{
+    height: 30vh;
+    padding: 0.35em;
+    margin-left: 1em;
+    border-radius: 20em;
+    user-select: none;  
+    transition: transform .2s; 
+    background-image: url('../images/rainbow.jpg');
+}
+
+.About-Image:hover{
+    transform: scale(1.05);
+}
+
+.About-Header{
+    height: 20vh;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1em;
+    padding-bottom: 0em;
+    padding-top:3em;
+    background-color: rgb(196, 248, 255);
+}
+
+
+.About-Content{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(196, 248, 255);
+    
+}
+
+.About-Text{
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ width: 60vh;
+ padding: 0.8em;
+ text-align: center;
+ background-color: white;
+ height: 25vh;
+ font-size: 1em;  
+ border-radius: 2em;
+ box-shadow: 0.5em 0.5em #ffd6e5;
+ transition: transform .2s; 
+ margin: 1em;
+
+}
+
+.About-Text:hover{
+    transform: scale(1.05);
+}
+
 .About-Footer{
-    top: 100vh;
+    position: fixed;
+    top: 80vh;
     height: 30vh;
     display: flex;
-    align-items: right;
+    align-items: center;
     justify-content: center;
+    background-color: blue;
 }
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
