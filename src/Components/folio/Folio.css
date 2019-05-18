@@ -1,34 +1,60 @@
 .Folio{
     background-color:rgb(196, 248, 255);
-    height: 100vh;
+    height: 100%;
     text-align: center;
     /* display: flex;
     justify-content: center; */
 }
-
-.Folio-Title{
-    height:17vh;
-    padding-top: 4em;
-
+.Folio-Navbar{
+    position: fixed;
 }
 
-.Folio-Header{
-    height: 30vh;
-    display:flex;
-    /* align-items: center; */
+.Folio-Title{
+    height:5vh;
+    /* padding-top: 8em; */
+    padding-left: 2em;
+    display: flex;
     justify-content: left;
-    padding: 1em;
-    padding-bottom: 0em;
-    background-color: rgb(196, 248, 255);
+    align-items: center;
+
+}
+.Folio-A{
+    height:5vh;
+    padding-top: 4em;
+    padding-left: 1em;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.Folio-Ap{
+    height: 5vh;
+    /* position: relative; */
+    /* top: -3em;
+    left: 1em; */
+}
+.Folio-F{
+    height: 12vh;
+    /* position: relative; */
+}
+.Folio-Letters{
+    height: 8vh;
+    padding: 0.1em;
+    /* position: relative; */
 }
 
 .Folio-Content{
-    height: 30vh;
-    display: flex;
+    height: 100vh;
+    background-color: rgb(196, 248, 255);
+    padding-top: 3em;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    /* position: relative; */
 }
 
+#Folio-Text{
+    padding: 3em;
+}
 .Folio-Footer{
     top: 100vh;
     height: 30vh;
