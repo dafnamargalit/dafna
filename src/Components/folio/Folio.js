@@ -6,11 +6,16 @@ import O from './O.png';
 import L from './L.png';
 import I from './I.png';
 import apostrophe from './apostrophe.png';
+import portfolio from './port.png';
 
 import './Folio.css';
 const Folio = () => {
     return(
      <div className="Folio">
+     <script>
+     var figure = this.refs.video.hover( hoverVideo, hideVideo );
+
+     </script>
       <div className="Folio-Navbar">
      <Navbar/>
      </div>
@@ -19,16 +24,18 @@ const Folio = () => {
      </div>
     <div className="Folio-Title">
         <img src={F} className="Folio-F" alt="F"></img>
-        <img src={O} className="Folio-Letters" alt="O"></img>
+        <img src={O} className="Folio-O" alt="O"></img>
         <img src={L} className="Folio-Letters" alt="L"></img>
         <img src={I} className="Folio-Letters" alt="I"></img>
-        <img src={O} className="Folio-Letters" alt="O"></img>
+        <img src={O} className="Folio-O" alt="O"></img>
     </div>
+    <img src={portfolio} className="Folio-parenth" alt="portfolio"/>
     <div className="Folio-Content">
-        <p id="Folio-Text"><a> MUSIC <br></br></a></p>
-        <p id="Folio-Text"><a> MERCH <br></br></a></p>
-        <p id="Folio-Text"><a> PROJECTS <br></br></a></p>
-        <p id="Folio-Text"><a> RESUME <br></br></a></p>
+        <div className="video">
+       
+        </div>
+        {/* <p id="Folio-Text"><a> PROJECTS <br></br></a></p>
+        <p id="Folio-Text"><a> RESUME <br></br></a></p> */}
     </div>
         <Footer />
     </div>

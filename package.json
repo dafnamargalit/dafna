@@ -9,12 +9,15 @@
     "@fortawesome/free-solid-svg-icons": "^5.8.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "i": "^0.3.6",
+    "mdbreact": "^4.14.0",
     "npm": "^6.9.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.1",
-    "react-slideshow-image": "^1.1.8"
+    "react-video-cover": "^1.2.2",
+    "redux": "^4.0.1",
+    "video-react": "^0.13.7"
   },
   "scripts": {
     "start": "react-scripts start",

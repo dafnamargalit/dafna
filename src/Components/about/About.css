@@ -9,15 +9,18 @@
 }
 
 .About-Title-Large{
-    height:10vh;
+    height:14vh;
     user-select: none;   
 }
 
 .About-Title{
-    height:5vh;
+    height:6vh;
     user-select: none;
 }
 
+.About-Me{
+    height: 5vh;
+}
 .About-Wrapper{
     display: flex;
     justify-content: center;
@@ -40,7 +43,7 @@
 }
 
 .About-Header{
-    height: 20vh;
+    height: 16vh;
     display:flex;
     align-items: center;
     justify-content: left;

@@ -6,6 +6,7 @@ import B from './B.png';
 import O from './O.png';
 import U from './U.png';
 import T from './T.png';
+import about from './about-me.png';
 import Dafna from '../images/dafna.jpg';
 
 
@@ -27,6 +28,7 @@ return(
             <div className="About-Wrapper">
                 <img src={Dafna} className="About-Image" alt='dafna'/>
             </div>
+            <img src={about} className="About-Me" alt="(about me)"/>
             <div className="About-Content">
                 <div className="About-Text">
                     <p> Dafna is an 18 year old singer/songwriter, producer, and undergraduate engineering student from Boulder, CO. 

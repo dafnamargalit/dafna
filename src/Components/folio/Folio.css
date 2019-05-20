@@ -21,13 +21,13 @@
 .Folio-A{
     height:5vh;
     padding-top: 4em;
-    padding-left: 1em;
+    padding-left: 1.8em;
     display: flex;
     justify-content: left;
     align-items: center;
 }
 .Folio-Ap{
-    height: 5vh;
+    height: 3vh;
     /* position: relative; */
     /* top: -3em;
     left: 1em; */
@@ -37,11 +37,19 @@
     /* position: relative; */
 }
 .Folio-Letters{
-    height: 8vh;
+    height: 6vh;
     padding: 0.1em;
     /* position: relative; */
 }
-
+.Folio-O{
+    height: 6vh;
+}
+.Folio-parenth{
+    height:5vh;
+    /* display: flex;
+    padding-left: 7.5em;
+    padding-top: 0.5em; */
+}
 .Folio-Content{
     height: 100vh;
     background-color: rgb(196, 248, 255);
@@ -52,8 +60,20 @@
     /* position: relative; */
 }
 
+.video {
+    background-image: url('./record_player.mp4');
+    height: 100vh;
+  }
+  
+  /* Hide Play button + controls on iOS */
+  video::-webkit-media-controls {
+      display:none !important;
+  }
+
 #Folio-Text{
     padding: 3em;
+    text-decoration: none;
+
 }
 .Folio-Footer{
     top: 100vh;
@@ -62,3 +82,4 @@
     align-items: right;
     justify-content: center;
 }
+
