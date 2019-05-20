@@ -3,6 +3,7 @@ import './Footer.css';
 import Instagram from './instagram.svg';
 import Twitter from './twitter.svg';
 import Spotify from './spotify.svg';
+import GitHub from './github.svg';
 
 const Footer = () => {
     return(
@@ -15,6 +16,9 @@ const Footer = () => {
             </a>
             <a href="https://twitter.com/dafnamargalit">
                 <img src={Twitter} className="Footer-Icons" alt="Twitter"/>
+            </a>
+            <a href="https://github.com/dafnamargalit">
+                <img src={GitHub} className="Footer-Icons" alt="GitHub"/>
             </a>
         </div>
     );
