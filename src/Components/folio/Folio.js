@@ -8,17 +8,17 @@ import I from './I.png';
 import apostrophe from './apostrophe.png';
 import portfolio from './port.png';
 
+import '../Ask/Ask.css';
 import './Folio.css';
 const Folio = () => {
     return(
      <div className="Folio">
-     <script>
-     var figure = this.refs.video.hover( hoverVideo, hideVideo );
-
-     </script>
       <div className="Folio-Navbar">
      <Navbar/>
      </div>
+     {/* <div className="Ask-Content">
+            This page is under construction.
+        </div> */}
      <div className="Folio-A">
          <img src={apostrophe} className="Folio-Ap" alt="'"></img>
      </div>
@@ -33,10 +33,10 @@ const Folio = () => {
     <div className="Folio-Content">
         <div className="video">
        
-        </div>
+        </div> */}
         {/* <p id="Folio-Text"><a> PROJECTS <br></br></a></p>
         <p id="Folio-Text"><a> RESUME <br></br></a></p> */}
-    </div>
+    /* </div>
         <Footer />
     </div>
     );
