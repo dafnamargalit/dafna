@@ -1,0 +1,93 @@
+
+.About{	
+	background-color:rgb(196, 248, 255);
+	height: 100%;
+	text-align: center;
+	}
+	
+	.About-Navbar{
+	position: fixed;
+	}
+	
+	.About-Title-Large{
+	height:14vh;
+	user-select: none;
+	}
+	
+	.About-Title{
+	height:6vh;
+	user-select: none;
+	}
+	
+	.About-Me{
+	height: 5vh;
+	}
+	.About-Wrapper{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	}
+	
+	.About-Image{
+	height: 30vh;
+	padding: 0.35em;
+	margin-left: 1em;
+	border-radius: 20em;
+	user-select: none;
+	transition: transform .2s;
+	background-image: url('../images/rainbow.jpg');
+	}
+	
+	.About-Image:hover{
+	transform: scale(1.05);
+	}
+	
+	.About-Header{
+	height: 16vh;
+	display:flex;
+	align-items: center;
+	justify-content: left;
+	padding: 1em;
+	padding-bottom: 0em;
+	padding-top:3em;
+	background-color: rgb(196, 248, 255);
+	}
+	
+	
+	.About-Content{
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	background-color: rgb(196, 248, 255);
+	
+	}
+	
+	.About-Text{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	width: 40vw;
+	padding: 0.8em;
+	text-align: center;
+	background-color: white;
+	height: 15vw;
+	font-size: 1.3vw;
+	border-radius: 2em;
+	box-shadow: 0.5em 0.5em #ffd6e5;
+	transition: transform .2s;
+	margin: 1em;
+	
+	}
+	
+	.About-Text:hover{
+	transform: scale(1.05);
+	}
+	
+	.About-Footer{
+	position: fixed;
+	top: 80vh;
+	height: 30vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: blue;
+	}
