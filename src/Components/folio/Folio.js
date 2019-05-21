@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactPlayer from 'react-player';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
 import F from '../images/F.png';
@@ -32,15 +33,16 @@ const Folio = () => {
     <img src={portfolio} className="Folio-parenth" alt="portfolio"/>
     <div className="Folio-Content">
         <div className="video">
-       
-        </div> */}
+           <ReactPlayer>
+               
+           </ReactPlayer>
+        </div>
         {/* <p id="Folio-Text"><a> PROJECTS <br></br></a></p>
-        <p id="Folio-Text"><a> RESUME <br></br></a></p> */}
-    /* </div>
+        <p id="Folio-Text"><a> RESUME <br></br></a></p>*/}
+    </div>
         <Footer />
     </div>
     );
-
 }
 
 export default Folio;
