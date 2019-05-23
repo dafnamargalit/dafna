@@ -10,8 +10,7 @@ const Landing = () => {
                 <img src={spirit} className="Background" alt="background"/>
                 <img src={spirit} className="resize" alt="album"/>
                 <div className="content">
-                    <a href="https://distrokid.com/hyperfollow/dafna/spirit-2" className="button">Pre-Order my new EP out May 23rd!</a>
-                    {/* <a href="https://distrokid.com/hyperfollow/dafna/spirit-2" className="button">Go listen to my new EP!</a> */}
+                    <a href="https://fanlink.to/dafna" className="button">Go listen to my new EP!</a>
                 </div>
                 <Link to="/home" style={{textDecoration:'none'}}>
                     <div className='text'><u>Continue to Website >>></u></div>
