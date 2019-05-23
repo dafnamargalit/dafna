@@ -33,7 +33,7 @@ import React from 'react';
 	</div>
 	<img src={portfolio} className="Folio-parenth" alt="portfolio"/>
 	<div className="Folio-Content">
-	<a href="https://fanlink.to/dafna">
+	<a href="https://open.spotify.com/artist/6FR2ARlfDqNU7BMBaWjGZP?si=DS6OPf6fQQOned7Nbz4HrQ">
 	<img className="video" src={record} alt="record player" ></img>
 	</a>
 	{/* <p id="Folio-Text"><a> PROJECTS <br></br></a></p>
