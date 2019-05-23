@@ -62,13 +62,15 @@
 	}
 	
 	.video {
-	background-image: url('./record_player.mp4');
-	height: 100vh;
+	border-radius: 100em;
+	height:30vh;
+	transition: transform .2s;
+	background: rgb(255, 169, 219);
+	padding: 0.35em;
 	}
 	
-	/* Hide Play button + controls on iOS */
-	video::-webkit-media-controls {
-	display:none !important;
+	.video:hover{
+		transform: scale(1.1);
 	}
 	
 	#Folio-Text{
