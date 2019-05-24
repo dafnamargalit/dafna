@@ -47,7 +47,7 @@ import React from 'react';
 	{/* <p id="Folio-Text"><a> PROJECTS <br></br></a></p>
 	<p id="Folio-Text"><a> RESUME <br></br></a></p>*/}
 	</div>
-	<Footer />
+	<Footer className="footer" />
 	</div>
 	);
 	}
