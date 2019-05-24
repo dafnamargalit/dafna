@@ -8,6 +8,8 @@ import React from 'react';
 	import apostrophe from './apostrophe.png';
 	import portfolio from './port.png';
 	import record from './record_player.gif';
+	import merch from './merch.gif';
+	import projects from './projects.gif';
 
 	import '../Ask/Ask.css';
 	import './Folio.css';
@@ -33,8 +35,14 @@ import React from 'react';
 	</div>
 	<img src={portfolio} className="Folio-parenth" alt="portfolio"/>
 	<div className="Folio-Content">
-	<a href="https://open.spotify.com/artist/6FR2ARlfDqNU7BMBaWjGZP?si=DS6OPf6fQQOned7Nbz4HrQ">
+	<a className="circle" href="https://open.spotify.com/artist/6FR2ARlfDqNU7BMBaWjGZP?si=DS6OPf6fQQOned7Nbz4HrQ">
 	<img className="video" src={record} alt="record player" ></img>
+	</a>
+	<a className="circle" href="https://bonfire.com/dafna-valentine">
+	<img className="video" src={merch} alt="merch" ></img>
+	</a>
+	<a className="circle" href="https://github.com/dafnamargalit">
+	<img className="video" src={projects} alt="projects" ></img>
 	</a>
 	{/* <p id="Folio-Text"><a> PROJECTS <br></br></a></p>
 	<p id="Folio-Text"><a> RESUME <br></br></a></p>*/}
