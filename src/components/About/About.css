@@ -1,4 +1,10 @@
 
+@font-face {
+	font-family: 'BentonSans-Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('BentonSans-Regular'), url('BentonSans-Regular.woff') format('woff');
+	}
 .About{	
 	background-color:rgb(196, 248, 255);
 	height: 100%;
@@ -20,7 +26,8 @@
 	}
 	
 	.About-Me{
-	height: 5vh;
+	height: 4vh;
+	padding-left: 0.6em;
 	}
 	.About-Wrapper{
 	display: flex;
@@ -62,15 +69,14 @@
 	background-color: rgb(196, 248, 255);
 	
 	}
-	
 	.About-Text{
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	width: 40vw;
-	padding: 0.8em;
+	font-family: 'BentonSans-Regular';
+	width: 35em;
+	padding: 0.2em;
 	text-align: center;
 	background-color: white;
-	height: 15vw;
-	font-size: 1.3vw;
+	height: 12em;
+	font-size: 0.9em;
 	border-radius: 2em;
 	box-shadow: 0.5em 0.5em #ffd6e5;
 	transition: transform .2s;
@@ -81,13 +87,66 @@
 	.About-Text:hover{
 	transform: scale(1.05);
 	}
-	
-	.About-Footer{
-	position: fixed;
-	top: 80vh;
-	height: 30vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: blue;
+
+	@media only screen and (max-width: 600px){			
+			.About-Title-Large{
+			height:10vh;
+			user-select: none;
+			}
+			
+			.About-Title{
+			height:4vh;
+			user-select: none;
+			}
+			
+			.About-Wrapper{
+			display: flex;
+			justify-content: center;
+			align-content: center;
+			align-items: center;
+			}
+			
+			.About-Image{
+			height: 30vh;
+			padding: 0.35em;
+			margin-left: 1em;
+			border-radius: 20em;
+			user-select: none;
+			transition: transform .2s;
+			background-image: url('../images/rainbow.jpg');
+			}
+			
+			.About-Header{
+			height: 16vh;
+			display:flex;
+			align-items: center;
+			justify-content: center;
+			padding: 1em;
+			padding-bottom: 0em;
+			padding-top:3em;
+			background-color: rgb(196, 248, 255);
+			}
+			
+			
+			.About-Content{
+			height: 50vh;
+			display: flex;
+			justify-content: center;
+			background-color: rgb(196, 248, 255);
+			
+			}
+		.About-Text{
+			font-family: 'BentonSans-Regular';
+			width: 35em;
+			padding: 0.2em;
+			text-align: center;
+			background-color: white;
+			height: 16em;
+			font-size: 0.9em;
+			border-radius: 2em;
+			box-shadow: 0.5em 0.5em #ffd6e5;
+			transition: transform .2s;
+			margin: 1em;
+			
+			}
 	}

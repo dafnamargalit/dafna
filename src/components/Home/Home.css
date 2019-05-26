@@ -65,3 +65,52 @@
 	align-items: center;
 	justify-content: center;
 	}
+
+	@media only screen and (max-width: 600px) { 
+		.Home{	
+			background-color: rgb(196, 248, 255);
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			}
+			
+			.Home-Letters-D{
+			height: 10vh;
+			padding: 0em;
+			user-select: none;
+			}
+			
+			.Home-Letters-A{
+			height: 10vh;
+			padding: 0em;
+			user-select: none;
+			}
+			
+			.Home-Letters-F{
+			height: 9.5vh;
+			padding-left: .4em;
+			user-select: none;
+			}
+			
+			.Home-Letters-N{
+			height: 10vh;
+			padding: 0em;
+			user-select: none;
+			}
+			
+			.Home-Click{
+			position:absolute;
+			top: 60vh;
+			height:5vh;
+			user-select: none;
+			}
+			
+			.Home-Footer{
+			position: fixed;
+			top: 80vh;
+			height: 30vh;
+			
+			}
+
+	}

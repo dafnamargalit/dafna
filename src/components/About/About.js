@@ -38,7 +38,9 @@ rollerblading (but only when the temperature is between 60 and 80 degrees Fahren
 and creating this website. </p>
 </div>
 </div>
+<div className="About-Footer">
 <Footer />
+</div>
 </div>
 );
 }
