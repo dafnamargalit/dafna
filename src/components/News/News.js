@@ -5,9 +5,15 @@ import React from 'react';
 	import E from './E.png';
 	import W from './W.png';
 	import S from './S.png';
-	import album from '../Landing/spirit.jpg';
+	import spirit from '../Landing/spirit.jpg';
+	import valentine from './valentine.jpg';
+	import dove from './dove.jpg';
+	import august from './aug25.png';
+	import november from './nov22.png';
+	import december from './dec13.png';
 
 	import './News.css';
+import { white } from 'ansi-colors';
 	const News = () => {
 	return(
 	<div className="News">
@@ -18,7 +24,104 @@ import React from 'react';
 		<img src={W} className='News-Letters-W' alt="W"/>
 		<img src={S} className='News-Letters-S' alt="S"/>
 	</div>
-	This page is under construction.
+	<div className="News-Content">
+		<div className="News-Releases">
+			<div className="News-Titles">
+				RELEASES
+			</div>
+			<div className="News-List">
+			<div className="News-Recent">
+				<img src={spirit} className="News-Album" alt="spirit"></img>
+				<div className="News-Head">
+					Latest Release: spirit ep
+					<div className="News-Description">
+						Released 5/23/19
+						<br></br>
+						<a href="https://dafna.fanlink.to/spirit">
+							Click Here to Listen
+						</a>
+					</div>
+				</div>
+			</div>
+			<div className="News-Recent">
+				<img src={valentine} className="News-Album" alt="valentine"></img>
+				<div className="News-Head">
+					valentine (single)
+					<div className="News-Description">
+						Released 2/7/19
+						<br></br>
+						<a href="https://dafna.fanlink.to/valentine">
+							Click Here to Listen
+						</a>
+					</div>
+				</div>
+			</div>
+			<div className="News-Recent">
+				<img src={dove} className="News-Album" alt="dove"></img>
+				<div className="News-Head">
+					if you're a dove (single)
+					<div className="News-Description">
+						Released 1/27/19
+						<br></br>
+						<a href="https://dafna.fanlink.to/dove">
+							Click Here to Listen
+						</a>
+					</div>
+				</div>
+			</div>
+			
+			</div>
+		</div>
+		<div className="News-Shows">
+			<div className="News-Titles">
+				SHOWS
+			</div>
+			<div className="News-List">
+			<div className="News-Upcoming">
+				<img src={august} className="News-Calendar" alt="aug25"></img>
+				<div className="News-Head"> 
+				Dafna at The Laughing Goat
+				<div className="News-Description">8/25/19 at 8pm</div>
+				<div className="News-Description">
+					<a href="https://goo.gl/maps/6qbPLYWCkEt">
+						1709 Pearl St.
+						<br></br>Boulder CO
+						80302
+					</a>
+				</div>
+				</div>
+			</div>
+			<div className="News-Upcoming">
+				<img src={november} className="News-Calendar" alt="nov22"></img>
+				<div className="News-Head"> 
+				Dafna at The Laughing Goat
+				<div className="News-Description">11/22/19 at 8pm</div>
+				<div className="News-Description">
+					<a href="https://goo.gl/maps/6qbPLYWCkEt">
+						1709 Pearl St.
+						<br></br>Boulder CO
+						80302
+					</a>
+				</div>
+				</div>
+			</div>
+			<div className="News-Upcoming">
+				<img src={december} className="News-Calendar" alt="dec13"></img>
+				<div className="News-Head"> 
+				Dafna at The Laughing Goat
+				<div className="News-Description">12/13/19 at 8pm</div>
+				<div className="News-Description">
+					<a href="https://goo.gl/maps/6qbPLYWCkEt">
+						1709 Pearl St.
+						<br></br>Boulder CO
+						80302
+					</a>
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
 	
 	<div className="News-Footer">
 	<Footer />
@@ -27,3 +130,5 @@ import React from 'react';
 	);
 	}
 	export default News;
+
+	

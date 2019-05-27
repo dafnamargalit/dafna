@@ -8,13 +8,15 @@ import React from 'react';
 	import N from '../images/N.png';
 	import AP from '../images/AP.png';
 	import click from '../images/click.png';
-	
+	import here from './here.png';
+
 	import './Home.css';
 	
 	const Home = () => {
 	return(
 	<div className='Home'>
 	<img src={click} className='Home-Click' alt="click"/>
+	<img src={here} className="Home-Here" alt="you are here"></img>
 	<img src={D} className='Home-Letters-D' alt="D"/>
 	<Link to="/about" style={{textDecoration:'none'}}>
 	<img src={A} className='Home-Letters-A' alt="A"/>

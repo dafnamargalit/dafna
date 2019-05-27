@@ -66,6 +66,11 @@
 	justify-content: center;
 	}
 
+	.Home-Here{
+		height:5vh;
+		padding-bottom: 7em;
+		
+	}
 	@media only screen and (max-width: 600px) { 
 		.Home{	
 			background-color: rgb(196, 248, 255);
@@ -99,6 +104,10 @@
 			user-select: none;
 			}
 			
+			.Home-Here{
+				display: none;
+				
+			}
 			.Home-Click{
 			position:absolute;
 			top: 60vh;
