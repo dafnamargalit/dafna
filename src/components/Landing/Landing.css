@@ -22,24 +22,13 @@
     display: inline-block;
     font-size: 85%;
     position: relative;
+    width: 55vh;
   }
   
   .button:hover {
     background-color: rgb(97, 97, 97); 
     color:rgb(70, 25, 32);
     
-  }
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-    height: 40vmin;
-    pointer-events: none;
-  }
-  
-  .spirit {
-  left: 50%;
-  margin: 0 auto;
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
   }
   
   .resize{
@@ -55,12 +44,50 @@
       padding: 0.5em;
   }
   
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
+  @media only screen and (max-width:600px){
+    .Landing {
+     height: 100vh;
     }
-    to {
-      transform: rotate(360deg);
+    .Background{
+      filter: blur(15px);
+      -webkit-filter: blur(15px);
+      height: 100vh;
+      position: absolute;
+      left: 0%;
     }
-  }
+    
+    .button {
+      background-color: rgb(192, 192, 192); /* Green */
+      border: none;
+      color: rgb(70, 25, 32);
+      margin: 0;
+      padding: 1em 4.75em;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 85%;
+      position: relative;
+      width: 28vh;
+    }
+    
+    .button:hover {
+      background-color: rgb(97, 97, 97); 
+      color:rgb(70, 25, 32);
+      
+    }
+    
+    .resize{
+      height:50vh;
+      width: 50vh;
+      margin-top: 2em;
+    }
   
+    .text{
+        position: relative;
+        color: white;
+        padding: 0.5em;
+    }
+    
+  
+    
+  }

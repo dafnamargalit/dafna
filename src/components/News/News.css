@@ -1,38 +1,91 @@
+
 .News{	
 	background-color:rgb(196, 248, 255);
 	height: 100vh;
 	text-align: center;
-	/* display: flex;
-	justify-content: center; */
-	}
-	
-	.News-Title{
-	height:17vh;
-	padding-top: 4em;
-	
+	font-family: 'BentonSans-Regular';
 	}
 	
 	.News-Header{
-	height: 30vh;
+	height: 10vh;
 	display:flex;
 	/* align-items: center; */
 	justify-content: left;
 	padding: 1em;
+	padding-top:5em;
 	padding-bottom: 0em;
 	background-color: rgb(196, 248, 255);
+	}
+
+	.News-Letters-N{
+	height: 10vh;
+	}
+
+	.News-Letters-E{
+		height:6.5vh;
+		padding-top: 0.7em;
+	}
+
+	.News-Letters-W{
+		padding-top:.8em;
+		height:6.2vh;
+	}
+
+	.News-Letters-S{
+		height: 6.3vh;
+		padding-top:.8em;
 	}
 	
 	.News-Content{
 	height: 30vh;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+
 	}
+
+	.News-Releases{
+		height: 60vh;
+		width: 80vh;
+	}
+
+	.News-Recent{
+		background-color: rgba(19, 18, 18, 0.616);
+		padding: 1em;
+		margin: 1em;
+		display: flex;
+		justify-content: left;
+		border-radius: .8em;
+	}
+
+	.News-Recent:hover{
+	background-color:  rgba(19, 18, 18, 0.705);
+	}
+	.News-Album{
+		height:30vh;
+		border-radius: .8em;
+	}
+	.News-Shows{
+		background-color: blue;
+		height: 60vh;
+
+	}
+	.News-Titles{
+		padding: 10em;
+		padding-top: 2em;
+		padding-bottom: 1em;
+		font-style: unset;
+		}
+		
 	
 	.News-Footer{
-	top: 100vh;
+		padding-top: 3em;
 	height: 30vh;
 	display: flex;
 	align-items: right;
 	justify-content: center;
+	position: relative;
+	}
+
+	@media only screen and (max-width:600px){
+
 	}

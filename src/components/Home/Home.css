@@ -58,11 +58,11 @@
 	}
 	
 	.Home-Footer{
-	position: fixed;
-	top: 80vh;
+	position: absolute;
 	height: 30vh;
+	top: 65vh;
 	display: flex;
-	align-items: center;
+	align-items: flex-end;
 	justify-content: center;
 	}
 
@@ -105,12 +105,8 @@
 			height:5vh;
 			user-select: none;
 			}
-			
 			.Home-Footer{
-			position: fixed;
-			top: 80vh;
-			height: 30vh;
-			
-			}
+				top: 60vh;
+				}
 
 	}

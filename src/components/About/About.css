@@ -18,11 +18,16 @@
 	.About-Title-Large{
 	height:14vh;
 	user-select: none;
+	padding-top: 4em;
+	padding-bottom: 1em;
 	}
+
 	
 	.About-Title{
 	height:6vh;
 	user-select: none;
+	padding-top: 4em;
+	padding-bottom: 1em;
 	}
 	
 	.About-Me{
