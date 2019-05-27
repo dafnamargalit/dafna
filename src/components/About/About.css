@@ -68,10 +68,11 @@
 	
 	
 	.About-Content{
-	height: 50vh;
+	height: 40vh;
 	display: flex;
 	justify-content: center;
 	background-color: rgb(196, 248, 255);
+
 	
 	}
 	.About-Text{
@@ -92,6 +93,7 @@
 	.About-Text:hover{
 	transform: scale(1.05);
 	}
+
 
 	@media only screen and (max-width: 600px){			
 			.About-Title-Large{
