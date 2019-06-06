@@ -95,18 +95,18 @@ import './News.css';
 					</div>
 					</div>
 				</div>
-				<div className="News-Upcoming">
+				{/* <div className="News-Upcoming">
 					<img src={october} className="News-Calendar" alt="oct02"></img>
 					<div className="News-Head"> 
 					Dafna at The Fox Theatre
-					<div className="News-Description">10/02/19 at 8pm</div>
+					<div className="News-Description">10/02/19 at 7:30pm</div>
 					<div className="News-Description">
 						<a href="https://foxtheatre.com">
 							Click Here for more information
 						</a>
 					</div>
 					</div>
-				</div>
+				</div> */}
 				<div className="News-Upcoming">
 					<img src={november} className="News-Calendar" alt="nov22"></img>
 					<div className="News-Head"> 
@@ -202,18 +202,18 @@ import './News.css';
 					</div>
 					</div>
 				</div>
-				<div className="News-Upcoming">
+				{/* <div className="News-Upcoming">
 					<img src={october} className="News-Calendar" alt="oct02"></img>
 					<div className="News-Head"> 
 					Dafna at The Fox Theatre
-					<div className="News-Description">10/02/19 at 8pm</div>
+					<div className="News-Description">10/02/19 at 7:30pm</div>
 					<div className="News-Description">
 						<a href="https://foxtheatre.com">
 							Click Here for more information
 						</a>
 					</div>
 					</div>
-				</div>
+				</div> */}
 				<div className="News-Upcoming">
 					<img src={november} className="News-Calendar" alt="nov22"></img>
 					<div className="News-Head"> 

@@ -49,3 +49,16 @@
 	align-items: right;
 	justify-content: center;
 	}
+
+	@media only screen and (max-width:600px){
+		.Ask-Header{
+			height: 20vh;
+			display:flex;
+			/* align-items: center; */
+			justify-content: center;
+			padding: 1em;
+			padding-bottom: 0em;
+			background-color: rgb(196, 248, 255);
+			}
+			
+	}
