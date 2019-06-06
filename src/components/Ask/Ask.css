@@ -6,11 +6,24 @@
 	justify-content: center; */
 	}
 	
-	.Ask-Title{
-	height:17vh;
-	padding-top: 4em;
+	.Ask-A{
+	height:12vh;
+	padding-top: 6em;
 	
 	}
+
+	.Ask-S{
+		height:9vh;
+		padding-top: 7em;
+		
+		}
+	
+		.Ask-K{
+			height:8.8vh;
+			padding-top: 7em;
+			
+			}
+			
 	
 	.Ask-Header{
 	height: 30vh;

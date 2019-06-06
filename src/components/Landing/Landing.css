@@ -10,11 +10,18 @@
     position: absolute;
     left: 0%;
   }
-  
-  .button {
-    background-color: rgb(192, 192, 192); /* Green */
-    border: none;
+/*   
+  a:link{
     color: rgb(70, 25, 32);
+  }
+  a:visited{
+    color: rgb(70, 25, 32);
+  } */
+  
+  .landing-button {
+    background-color: rgb(192, 192, 192);
+    border: none;
+    color: rgb(0, 0, 0);
     margin: 0;
     padding: 1% 2%;
     text-align: center;
@@ -22,12 +29,12 @@
     display: inline-block;
     font-size: 85%;
     position: relative;
-    width: 55vh;
+    width: 31%;
   }
   
-  .button:hover {
+  .landing-button:hover {
     background-color: rgb(97, 97, 97); 
-    color:rgb(70, 25, 32);
+    color:rgb(0, 0, 0);
     
   }
   
@@ -67,7 +74,7 @@
       display: inline-block;
       font-size: 85%;
       position: relative;
-      width: 28vh;
+      width: 31vh;
     }
     
     .button:hover {
@@ -75,7 +82,7 @@
       color:rgb(70, 25, 32);
       
     }
-    
+
     .resize{
       height:50vh;
       width: 50vh;

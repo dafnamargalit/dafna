@@ -12,7 +12,7 @@
 	/* align-items: center; */
 	justify-content: left;
 	padding: 1em;
-	padding-top:5em;
+	padding-top:7em;
 	padding-bottom: 0em;
 	background-color: rgb(196, 248, 255);
 	}
@@ -45,10 +45,11 @@
 	.News-Releases{
 		height: 60vh;
 		width: 80vh;
+
 	}
 
 	.News-Recent{
-		background-color: rgba(19, 18, 18, 0.616);
+		background-color: rgba(152, 73, 255, 0.233);
 		padding: 1em;
 		margin: .5em;
 		display: flex;
@@ -57,7 +58,7 @@
 	}
 
 	.News-Recent:hover{
-	background-color:  rgba(19, 18, 18, 0.705);
+	background-color:  rgba(206, 175, 255, 0.521);
 	}
 	.News-Album{
 		height:11.5vh;
@@ -67,7 +68,7 @@
 		width: 80vh;
 	}
 	.News-Upcoming{
-		background-color: rgba(19, 18, 18, 0.616);
+		background-color: rgba(152, 73, 255, 0.233);
 		padding: 1em;
 		margin: .5em;
 		display: flex;
@@ -76,13 +77,13 @@
 
 	}
 	.News-Upcoming:hover{
-		background-color:  rgba(19, 18, 18, 0.705);
+			background-color:  rgba(206, 175, 255, 0.521);
 		}
 	.News-Calendar{
-		height: 10vh;
+		height: 11.5vh;
 	}
 	.News-Head{
-color:white;
+color:black;
 padding-left: .4em;
 	}
 	.News-Description{
@@ -96,29 +97,87 @@ padding-left: .4em;
 		padding-bottom: 1em;
 		margin-top: 1em;
 		font-style: unset;
-		background-color: black;
-		color: white;
+		background-color:  rgba(100, 4, 255, 0.521);
+		color:black;
 	
 		}
 		
 	.News-List{
 		overflow:auto;
 		height: 60vh;
-		background-color: rgba(128, 128, 128, 0.301);
 	}
 	.News-Footer{
-	padding-top: 17em;
+	padding-top: 22em;
+	background-color:rgb(196, 248, 255);
 	/* display: flex;
 	justify-content: center;
 	position: relative; */
 	}
 
 	a:link {
-		color: pink;
+		color: rgb(70, 25, 32);
 	}
 	a:visited{
-		color: pink;
+		color: rgb(70, 25, 32);
+	}
+	.News-Mobile{
+		display:none;
 	}
 	@media only screen and (max-width:600px){
+	.News-Content{
+		display: none;
+	}
+	.News-Mobile{
+		display: block;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		/* padding: 1em; */
+		padding-top: 2em;
+	}
 
+	.News-M-Content{
+		display: flex;
+		justify-content: center;
+	}
+
+.News{	
+	background-color:rgb(196, 248, 255);
+	height: 100vh;
+	text-align: center;
+	font-family: 'BentonSans-Regular';
+	}
+		
+	.News-Header{
+		height: 8vh;
+		display:flex;
+		align-items: center;
+		justify-content: center;
+		}
+
+		.News-M-Releases{
+			background-color:  rgba(100, 4, 255, 0.521);
+			width: 100vw;
+			height: 5vh;
+			display:flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.News-M-Recent{
+			position: relative;
+			display: flex; 
+			justify-content: left;
+			background-color: grey;
+			padding: 1em;
+			width: 90vw;
+		}
+
+		.News-Album{
+			height:15vh;
+			padding: .2em;
+		}
+
+		.News-Head{
+			padding-top: .2em;
+		}
 	}
