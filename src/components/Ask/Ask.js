@@ -17,6 +17,11 @@ const Ask = () => {
 <img src={S} className="Ask-S" alt="s"/>
 <img src={K} className="Ask-K" alt="k"/>
 </header>
+<div className="Ask-Content">
+<p>
+Any questions? Inquiries? Shoot me an  <a href="mailto: dafna.business@gmail.com">email</a>.
+</p>
+</div>
 	<div className="Ask-Footer">
 	<Footer />
 	</div>
