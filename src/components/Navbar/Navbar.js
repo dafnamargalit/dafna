@@ -1,11 +1,11 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import D from '../images/D.png';
-import A from '../images/A.png';
-import F from '../images/F.png';
-import N from '../images/N.png';
-import AP from '../images/AP.png';
+import D from '../media/letters/D-pink.png';
+import A from '../media/letters/A-yellow.png';
+import F from '../media/letters/F-blue.png';
+import N from '../media/letters/N-green.png';
+import AP from '../media/letters/A-pink.png';
 
 import './Navbar.css';
 

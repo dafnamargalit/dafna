@@ -1,15 +1,15 @@
 import React from 'react';	
 	import Navbar from '../Navbar';
 	import Footer from '../Footer';
-	import F from '../images/F.png';
-	import O from './O.png';
-	import L from './L.png';
-	import I from './I.png';
-	import apostrophe from './apostrophe.png';
-	import portfolio from './port.png';
-	import record from './record_player.gif';
-	import merch from './merch.gif';
-	import projects from './projects.gif';
+	import F from '../media/letters/F-blue.png';
+	import O from '../media/letters/O-blue.png';
+	import L from '../media/letters/L-blue.png';
+	import I from '../media/letters/I-blue.png';
+	import apostrophe from '../media/letters/apostrophe.png';
+	import portfolio from '../media/writing/port.png';
+	import record from './gifs/record_player.gif';
+	import merch from './gifs/merch.gif';
+	import projects from './gifs/projects.gif';
 
 	import '../Ask/Ask.css';
 	import './Folio.css';

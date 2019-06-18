@@ -3,17 +3,18 @@ import React from 'react';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
 
-import N from './N.png';
-import E from './E.png';
-import W from './W.png';
-import S from './S.png';
-import spirit from '../Landing/spirit.jpg';
-import valentine from './valentine.jpg';
-import dove from './dove.jpg';
-import august from './aug25.png';
-import october from './oct02.png';
-import november from './nov22.png';
-import december from './dec13.png';
+import N from '../letters/N-green.png';
+import E from '../letters/E-green.png';
+import W from '../letters/W-green.png';
+import S from '../letters/S-green.png';
+import spirit from '../media/album-covers/spirit.jpg';
+import swimming from '../media/album-covers/swimming.jpg';
+import valentine from '../media/album-covers/valentine.jpg';
+import dove from '../media/album-covers/dove.jpg';
+import august from './dates/aug25.png';
+import october from './dates/oct02.png';
+import november from './dates/nov22.png';
+import december from './dates/dec13.png';
 
 import './News.css';
 
@@ -34,6 +35,19 @@ import './News.css';
 					RELEASES
 				</div>
 				<div className="News-List">
+				<div className="News-Recent">
+					<img src={swimming} className="News-Album" alt="spirit"></img>
+					<div className="News-Head">
+						Upcoming Release: swimming (single)
+						<div className="News-Description">
+							Releasing 7/15/19
+							<br></br>
+							<a href="https://distrokid.com/hyperfollow/dafna/swimming-3">
+								Click Here to Pre-Save
+							</a>
+						</div>
+					</div>
+				</div>
 				<div className="News-Recent">
 					<img src={spirit} className="News-Album" alt="spirit"></img>
 					<div className="News-Head">
@@ -95,18 +109,18 @@ import './News.css';
 					</div>
 					</div>
 				</div>
-				{/* <div className="News-Upcoming">
+				<div className="News-Upcoming">
 					<img src={october} className="News-Calendar" alt="oct02"></img>
 					<div className="News-Head"> 
 					Dafna at The Fox Theatre
 					<div className="News-Description">10/02/19 at 7:30pm</div>
 					<div className="News-Description">
-						<a href="https://foxtheatre.com">
+						<a href="https://www.foxtheatre.com/event/1868484-dafna-boulder/">
 							Click Here for more information
 						</a>
 					</div>
 					</div>
-				</div> */}
+				</div>
 				<div className="News-Upcoming">
 					<img src={november} className="News-Calendar" alt="nov22"></img>
 					<div className="News-Head"> 
@@ -143,6 +157,19 @@ import './News.css';
 				RELEASES
 			</div>
 				<div className="News-List">
+				<div className="News-Recent">
+					<img src={swimming} className="News-Album" alt="spirit"></img>
+					<div className="News-Head">
+						Latest Release: spirit ep
+						<div className="News-Description">
+							Released 7/15/19
+							<br></br>
+							<a href="https://distrokid.com/hyperfollow/dafna/swimming-3">
+								Click Here to Pre-Save
+							</a>
+						</div>
+					</div>
+				</div>
 				<div className="News-Recent">
 					<img src={spirit} className="News-Album" alt="spirit"></img>
 					<div className="News-Head">
@@ -187,7 +214,7 @@ import './News.css';
 			<div className="News-M-Titles">
 				SHOWS
 			</div>
-			<div className="News-List">
+			<div className="News-List-2">
 				<div className="News-Upcoming">
 					<img src={august} className="News-Calendar" alt="aug25"></img>
 					<div className="News-Head"> 
@@ -202,7 +229,7 @@ import './News.css';
 					</div>
 					</div>
 				</div>
-				{/* <div className="News-Upcoming">
+				<div className="News-Upcoming">
 					<img src={october} className="News-Calendar" alt="oct02"></img>
 					<div className="News-Head"> 
 					Dafna at The Fox Theatre
@@ -213,7 +240,7 @@ import './News.css';
 						</a>
 					</div>
 					</div>
-				</div> */}
+				</div>
 				<div className="News-Upcoming">
 					<img src={november} className="News-Calendar" alt="nov22"></img>
 					<div className="News-Head"> 

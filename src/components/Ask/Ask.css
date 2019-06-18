@@ -50,6 +50,10 @@
 	justify-content: center;
 	}
 
+	.Ask-Email{
+		height: 80vh;
+		width: 300vh;
+	}
 	@media only screen and (max-width:600px){
 		.Ask-Header{
 			height: 20vh;

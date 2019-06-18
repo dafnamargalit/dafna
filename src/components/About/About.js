@@ -1,13 +1,13 @@
 import React from 'react';	
 import Navbar from '../Navbar';
 import Footer from '../Footer';
-import A from '../images/A.png';
-import B from './B.png';
-import O from './O.png';
-import U from './U.png';
-import T from './T.png';
-import about from './about-me.png';
-import Dafna from '../images/dafna.jpg';
+import A from '../media/letters/A-yellow.png';
+import B from '../media/letters/B-yellow.png';
+import O from '../media/letters/O-yellow.png';
+import U from '../media/letters/U-yellow.png';
+import T from '../media/letters/T-yellow.png';
+import about from '../media/writing/about-me.png';
+import Dafna from '../media/images/dafna.jpg';
 
 
 import './About.css';

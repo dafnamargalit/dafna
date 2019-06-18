@@ -1,9 +1,9 @@
 import React from 'react';
 import './Footer.css';
-import Instagram from './instagram.svg';
-import Twitter from './twitter.svg';
-import Spotify from './spotify.svg';
-import GitHub from './github.svg';
+import Instagram from './icons/instagram.svg';
+import Twitter from './icons/twitter.svg';
+import Spotify from './icons/spotify.svg';
+import GitHub from './icons/github.svg';
 
 const Footer = () => {
     return(
