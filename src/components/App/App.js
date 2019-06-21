@@ -8,6 +8,9 @@ import About from '../About';
 import Folio from '../Folio';
 import News from '../News';
 import Ask from '../Ask';
+import Merch from '../Merch';
+import Music from '../Music';
+import Projects from '../Projects';
 
 import './App.css';
 
@@ -23,6 +26,9 @@ class App extends Component {
       <Route path='/folio' component={Folio}/>
       <Route path='/news' component={News}/>
       <Route path='/ask' component={Ask}/>
+      <Route path='/merch' component={Merch}/>
+      <Route path='/music' component={Music}/>
+      <Route path='/projects' component={Projects}/>
       </div>
     </Router>
   );
