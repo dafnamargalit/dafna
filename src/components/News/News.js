@@ -3,10 +3,10 @@ import React from 'react';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
 
-import N from '../letters/N-green.png';
-import E from '../letters/E-green.png';
-import W from '../letters/W-green.png';
-import S from '../letters/S-green.png';
+import N from '../media/letters/N-green.png';
+import E from '../media/letters/E-green.png';
+import W from '../media/letters/W-green.png';
+import S from '../media/letters/S-green.png';
 import spirit from '../media/album-covers/spirit.jpg';
 import swimming from '../media/album-covers/swimming.jpg';
 import valentine from '../media/album-covers/valentine.jpg';

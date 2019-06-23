@@ -1,4 +1,6 @@
 import React from 'react';	
+import {Link} from 'react-router-dom';
+
 	import Navbar from '../Navbar';
 	import Footer from '../Footer';
 	import F from '../media/letters/F-blue.png';
@@ -7,9 +9,9 @@ import React from 'react';
 	import I from '../media/letters/I-blue.png';
 	import apostrophe from '../media/letters/apostrophe.png';
 	import portfolio from '../media/writing/port.png';
-	import record from './gifs/record_player.gif';
-	import merch from './gifs/merch.gif';
-	import projects from './gifs/projects.gif';
+	import record from '../media/gifs/record_player.gif';
+	import merch from '../media/gifs/merch.gif';
+	import projects from '../media/gifs/projects.gif';
 
 	import '../Ask/Ask.css';
 	import './Folio.css';
@@ -35,9 +37,10 @@ import React from 'react';
 			<a className="circle" href="https://open.spotify.com/artist/6FR2ARlfDqNU7BMBaWjGZP?si=DS6OPf6fQQOned7Nbz4HrQ">
 			<img className="Folio-Video" src={record} alt="record player" ></img>
 			</a>
-			<a className="circle" href="https://bonfire.com/dafna-valentine">
+			<Link to="/merch" style={{textDecoration:'none'}}>
 			<img className="Folio-Video" src={merch} alt="merch" ></img>
-			</a>
+			</Link>
+
 			<a className="circle" href="https://github.com/dafnamargalit">
 			<img className="Folio-Video" src={projects} alt="projects" ></img>
 			</a>

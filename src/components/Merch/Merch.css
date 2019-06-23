@@ -1,0 +1,97 @@
+.Merch{
+    background-color: rgb(196, 248, 255);
+    height: 100vh;
+}
+
+.Merch-Header{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.Merch-Video {
+	border-radius: 50em;
+	height:20vh;
+	transition: transform .2s;
+	background: rgb(255, 169, 219);
+	padding: 0.35em;
+	margin: 2em;
+
+}
+
+.design-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.design{
+    margin-left: 2em;
+
+}
+
+
+.design-2{
+    margin-left: 2em;
+    height: 40vh;
+}
+
+.design-3{
+    height: 40vh;
+}
+
+.design:hover{
+    transform: scale(1.05);
+}
+
+.design-2:hover{
+transform: scale(1.05);
+}
+
+.design-3:hover{
+    transform: scale(1.05);
+    }
+
+.pick{
+    height: 10vh;
+}
+.container{
+position: relative;
+}
+
+.merch-image{
+    height: 35vh;
+    background-image: url('../media/images/rainbow.jpg');
+    padding: 0.15em;
+    border-radius: 2em;
+    margin: 2em;
+    margin-top: 1em;
+    display: block;
+}
+
+.container:hover .overlay{
+    opacity: 1;
+}
+
+.description{
+    font-family: 'BentonSans-Regular';
+    text-align: center;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20vh;
+    padding: 0.35em;
+    margin:2em;
+    width: 20vh;
+    opacity: 0;
+    border-radius: 50em;
+    transition: .5s ease;
+    background-color: rgba(186, 0, 161, 0.342);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
