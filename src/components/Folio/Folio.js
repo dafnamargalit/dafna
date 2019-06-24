@@ -41,9 +41,9 @@ import {Link} from 'react-router-dom';
 			<img className="Folio-Video" src={merch} alt="merch" ></img>
 			</Link>
 
-			<a className="circle" href="https://github.com/dafnamargalit">
+			<Link to="/projects" style={{textDecoration:'none'}}>
 			<img className="Folio-Video" src={projects} alt="projects" ></img>
-			</a>
+			</Link>
 			
 			<div className="Folio-Footer">
 				<Footer />
