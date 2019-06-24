@@ -1,6 +1,10 @@
 .Landing {
-    text-align: center;
-  
+  height: 100%;
+  background-color: rgb(196,248,255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   }
   .Background{
     filter: blur(15px);
@@ -22,7 +26,7 @@
     background-color: rgb(89, 216, 255);
     border: none;
     color: rgb(0, 0, 0);
-    margin: 0;
+    margin-top: 2em;
     padding: 1% 2%;
     text-align: center;
     text-decoration: none;
@@ -39,62 +43,69 @@
   }
   
   .resize{
-    width: 35%;
-    height: 35%;
-    position: relative;
-    margin: 0;
+    height: 23vh;
+    margin: 2em;
   }
 
   .text{
-      position: relative;
       color: white;
       padding: 0.5em;
+
+  }
+.landing-description{
+margin: 2em;
+margin-left: 1em;
+font-family: 'BentonSans-Regular';
+}
+
+  .content{
+    height: 30vh;
+    margin: 2em;
+    background-color: rgba(109, 133, 136, 0.301);
+    border-radius: 2em;
+    width: 100vh;
+    display: flex;
   }
   
-  @media only screen and (max-width:600px){
-    .Landing {
-     height: 100vh;
-    }
-    .Background{
-      filter: blur(15px);
-      -webkit-filter: blur(15px);
-      height: 100vh;
-      position: absolute;
-      left: 0%;
-    }
-    
-    .button {
-      background-color: rgb(192, 192, 192); /* Green */
-      border: none;
-      color: rgb(70, 25, 32);
-      margin: 0;
-      padding: 1em 4.75em;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 85%;
-      position: relative;
-      width: 31vh;
-    }
-    
-    .button:hover {
-      background-color: rgb(97, 97, 97); 
-      color:rgb(70, 25, 32);
-      
-    }
+  .continue{
+margin: 2em;
+text-align: center;
+  }
 
-    .resize{
-      height:50vh;
-      width: 50vh;
-      margin-top: 2em;
+  .desktop{
+    display:block;
+  }
+
+  .mobile{
+    display:none;
+  }
+  @media only screen and (max-width:600px){
+    .desktop{
+      display: none;
     }
-  
-    .text{
-        position: relative;
-        color: white;
-        padding: 0.5em;
+    .mobile{
+      display: block;
+      background-color:rgb(196,248,255);
+      height: 100%;
+      text-align: center;
     }
-    
-  
-    
+    .mobile-resize{
+      height: 38vh;
+      margin: 2em;
+
+    }
+    .mobile-button{
+      background-color: rgb(89, 216, 255);
+      color: rgb(0, 0, 0);
+      margin-top: 3em;
+      padding: .5em .5em;
+     font-family: 'BentonSans-Regular';
+     text-decoration: none;
+    }
+    .item{
+      height: 55vh;
+    }
+    .small-item{
+      height: 20vh;
+    }
   }

@@ -95,7 +95,7 @@ import './News.css';
 					SHOWS
 				</div>
 				<div className="News-List">
-				<div className="News-Upcoming">
+				{/* <div className="News-Upcoming">
 					<img src={august} className="News-Calendar" alt="aug25"></img>
 					<div className="News-Head"> 
 					Dafna at The Laughing Goat
@@ -108,7 +108,7 @@ import './News.css';
 						</a>
 					</div>
 					</div>
-				</div>
+				</div> */}
 				<div className="News-Upcoming">
 					<img src={october} className="News-Calendar" alt="oct02"></img>
 					<div className="News-Head"> 
@@ -215,7 +215,7 @@ import './News.css';
 				SHOWS
 			</div>
 			<div className="News-List-2">
-				<div className="News-Upcoming">
+				{/* <div className="News-Upcoming">
 					<img src={august} className="News-Calendar" alt="aug25"></img>
 					<div className="News-Head"> 
 					Dafna at The Laughing Goat
@@ -228,7 +228,7 @@ import './News.css';
 						</a>
 					</div>
 					</div>
-				</div>
+				</div> */}
 				<div className="News-Upcoming">
 					<img src={october} className="News-Calendar" alt="oct02"></img>
 					<div className="News-Head"> 
