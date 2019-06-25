@@ -17,9 +17,6 @@ const Landing = () => {
                 <div className="landing-description">
                 Go pre-save my new upcoming single, 'swimming'!
                     <br></br>
-                    <br></br>
-                    Coming out 7/15/19.
-                    <br></br>
                     <a className="landing-button" href="https://distrokid.com/hyperfollow/dafna/swimming-3">
                         Pre-Save Now!
                     </a>
@@ -31,9 +28,6 @@ const Landing = () => {
                 <div className="landing-description">       
                 Go buy tickets for my upcoming show at The Fox Theatre!
                     <br></br>
-                    <br></br>
-                    Dafna with Fruta Brutal, Sunshinemedley, and a secret special guest. 10/2/19.
-                    <br></br>
                     <a className="landing-button" href="https://bit.ly/dafnafox">
                         Get Tickets!
                     </a>
@@ -44,9 +38,6 @@ const Landing = () => {
             <img className="resize" src={vid} alt="vid"></img>
                 <div className="landing-description">
                 Go check out the new 'valentine' lyric video!
-                    <br></br>
-                    <br></br>
-                    Created by Dafna.
                     <br></br>
                     <a className="landing-button" href="https://tinyurl.com/dafna-valentine">
                         Watch Video

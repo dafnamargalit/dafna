@@ -5,6 +5,8 @@ import fish from '../media/images/go-fish1.jpg';
 import fmn from '../media/images/forgetmenot1.jpg';
 import btt from '../media/images/battleship.jpg';
 import click from '../media/writing/clik.png';
+import guitarduino from '../media/images/guitarduino.jpg';
+
 import './Projects.css'
 
 const Projects = () => {
@@ -63,6 +65,21 @@ const Projects = () => {
                     Project Name: 
                     <br></br>
                     Battleship
+                    <br></br>
+                    Language: C
+                </div>
+            </div>
+        </a>
+       
+        </div>
+        <div className="container">
+        <a href="https://github.com/dafnamargalit/guitarduino-tuner">
+        <img className="Merch-Video" src={guitarduino} alt="guitarduino" ></img>
+        <div className="overlay">
+                <div className="description">
+                    Project Name: 
+                    <br></br>
+                    Guitarduino Tuner
                     <br></br>
                     Language: C
                 </div>
