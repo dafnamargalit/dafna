@@ -15,8 +15,8 @@ const Projects = () => {
         <div className="Merch-Header">
         <Link to="/folio">
         <div className="container">
-        <img className="Merch-Video" src={projects} alt="projects" ></img>
-        <div className="overlay">
+        <img className="projects-video" src={projects} alt="projects" ></img>
+        <div className="projects-overlay">
                 <div className="description">
                     Back to 'Folio
                 </div>
@@ -27,8 +27,8 @@ const Projects = () => {
         <div className="Projects">
         <div className="container">
         <a href="https://github.com/dafnamargalit/go-fish">
-        <img className="Merch-Video" src={fish} alt="fish" ></img>
-        <div className="overlay">
+        <img className="projects-video" src={fish} alt="fish" ></img>
+        <div className="projects-overlay">
                 <div className="description">
                     Language: 
                     Python
@@ -42,8 +42,8 @@ const Projects = () => {
 
         <div className="container">
         <a href="https://github.com/dafnamargalit/battleship">
-        <img className="Merch-Video" src={btt} alt="btt" ></img>
-        <div className="overlay">
+        <img className="projects-video" src={btt} alt="btt" ></img>
+        <div className="projects-overlay">
                 <div className="description">
                     Language: C
                 </div>
@@ -54,11 +54,11 @@ const Projects = () => {
         </div>
        
         </div>
-        
+
         <div className="container">
         <a href="https://github.com/dafnamargalit/forgetmenot">
-        <img className="Merch-Video" src={fmn} alt="fmn" ></img>
-        <div className="overlay">
+        <img className="projects-video" src={fmn} alt="fmn" ></img>
+        <div className="projects-overlay">
                 <div className="description">
                     Language: JavaScript
                 </div>
@@ -71,12 +71,12 @@ const Projects = () => {
 
         <div className="container">
         <a href="https://github.com/dafnamargalit/guitarduino-tuner">
-        <img className="Merch-Video" src={guitarduino} alt="guitarduino" ></img>
-        <div className="overlay">
+        <img className="projects-video" src={guitarduino} alt="guitarduino" ></img>
+        <div className="projects-overlay">
                 <div className="description">
                     Language: C
                 </div>
-            </div>
+        </div>
         </a>
         <div className="description">
                     Guitarduino Tuner

@@ -4,13 +4,14 @@
     align-items: center;
 }
 
-.Project-Video{
-    border-radius: 50em;
-	height:40vh;
+.projects-video {
+	border-radius: 50em;
+	height:20vh;
 	transition: transform .2s;
 	background: rgb(255, 169, 219);
 	padding: 0.35em;
 	margin: 2em;
+
 }
 
 .projects-click{
@@ -27,4 +28,64 @@
 
 .description{
     margin: 0em;
+}
+
+.projects-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20vh;
+    padding: 0.35em;
+    margin:2em;
+    width: 20vh;
+    opacity: 0;
+    border-radius: 50em;
+    transition: .5s ease;
+    background-color: rgba(186, 0, 161, 0.342);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+
+  .container:hover .projects-overlay{
+    opacity: 1;
+}
+
+@media only screen and (max-width: 600px){
+    .Page{
+        background-color: rgb(196,248,255);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.Projects{
+display: block;
+
+}
+.projects-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20vh;
+    padding: 0.35em;
+    margin:2em;
+    width: 20vh;
+    opacity: 1;
+    border-radius: 50em;
+    background-color: rgba(186, 0, 161, 0.342);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .projects-click{
+    display: none;
+    margin-top: 1em;
+}
+
 }
