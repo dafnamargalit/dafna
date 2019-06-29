@@ -30,61 +30,57 @@ const Projects = () => {
         <img className="Merch-Video" src={fish} alt="fish" ></img>
         <div className="overlay">
                 <div className="description">
-                    Project Name: 
-                    <br></br>
-                    Go Fish 
-                    <br></br>
                     Language: 
-                    <br></br>
                     Python
                 </div>
             </div>
         </a>
-       
+        <div className="description">
+                   Go Fish
         </div>
-        <div className="container">
-        <a href="https://github.com/dafnamargalit/forgetmenot">
-        <img className="Merch-Video" src={fmn} alt="fmn" ></img>
-        <div className="overlay">
-                <div className="description">
-                    Project Name: 
-                    <br></br>
-                    Forget Me Not
-                    <br></br>
-                    Language: JavaScript
-                </div>
-            </div>
-        </a>
-       
         </div>
+
         <div className="container">
         <a href="https://github.com/dafnamargalit/battleship">
         <img className="Merch-Video" src={btt} alt="btt" ></img>
         <div className="overlay">
                 <div className="description">
-                    Project Name: 
-                    <br></br>
-                    Battleship
-                    <br></br>
                     Language: C
                 </div>
             </div>
         </a>
+        <div className="description">
+                   Battleship
+        </div>
        
         </div>
+        
+        <div className="container">
+        <a href="https://github.com/dafnamargalit/forgetmenot">
+        <img className="Merch-Video" src={fmn} alt="fmn" ></img>
+        <div className="overlay">
+                <div className="description">
+                    Language: JavaScript
+                </div>
+            </div>
+        </a>
+        <div className="description">
+                   ForgetMeNot IOS
+        </div>
+        </div>
+
         <div className="container">
         <a href="https://github.com/dafnamargalit/guitarduino-tuner">
         <img className="Merch-Video" src={guitarduino} alt="guitarduino" ></img>
         <div className="overlay">
                 <div className="description">
-                    Project Name: 
-                    <br></br>
-                    Guitarduino Tuner
-                    <br></br>
                     Language: C
                 </div>
             </div>
         </a>
+        <div className="description">
+                    Guitarduino Tuner
+        </div>
        
         </div>
         </div>
