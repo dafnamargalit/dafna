@@ -11,7 +11,7 @@ import spirit from '../media/album-covers/spirit.jpg';
 import swimming from '../media/album-covers/swimming.jpg';
 import valentine from '../media/album-covers/valentine.jpg';
 import dove from '../media/album-covers/dove.jpg';
-import august from './dates/aug25.png';
+// import august from './dates/aug25.png';
 import october from './dates/oct02.png';
 import november from './dates/nov22.png';
 import december from './dates/dec13.png';
@@ -160,9 +160,9 @@ import './News.css';
 				<div className="News-Recent">
 					<img src={swimming} className="News-Album" alt="spirit"></img>
 					<div className="News-Head">
-						Latest Release: spirit ep
+						Upcoming Release: swimming
 						<div className="News-Description">
-							Released 7/15/19
+							Release 7/15/19
 							<br></br>
 							<a href="https://distrokid.com/hyperfollow/dafna/swimming-3">
 								Click Here to Pre-Save
