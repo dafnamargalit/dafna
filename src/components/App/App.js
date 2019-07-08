@@ -1,60 +1,33 @@
 import React, {Component} from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
-// import Loader from 'react-loader-spinner';
-
-import Landing from '../Landing';
-import Home from '../Home';
-import About from '../About';
-import Folio from '../Folio';
-import News from '../News';
-import Ask from '../Ask';
-import Merch from '../Merch';
-import Music from '../Music';
-import Projects from '../Projects';
+import Loader from 'react-loader-spinner';
 
 import './App.css';
 
+const Landing = React.lazy(() => import("../Landing"));
+const Home = React.lazy(() => import("../Home"));
+const About = React.lazy(() => import("../About"));
+const Folio = React.lazy(() => import("../Folio"));
+const News = React.lazy(() => import("../News"));
+const Ask = React.lazy(() => import("../Ask"));
+const Merch = React.lazy(() => import("../Merch"));
+const Music = React.lazy(() => import("../Music"));
+const Projects = React.lazy(() => import("../Projects"));
 
 export default class App extends Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     loading: true,
-  //     display: 'block'
-  //   };
-  // }
-  authenticate(){
-    return new Promise(resolve => setTimeout(resolve, 2000));
-  }
-  // componentDidMount(){
-  //   this.authenticate().then(() => {
-  //     const loader = this.state;
-  //     if(loader.loading === true){
-  //       setTimeout(() => {
-  //         // remove from DOM
-  //         loader.loading = false;
-  //         loader.display = 'none';
-  //       }, 2000)
-  //     }
-  //   })
-  // }
-  componentDidMount(){
-  this.authenticate().then(() => {
-    const ele = document.getElementsByClassName('App-Loader')
-    if(ele){
-      // fade out
-      // ele.classList.add('available')
-      console.log(ele);
-      setTimeout(() => {
-        // remove from DOM
-        ele.outerHTML = ''
-      }, 2000)
-    }
-  })
-}
   render(){
   return (
-    <Router>
+  <React.Suspense fallback={
+    <div className="App-Loader" id="App-Loader">
+    <Loader 
+    type="Audio"
+    color="#f7d5e8"
+    height="100"	
+    width="100"
+ />   
+</div>
+}>
+ <Router>
       <div className='App'>
       <Route exact path='/' component={Landing}/>
       <Route path='/home' component={Home}/>
@@ -67,6 +40,7 @@ export default class App extends Component {
       <Route path='/projects' component={Projects}/>
       </div>
     </Router>
+</React.Suspense>
   );
   }
 }
