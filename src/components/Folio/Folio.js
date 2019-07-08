@@ -19,7 +19,7 @@ import {Link} from 'react-router-dom';
 
 	return(
 	<div className="Folio">
-		<div className="Folio-Navbar">
+		<div className="About-Navbar">
 		<Navbar/>
 		</div>
 		<div className="Folio-A">
@@ -44,11 +44,9 @@ import {Link} from 'react-router-dom';
 			<Link to="/projects" style={{textDecoration:'none'}}>
 			<img className="Folio-Video" src={projects} alt="projects" ></img>
 			</Link>
-			
-			<div className="Folio-Footer">
-				<Footer />
-			</div>
+
 		</div>
+		<Footer />
 	</div>
 	);
 	}

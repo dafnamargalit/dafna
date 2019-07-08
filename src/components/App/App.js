@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
-
+// import Loader from 'react-loader-spinner';
 
 import Landing from '../Landing';
 import Home from '../Home';
@@ -15,7 +15,43 @@ import Projects from '../Projects';
 import './App.css';
 
 
-class App extends Component {
+export default class App extends Component {
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     loading: true,
+  //     display: 'block'
+  //   };
+  // }
+  authenticate(){
+    return new Promise(resolve => setTimeout(resolve, 2000));
+  }
+  // componentDidMount(){
+  //   this.authenticate().then(() => {
+  //     const loader = this.state;
+  //     if(loader.loading === true){
+  //       setTimeout(() => {
+  //         // remove from DOM
+  //         loader.loading = false;
+  //         loader.display = 'none';
+  //       }, 2000)
+  //     }
+  //   })
+  // }
+  componentDidMount(){
+  this.authenticate().then(() => {
+    const ele = document.getElementsByClassName('App-Loader')
+    if(ele){
+      // fade out
+      // ele.classList.add('available')
+      console.log(ele);
+      setTimeout(() => {
+        // remove from DOM
+        ele.outerHTML = ''
+      }, 2000)
+    }
+  })
+}
   render(){
   return (
     <Router>
@@ -35,4 +71,4 @@ class App extends Component {
   }
 }
 
-export default App;
+
