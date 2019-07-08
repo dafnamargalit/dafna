@@ -13,12 +13,12 @@ const Projects = () => {
     return(
         <div className="Page">
         <div className="desktop">
-        <div className="Merch-Header">
+        <div className="Projects-Header">
         <Link to="/folio">
-        <div className="container">
+        <div className="projects-container">
         <img className="projects-video" src={projects} alt="projects" ></img>
         <div className="projects-overlay">
-                <div className="description">
+                <div className="Projects-description">
                     Back to 'Folio
                 </div>
             </div>
@@ -26,60 +26,60 @@ const Projects = () => {
         </Link>
         </div>
         <div className="Projects">
-        <div className="container">
+        <div className="projects-container">
         <a href="https://github.com/dafnamargalit/go-fish">
         <img className="projects-video" src={fish} alt="fish" ></img>
         <div className="projects-overlay">
-                <div className="description">
+                <div className="Projects-description">
                     Language: 
                     Python
                 </div>
             </div>
         </a>
-        <div className="description">
+        <div className="Projects-description">
                    Go Fish
         </div>
         </div>
 
-        <div className="container">
+        <div className="projects-container">
         <a href="https://github.com/dafnamargalit/battleship">
         <img className="projects-video" src={btt} alt="btt" ></img>
         <div className="projects-overlay">
-                <div className="description">
+                <div className="Projects-description">
                     Language: C
                 </div>
             </div>
         </a>
-        <div className="description">
+        <div className="Projects-description">
                    Battleship
         </div>
        
         </div>
 
-        <div className="container">
+        <div className="projects-container">
         <a href="https://github.com/dafnamargalit/forgetmenot">
         <img className="projects-video" src={fmn} alt="fmn" ></img>
         <div className="projects-overlay">
-                <div className="description">
+                <div className="Projects-description">
                     Language: JavaScript
                 </div>
             </div>
         </a>
-        <div className="description">
+        <div className="Projects-description">
                    ForgetMeNot IOS
         </div>
         </div>
 
-        <div className="container">
+        <div className="projects-container">
         <a href="https://github.com/dafnamargalit/guitarduino-tuner">
         <img className="projects-video" src={guitarduino} alt="guitarduino" ></img>
         <div className="projects-overlay">
-                <div className="description">
+                <div className="Projects-description">
                     Language: C
                 </div>
         </div>
         </a>
-        <div className="description">
+        <div className="Projects-description">
                     Guitarduino Tuner
         </div>
        
@@ -94,22 +94,22 @@ const Projects = () => {
         <div className="Projects">
 
         <Link to="/folio">
-        <div className="container">
+        <div className="projects-container">
         <img className="projects-video" src={projects} alt="projects" ></img>
         <div className="projects-overlay">
-                <div className="description">
+                <div className="Projects-description">
                     Back to 'Folio
                 </div>
             </div>
         </div>
         </Link>
 
-        <div className="container">
+        <div className="projects-container">
         
         <a href="https://github.com/dafnamargalit/go-fish">
         <img className="projects-video" src={fish} alt="fish" ></img>
         <div className="projects-overlay">
-                <div className="description">
+                <div className="Projects-description">
                 Project: Go Fish
                     Language: 
                     Python
@@ -118,11 +118,11 @@ const Projects = () => {
         </a>
         </div>
 
-        <div className="container">
+        <div className="projects-container">
         <a href="https://github.com/dafnamargalit/battleship">
         <img className="projects-video" src={btt} alt="btt" ></img>
         <div className="projects-overlay">
-                <div className="description">
+                <div className="Projects-description">
                 Project: Battleship
                     Language: C
                 </div>
@@ -131,11 +131,11 @@ const Projects = () => {
        
         </div>
 
-        <div className="container">
+        <div className="projects-container">
         <a href="https://github.com/dafnamargalit/forgetmenot">
         <img className="projects-video" src={fmn} alt="fmn" ></img>
         <div className="projects-overlay">
-                <div className="description">
+                <div className="Projects-description">
                 Project: ForgetMeNot IOS
                     Language: JavaScript
                 </div>
@@ -143,11 +143,11 @@ const Projects = () => {
         </a>
         </div>
 
-        <div className="container">
+        <div className="projects-container">
         <a href="https://github.com/dafnamargalit/guitarduino-tuner">
         <img className="projects-video" src={guitarduino} alt="guitarduino" ></img>
         <div className="projects-overlay">
-                <div className="description">
+                <div className="Projects-description">
                 Project: Guitarduino Tuner
                     Language: C
                 </div>

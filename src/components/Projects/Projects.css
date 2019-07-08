@@ -14,6 +14,12 @@
 
 }
 
+.Projects-Header{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
 .projects-click{
     display: block;
     margin-top: 1em;
@@ -26,8 +32,9 @@
     text-align: center;
 }
 
-.description{
+.Projects-description{
     margin: 0em;
+    color: black;
 }
 
 .projects-overlay {
@@ -48,8 +55,11 @@
     align-items:center;
     justify-content: center;
   }
-
-  .container:hover .projects-overlay{
+  .projects-container{
+    position: relative;
+    }
+    
+  .projects-container:hover .projects-overlay{
     opacity: 1;
 }
 

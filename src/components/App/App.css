@@ -1,2 +1,14 @@
-
-
+@font-face {
+	font-family: 'BentonSans-Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('BentonSans-Regular'), url('../About/BentonSans-Regular.woff') format('woff');
+    }
+    
+.App-Loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(196, 248, 255);
+    height: 100vh;
+  }
