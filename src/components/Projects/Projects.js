@@ -86,7 +86,7 @@ const Projects = () => {
         </div>
         </div>
         <div className="projects-click">
-            <img className="pick" src={click} alt="click"></img>
+            <img className="projects-click-size" src={click} alt="click"></img>
         </div>
         </div>
        
