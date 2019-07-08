@@ -6,6 +6,7 @@ import girl from '../media/images/valentine.png';
 import skelly from '../media/images/skelly.png';
 import swimmer from '../media/images/swimmer.png';
 import dafna from '../media/images/daf.png';
+import dafnaPink from '../media/images/daf-pink.png';
 import pick from '../media/writing/pick.png';
 
 import './Merch.css'
@@ -37,6 +38,9 @@ const Merch = () => {
         </a>
         <a href="https://bonfire.com/dafna">
         <img className="design-3" src={dafna} alt="dafna"></img>
+        </a>
+        <a href="https://bonfire.com/dafna-but-in-pink">
+        <img className="design-3" src={dafnaPink} alt="dafna"></img>
         </a>
         </div>
         <div className="design-row">
