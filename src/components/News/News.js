@@ -160,12 +160,12 @@ import './News.css';
 				<div className="News-Recent">
 					<img src={swimming} className="News-Album" alt="spirit"></img>
 					<div className="News-Head">
-						Upcoming Release: swimming
+						Latest Release: swimming
 						<div className="News-Description">
-							Release 7/15/19
+							Released 7/15/19
 							<br></br>
-							<a href="https://distrokid.com/hyperfollow/dafna/swimming-3">
-								Click Here to Pre-Save
+							<a href="https://dafna.fanlink.to/swimming">
+								Click Here to Listen
 							</a>
 						</div>
 					</div>
@@ -173,7 +173,7 @@ import './News.css';
 				<div className="News-Recent">
 					<img src={spirit} className="News-Album" alt="spirit"></img>
 					<div className="News-Head">
-						Latest Release: spirit ep
+						spirit ep (3 songs)
 						<div className="News-Description">
 							Released 5/23/19
 							<br></br>

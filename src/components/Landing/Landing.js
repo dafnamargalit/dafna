@@ -87,7 +87,7 @@ const Landing = () => {
             <img className="mobile-resize" src={vid} alt="vid"></img>
                 <br></br>
                     <a className="mobile-button" href="https://tinyurl.com/dafna-valentine">
-                        Watch the new lyric video for 'valentine'
+                        Watch Lyric Video
                     </a>
             </div>
             <div className="small-item">
