@@ -73,7 +73,7 @@ const Landing = () => {
             <img className="mobile-resize" src={poster} alt="poster"></img>
                 <br></br>
                     <a className="mobile-button" href="https://bit.ly/dafnafox">
-                        Buy Tickets for Dafna at Fox Theatre 10/2/19
+                        Buy Tickets for Dafna at Fox Theatre
                     </a>
             </div>
             <div className="item">
@@ -87,14 +87,16 @@ const Landing = () => {
             <img className="mobile-resize" src={vid} alt="vid"></img>
                 <br></br>
                     <a className="mobile-button" href="https://tinyurl.com/dafna-valentine">
-                        Go watch the new lyric video for 'valentine'
+                        Watch the new lyric video for 'valentine'
                     </a>
             </div>
-                <div className="small-item">
-                <Link to="/home" style={{textDecoration:'none'}}>
-                    <div className="mobile-button">Continue to Website</div>
+            <div className="small-item">
+                <br></br>
+                <br></br>
+                <Link className="mobile-button" to="/home">
+                Continue to Website
                 </Link>
-                </div>
+            </div>
             </div>
             
 

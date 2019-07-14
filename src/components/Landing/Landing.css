@@ -85,6 +85,8 @@ text-align: center;
     }
     .mobile{
       display: block;
+
+      margin: auto;
       background-color:rgb(196,248,255);
       height: 100%;
       text-align: center;
@@ -101,6 +103,7 @@ text-align: center;
       padding: .5em .5em;
      font-family: 'BentonSans-Regular';
      text-decoration: none;
+     width: 50%;
     }
     .item{
       height: 55vh;
