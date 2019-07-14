@@ -18,7 +18,7 @@
 	.About-Title-Large{
 	height:14vh;
 	user-select: none;
-	padding-top: 4em;
+	padding-top: 6em;
 	padding-bottom: 1em;
 	}
 
@@ -26,7 +26,7 @@
 	.About-Title{
 	height:6vh;
 	user-select: none;
-	padding-top: 4em;
+	padding-top: 6em;
 	padding-bottom: 1em;
 	}
 	
@@ -98,11 +98,13 @@
 	@media only screen and (max-width: 600px){			
 			.About-Title-Large{
 			height:10vh;
+			margin-bottom: 2em;
 			user-select: none;
 			}
 			
 			.About-Title{
 			height:4vh;
+			margin-bottom: 2em;
 			user-select: none;
 			}
 			
@@ -136,7 +138,7 @@
 			
 			
 			.About-Content{
-			height: 50vh;
+			height: 80vh;
 			display: flex;
 			justify-content: center;
 			background-color: rgb(196, 248, 255);
@@ -148,7 +150,7 @@
 			padding: 0.2em;
 			text-align: center;
 			background-color: white;
-			height: 16em;
+			height: 22em;
 			font-size: 0.9em;
 			border-radius: 2em;
 			box-shadow: 0.5em 0.5em #ffd6e5;
