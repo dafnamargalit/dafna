@@ -30,4 +30,4 @@ yarn install
 yarn start
 ```
 
-Always run `yarn run build` after creating any changes!
+Run `yarn run build` after creating any changes you want to see in your build!
