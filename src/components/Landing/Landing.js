@@ -15,9 +15,9 @@ const Landing = () => {
             <div className="content">
                 <img className="resize" src={album} alt="album"></img>
                 <div className="landing-description">
-                Go presave my upcoming single, 'do u feel how i feel ?'
+                Go listen to my new single, 'do u feel how i feel ?'
                     <br></br>
-                    <a className="landing-button" href="https://distrokid.com/hyperfollow/dafna/do-u-feel-how-i-feel--2">
+                    <a className="landing-button" href="https://dafna.fanlink.to/dufhif">
                         Listen now!
                     </a>
                 </div>
