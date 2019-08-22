@@ -64,7 +64,7 @@ const Landing = () => {
             <div className="item">
             <img className="mobile-resize" src={album} alt="album"></img>
                 <br></br>
-                    <a className="mobile-button" href="https://dafna.fanlink.to/swimming">
+                    <a className="mobile-button" href="https://dafna.fanlink.to/dufhif">
                         Go listen to my new single!
                     </a>
 

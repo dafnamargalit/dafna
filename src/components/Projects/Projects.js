@@ -6,7 +6,7 @@ import fmn from '../media/images/forgetmenot1.jpg';
 import btt from '../media/images/battleship.jpg';
 import click from '../media/writing/clik.png';
 import guitarduino from '../media/images/guitarduino.jpg';
-
+import otr from '../media/images/logo.png';
 import './Projects.css'
 
 const Projects = () => {
@@ -84,6 +84,22 @@ const Projects = () => {
         </div>
        
         </div>
+
+        <div className="projects-container">
+        <a href="https://github.com/dafnamargalit/on-the-rocks">
+        <img className="projects-video" src={otr} alt="otr" ></img>
+        <div className="projects-overlay">
+                <div className="Projects-description">
+                    Language: JavaScript
+                </div>
+        </div>
+        </a>
+        <div className="Projects-description">
+                    On the Rocks Website
+        </div>
+       
+        </div>
+
         </div>
         <div className="projects-click">
             <img className="projects-click-size" src={click} alt="click"></img>
@@ -153,9 +169,20 @@ const Projects = () => {
                 </div>
         </div>
         </a>
-    
-       
         </div>
+
+        <div className="projects-container">
+        <a href="https://github.com/dafnamargalit/on-the-rocks">
+        <img className="projects-video" src={otr} alt="otr" ></img>
+        <div className="projects-overlay">
+                <div className="Projects-description">
+                Project: On the Rocks Website
+                    Language: Javascript
+                </div>
+        </div>
+        </a>
+        </div>
+
         </div>
         </div>
         </div>
