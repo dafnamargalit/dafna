@@ -10,11 +10,13 @@ import S from '../media/letters/S-green.png';
 import spirit from '../media/album-covers/spirit.jpg';
 import swimming from '../media/album-covers/swimming.jpg';
 import valentine from '../media/album-covers/valentine.jpg';
+import dufhif from '../media/album-covers/do.jpg';
 import dove from '../media/album-covers/dove.jpg';
 // import august from './dates/aug25.png';
 import october from './dates/oct02.png';
 import november from './dates/nov22.png';
 import december from './dates/dec13.png';
+
 
 import './News.css';
 
@@ -36,9 +38,22 @@ import './News.css';
 				</div>
 				<div className="News-List">
 				<div className="News-Recent">
+					<img src={dufhif} className="News-Album" alt="spirit"></img>
+					<div className="News-Head">
+						Latest Release: do u feel how i feel ? (single)
+						<div className="News-Description">
+							Released 8/15/19
+							<br></br>
+							<a href="https://dafna.fanlink.to/dufhif">
+								Click Here to Listen
+							</a>
+						</div>
+					</div>
+				</div>
+				<div className="News-Recent">
 					<img src={swimming} className="News-Album" alt="spirit"></img>
 					<div className="News-Head">
-						Latest Release: swimming (single)
+						swimming (single)
 						<div className="News-Description">
 							Released 7/15/19
 							<br></br>
@@ -158,9 +173,22 @@ import './News.css';
 			</div>
 				<div className="News-List">
 				<div className="News-Recent">
+					<img src={dufhif} className="News-Album" alt="spirit"></img>
+					<div className="News-Head">
+						do u feel how i feel ? (single)
+						<div className="News-Description">
+							Released 7/15/19
+							<br></br>
+							<a href="https://dafna.fanlink.to/dufhif">
+								Click Here to Listen
+							</a>
+						</div>
+					</div>
+				</div>
+				<div className="News-Recent">
 					<img src={swimming} className="News-Album" alt="spirit"></img>
 					<div className="News-Head">
-						Latest Release: swimming
+						swimming (single)
 						<div className="News-Description">
 							Released 7/15/19
 							<br></br>

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import album from '../media/album-covers/do.jpg';
+import album from '../media/album-covers/bymeself.jpg';
 import poster from '../media/images/daf-fox.png';
 import vid from '../media/images/val-lyric.png';
 import merch from '../media/images/merch.jpg';
@@ -15,10 +15,10 @@ const Landing = () => {
             <div className="content">
                 <img className="resize" src={album} alt="album"></img>
                 <div className="landing-description">
-                Go listen to my new single, 'do u feel how i feel ?'
+                Go presave my upcoming single, 'by myself'!
                     <br></br>
-                    <a className="landing-button" href="https://dafna.fanlink.to/dufhif">
-                        Listen now!
+                    <a className="landing-button" href="https://distrokid.com/hyperfollow/dafna/by-myself">
+                        PreSave now!
                     </a>
                 </div>
             </div>
@@ -64,8 +64,8 @@ const Landing = () => {
             <div className="item">
             <img className="mobile-resize" src={album} alt="album"></img>
                 <br></br>
-                    <a className="mobile-button" href="https://dafna.fanlink.to/dufhif">
-                        Go listen to my new single!
+                    <a className="mobile-button" href="https://distrokid.com/hyperfollow/dafna/by-myself">
+                        Go presave to my upcoming single!
                     </a>
 
             </div>
