@@ -12,8 +12,9 @@ import swimming from '../media/album-covers/swimming.jpg';
 import valentine from '../media/album-covers/valentine.jpg';
 import dufhif from '../media/album-covers/do.jpg';
 import dove from '../media/album-covers/dove.jpg';
-// import august from './dates/aug25.png';
-import october from './dates/oct02.png';
+import september from './dates/sept20.png';
+import oct2 from './dates/oct02.png';
+import oct5 from './dates/oct5.png';
 import november from './dates/nov22.png';
 import december from './dates/dec13.png';
 
@@ -110,11 +111,11 @@ import './News.css';
 					SHOWS
 				</div>
 				<div className="News-List">
-				{/* <div className="News-Upcoming">
-					<img src={august} className="News-Calendar" alt="aug25"></img>
+				<div className="News-Upcoming">
+					<img src={september} className="News-Calendar" alt="sept20"></img>
 					<div className="News-Head"> 
 					Dafna at The Laughing Goat
-					<div className="News-Description">8/25/19 at 8pm</div>
+					<div className="News-Description">9/20/19 at 9pm</div>
 					<div className="News-Description">
 						<a href="https://goo.gl/maps/6qbPLYWCkEt">
 							1709 Pearl St.
@@ -123,14 +124,26 @@ import './News.css';
 						</a>
 					</div>
 					</div>
-				</div> */}
+				</div>
 				<div className="News-Upcoming">
-					<img src={october} className="News-Calendar" alt="oct02"></img>
+					<img src={oct2} className="News-Calendar" alt="oct02"></img>
 					<div className="News-Head"> 
 					Dafna at The Fox Theatre
 					<div className="News-Description">10/02/19 at 7:30pm</div>
 					<div className="News-Description">
 						<a href="https://www.foxtheatre.com/event/1868484-dafna-boulder/">
+							Click Here for more information
+						</a>
+					</div>
+					</div>
+				</div>
+				<div className="News-Upcoming">
+					<img src={oct5} className="News-Calendar" alt="sept20"></img>
+					<div className="News-Head"> 
+					Evanoff with Shae District and Dafna
+					<div className="News-Description">10/05/19 at 8:45pm</div>
+					<div className="News-Description">
+					<a href="https://www.facebook.com/events/486774405217349/?notif_t=plan_user_associated&notif_id=1568142591758745">
 							Click Here for more information
 						</a>
 					</div>
@@ -243,11 +256,11 @@ import './News.css';
 				SHOWS
 			</div>
 			<div className="News-List-2">
-				{/* <div className="News-Upcoming">
-					<img src={august} className="News-Calendar" alt="aug25"></img>
+				<div className="News-Upcoming">
+					<img src={september} className="News-Calendar" alt="sept20"></img>
 					<div className="News-Head"> 
 					Dafna at The Laughing Goat
-					<div className="News-Description">8/25/19 at 8pm</div>
+					<div className="News-Description">9/20/19 at 9pm</div>
 					<div className="News-Description">
 						<a href="https://goo.gl/maps/6qbPLYWCkEt">
 							1709 Pearl St.
@@ -256,14 +269,26 @@ import './News.css';
 						</a>
 					</div>
 					</div>
-				</div> */}
+				</div>
 				<div className="News-Upcoming">
-					<img src={october} className="News-Calendar" alt="oct02"></img>
+					<img src={oct2} className="News-Calendar" alt="oct02"></img>
 					<div className="News-Head"> 
 					Dafna at The Fox Theatre
 					<div className="News-Description">10/02/19 at 7:30pm</div>
 					<div className="News-Description">
 						<a href="https://foxtheatre.com">
+							Click Here for more information
+						</a>
+					</div>
+					</div>
+				</div>
+				<div className="News-Upcoming">
+					<img src={oct5} className="News-Calendar" alt="sept20"></img>
+					<div className="News-Head"> 
+					Evanoff with Shae District and Dafna
+					<div className="News-Description">10/05/19 at 8:45pm</div>
+					<div className="News-Description">
+					<a href="https://www.facebook.com/events/486774405217349/?notif_t=plan_user_associated&notif_id=1568142591758745">
 							Click Here for more information
 						</a>
 					</div>
