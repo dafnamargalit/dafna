@@ -79,9 +79,9 @@ const Landing = () => {
             <div className="item">
                 <img className="mobile-resize" src={merch} alt="merch"></img>
                 <br></br>
-                    <Link className="mobile-button" to="/merch" style={{padding:'1em'}}>
+                    <a className="mobile-button" href="https://www.bonfire.com/store/dafna/" style={{padding:'1em'}}>
                         Buy some dope new merch!
-                    </Link>
+                    </a>
             </div>
             <div className="item">
             <img className="mobile-resize" src={vid} alt="vid"></img>
