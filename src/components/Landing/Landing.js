@@ -37,9 +37,9 @@ const Landing = () => {
                 <div className="landing-description">
                 Go get some dope new merch!
                     <br></br>
-                    <Link className="landing-button" to="/merch" style={{padding:'1em'}}>
+                    <a className="landing-button" href="https://www.bonfire.com/store/dafna/" style={{padding:'1em'}}>
                         Buy Merch
-                    </Link>
+                    </a>
                 </div>
             </div>
             <div className="content">
