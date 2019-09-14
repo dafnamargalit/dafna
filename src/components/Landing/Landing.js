@@ -18,7 +18,7 @@ const Landing = () => {
                 Go presave my upcoming single, 'by myself'!
                     <br></br>
                     <a className="landing-button" href="https://distrokid.com/hyperfollow/dafna/by-myself">
-                        PreSave now!
+                        Pre-Save now!
                     </a>
                 </div>
             </div>
