@@ -12,7 +12,7 @@ import {Link} from 'react-router-dom';
 	import record from '../media/gifs/record_player.gif';
 	import merch from '../media/gifs/merch.gif';
 	import projects from '../media/gifs/projects.gif';
-
+	import res from '../media/writing/int-res.png';
 	import '../Ask/Ask.css';
 	import './Folio.css';
 	const Folio = () => {
@@ -44,7 +44,6 @@ import {Link} from 'react-router-dom';
 			<Link to="/projects" style={{textDecoration:'none'}}>
 			<img className="Folio-Video" src={projects} alt="projects" ></img>
 			</Link>
-
 		</div>
 		<Footer />
 	</div>

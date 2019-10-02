@@ -15,10 +15,10 @@ const Landing = () => {
             <div className="content">
                 <img className="resize" src={album} alt="album"></img>
                 <div className="landing-description">
-                Go presave my upcoming single, 'by myself'!
+                Go listen to my new single, 'by myself'!
                     <br></br>
-                    <a className="landing-button" href="https://distrokid.com/hyperfollow/dafna/by-myself">
-                        Pre-Save now!
+                    <a className="landing-button" href="https://dafna.fanlink.to/by-myself">
+                        Listen now!
                     </a>
                 </div>
             </div>
@@ -64,8 +64,8 @@ const Landing = () => {
             <div className="item">
             <img className="mobile-resize" src={album} alt="album"></img>
                 <br></br>
-                    <a className="mobile-button" href="https://distrokid.com/hyperfollow/dafna/by-myself">
-                        Go presave to my upcoming single!
+                    <a className="mobile-button" href="https://dafna.fanlink.to/by-myself">
+                        Go listen to my new single!
                     </a>
 
             </div>

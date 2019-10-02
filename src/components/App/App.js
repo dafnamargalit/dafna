@@ -12,6 +12,7 @@ const News = React.lazy(() => import("../News"));
 const Ask = React.lazy(() => import("../Ask"));
 const Merch = React.lazy(() => import("../Merch"));
 const Music = React.lazy(() => import("../Music"));
+const Resume = React.lazy(() => import("../Resume"));
 const Projects = React.lazy(() => import("../Projects"));
 
 export default class App extends Component {
@@ -38,6 +39,7 @@ export default class App extends Component {
       <Route path='/merch' component={Merch}/>
       <Route path='/music' component={Music}/>
       <Route path='/projects' component={Projects}/>
+      <Route path='/resume' component={Resume}/>
       </div>
     </Router>
 </React.Suspense>

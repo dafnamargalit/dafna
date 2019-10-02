@@ -46,6 +46,7 @@
 	user-select: none;
 	}
 	
+
 	.Home-Letters-N:hover{
 	transform: scale(1.2);
 	}
@@ -62,8 +63,9 @@
 	height: 30vh;
 	top: 65vh;
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
 	justify-content: center;
+	flex-direction: column;
 	}
 
 	.Home-Here{

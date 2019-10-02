@@ -9,7 +9,6 @@ import React from 'react';
 	import AP from '../media/letters/A-pink.png';
 	import click from '../media/writing/click.png';
 	import here from '../media/writing/here.png';
-
 	import './Home.css';
 	
 	const Home = () => {

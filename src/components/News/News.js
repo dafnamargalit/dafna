@@ -11,6 +11,7 @@ import spirit from '../media/album-covers/spirit.jpg';
 import swimming from '../media/album-covers/swimming.jpg';
 import valentine from '../media/album-covers/valentine.jpg';
 import dufhif from '../media/album-covers/do.jpg';
+import bymyself from '../media/album-covers/bymeself.jpg';
 import dove from '../media/album-covers/dove.jpg';
 import september from './dates/sept20.png';
 import oct2 from './dates/oct02.png';
@@ -39,9 +40,22 @@ import './News.css';
 				</div>
 				<div className="News-List">
 				<div className="News-Recent">
+					<img src={bymyself} className="News-Album" alt="spirit"></img>
+					<div className="News-Head">
+						Latest Release: by myself (single)
+						<div className="News-Description">
+							Released 10/02/19
+							<br></br>
+							<a href="https://dafna.fanlink.to/by-myself">
+								Click Here to Listen
+							</a>
+						</div>
+					</div>
+				</div>
+				<div className="News-Recent">
 					<img src={dufhif} className="News-Album" alt="spirit"></img>
 					<div className="News-Head">
-						Latest Release: do u feel how i feel ? (single)
+						do u feel how i feel ? (single)
 						<div className="News-Description">
 							Released 8/15/19
 							<br></br>
@@ -186,11 +200,24 @@ import './News.css';
 			</div>
 				<div className="News-List">
 				<div className="News-Recent">
+					<img src={bymyself} className="News-Album" alt="spirit"></img>
+					<div className="News-Head">
+						by myself (single)
+						<div className="News-Description">
+							Released 10/02/19
+							<br></br>
+							<a href="https://dafna.fanlink.to/by-myself">
+								Click Here to Listen
+							</a>
+						</div>
+					</div>
+				</div>
+				<div className="News-Recent">
 					<img src={dufhif} className="News-Album" alt="spirit"></img>
 					<div className="News-Head">
 						do u feel how i feel ? (single)
 						<div className="News-Description">
-							Released 7/15/19
+							Released 8/15/19
 							<br></br>
 							<a href="https://dafna.fanlink.to/dufhif">
 								Click Here to Listen
