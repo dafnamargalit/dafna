@@ -23,16 +23,6 @@ const Landing = () => {
                 </div>
             </div>
             <div className="content">
-                <img className="resize" src={poster} alt="poster"></img>
-                <div className="landing-description">       
-                Go buy tickets for my upcoming show at The Fox Theatre!
-                    <br></br>
-                    <a className="landing-button" href="https://bit.ly/dafnafox">
-                        Get Tickets!
-                    </a>
-                </div>
-            </div>
-            <div className="content">
                 <img className="resize" src={merch} alt="merch"></img>
                 <div className="landing-description">
                 Go get some dope new merch!
@@ -68,13 +58,6 @@ const Landing = () => {
                         Go listen to my new single!
                     </a>
 
-            </div>
-            <div className="item">
-            <img className="mobile-resize" src={poster} alt="poster"></img>
-                <br></br>
-                    <a className="mobile-button" href="https://bit.ly/dafnafox">
-                        Buy Tickets for Dafna at Fox Theatre
-                    </a>
             </div>
             <div className="item">
                 <img className="mobile-resize" src={merch} alt="merch"></img>

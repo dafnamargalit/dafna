@@ -13,9 +13,9 @@ import valentine from '../media/album-covers/valentine.jpg';
 import dufhif from '../media/album-covers/do.jpg';
 import bymyself from '../media/album-covers/bymeself.jpg';
 import dove from '../media/album-covers/dove.jpg';
-import september from './dates/sept20.png';
-import oct2 from './dates/oct02.png';
-import oct5 from './dates/oct5.png';
+// import september from './dates/sept20.png';
+import oct18 from './dates/oct18.png';
+// import oct5 from './dates/oct5.png';
 import november from './dates/nov22.png';
 import december from './dates/dec13.png';
 
@@ -117,7 +117,6 @@ import './News.css';
 						</div>
 					</div>
 				</div>
-				
 				</div>
 			</div>
 			<div className="News-Shows">
@@ -126,39 +125,17 @@ import './News.css';
 				</div>
 				<div className="News-List">
 				<div className="News-Upcoming">
-					<img src={september} className="News-Calendar" alt="sept20"></img>
+					<img src={oct18} className="News-Calendar" alt="oct18"></img>
 					<div className="News-Head"> 
-					Dafna at The Laughing Goat
-					<div className="News-Description">9/20/19 at 9pm</div>
+					Dafna with Dry Ice
+					<div className="News-Description">10/18/19 at 7pm</div>
 					<div className="News-Description">
-						<a href="https://goo.gl/maps/6qbPLYWCkEt">
-							1709 Pearl St.
-							<br></br>Boulder CO
-							80302
-						</a>
-					</div>
-					</div>
-				</div>
-				<div className="News-Upcoming">
-					<img src={oct2} className="News-Calendar" alt="oct02"></img>
-					<div className="News-Head"> 
-					Dafna at The Fox Theatre
-					<div className="News-Description">10/02/19 at 7:30pm</div>
-					<div className="News-Description">
-						<a href="https://www.foxtheatre.com/event/1868484-dafna-boulder/">
-							Click Here for more information
-						</a>
-					</div>
-					</div>
-				</div>
-				<div className="News-Upcoming">
-					<img src={oct5} className="News-Calendar" alt="sept20"></img>
-					<div className="News-Head"> 
-					Evanoff with Shae District and Dafna
-					<div className="News-Description">10/05/19 at 8:45pm</div>
-					<div className="News-Description">
-					<a href="https://www.facebook.com/events/486774405217349/?notif_t=plan_user_associated&notif_id=1568142591758745">
-							Click Here for more information
+						<a href="https://www.google.com/maps/dir/40.0024927,-105.2429703/old+main+chapel+cu+boulder/@40.0073947,-105.2760188,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x876bec317595743b:0xb845b6bff6d88216!2m2!1d-105.2733449!2d40.0092191">
+							Old Main Chapel CU Boulder, 
+							<br></br>
+							1600 Pleasant St,
+							<br></br>
+							Boulder, CO 80302
 						</a>
 					</div>
 					</div>
@@ -283,40 +260,18 @@ import './News.css';
 				SHOWS
 			</div>
 			<div className="News-List-2">
-				<div className="News-Upcoming">
-					<img src={september} className="News-Calendar" alt="sept20"></img>
+			<div className="News-Upcoming">
+					<img src={oct18} className="News-Calendar" alt="oct18"></img>
 					<div className="News-Head"> 
-					Dafna at The Laughing Goat
-					<div className="News-Description">9/20/19 at 9pm</div>
+					Dafna with Dry Ice
+					<div className="News-Description">10/18/19 at 7pm</div>
 					<div className="News-Description">
-						<a href="https://goo.gl/maps/6qbPLYWCkEt">
-							1709 Pearl St.
-							<br></br>Boulder CO
-							80302
-						</a>
-					</div>
-					</div>
-				</div>
-				<div className="News-Upcoming">
-					<img src={oct2} className="News-Calendar" alt="oct02"></img>
-					<div className="News-Head"> 
-					Dafna at The Fox Theatre
-					<div className="News-Description">10/02/19 at 7:30pm</div>
-					<div className="News-Description">
-						<a href="https://foxtheatre.com">
-							Click Here for more information
-						</a>
-					</div>
-					</div>
-				</div>
-				<div className="News-Upcoming">
-					<img src={oct5} className="News-Calendar" alt="sept20"></img>
-					<div className="News-Head"> 
-					Evanoff with Shae District and Dafna
-					<div className="News-Description">10/05/19 at 8:45pm</div>
-					<div className="News-Description">
-					<a href="https://www.facebook.com/events/486774405217349/?notif_t=plan_user_associated&notif_id=1568142591758745">
-							Click Here for more information
+						<a href="https://www.google.com/maps/dir/40.0024927,-105.2429703/old+main+chapel+cu+boulder/@40.0073947,-105.2760188,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x876bec317595743b:0xb845b6bff6d88216!2m2!1d-105.2733449!2d40.0092191">
+							Old Main Chapel CU Boulder, 
+							<br></br>
+							1600 Pleasant St,
+							<br></br>
+							Boulder, CO 80302
 						</a>
 					</div>
 					</div>
