@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 import album from '../media/album-covers/bymeself.jpg';
-import poster from '../media/images/daf-fox.png';
+import poster from '../media/images/IG_Square.png';
 import vid from '../media/images/val-lyric.png';
 import merch from '../media/images/merch.jpg';
 import './Landing.css';
@@ -23,12 +23,22 @@ const Landing = () => {
                 </div>
             </div>
             <div className="content">
+                <img className="resize" src={poster} alt="poster"></img>
+                <div className="landing-description">
+                Go buy tickets to my upcoming show!
+                    <br></br>
+                    <a className="landing-button" href="https://www.eventbrite.com/e/club-156-presents-dafna-and-dry-ice-tickets-75920272579?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing&fbclid=IwAR2yL2RB7gBr904WaoJbJtn3SFwvCR_bgnE-G-tgWPd8DgaV9rSrrtWTYzY">
+                        Buy Tix!
+                    </a>
+                </div>
+            </div>
+            <div className="content">
                 <img className="resize" src={merch} alt="merch"></img>
                 <div className="landing-description">
                 Go get some dope new merch!
                     <br></br>
                     <a className="landing-button" href="https://www.bonfire.com/store/dafna/" style={{padding:'1em'}}>
-                        Buy Merch
+                        Buy Merch!
                     </a>
                 </div>
             </div>
@@ -38,7 +48,7 @@ const Landing = () => {
                 Go check out the new 'valentine' lyric video!
                     <br></br>
                     <a className="landing-button" href="https://tinyurl.com/dafna-valentine">
-                        Watch Video
+                        Watch Video!
                     </a>
                 </div>
             </div>
@@ -56,6 +66,14 @@ const Landing = () => {
                 <br></br>
                     <a className="mobile-button" href="https://dafna.fanlink.to/by-myself">
                         Go listen to my new single!
+                    </a>
+
+            </div>
+            <div className="item">
+            <img className="mobile-resize" src={poster} alt="poster"></img>
+                <br></br>
+                    <a className="mobile-button" href="https://www.eventbrite.com/e/club-156-presents-dafna-and-dry-ice-tickets-75920272579?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing&fbclid=IwAR2yL2RB7gBr904WaoJbJtn3SFwvCR_bgnE-G-tgWPd8DgaV9rSrrtWTYzY">
+                        Go buy tickets to my upcoming show!
                     </a>
 
             </div>
