@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 import album from '../media/album-covers/bymeself.jpg';
-import poster from '../media/images/IG_Square.png';
+import poster from '../media/images/gothababe-poster.png';
 import vid from '../media/images/val-lyric.png';
 import merch from '../media/images/merch.jpg';
 import './Landing.css';
@@ -27,7 +27,7 @@ const Landing = () => {
                 <div className="landing-description">
                 Go buy tickets to my upcoming show!
                     <br></br>
-                    <a className="landing-button" href="https://www.eventbrite.com/e/club-156-presents-dafna-and-dry-ice-tickets-75920272579?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing&fbclid=IwAR2yL2RB7gBr904WaoJbJtn3SFwvCR_bgnE-G-tgWPd8DgaV9rSrrtWTYzY">
+                    <a className="landing-button" href="https://www.eventbrite.com/e/cu-boulder-homecoming-concert-w-goth-babe-johnny-utah-tickets-75721568249">
                         Buy Tix!
                     </a>
                 </div>
@@ -72,7 +72,7 @@ const Landing = () => {
             <div className="item">
             <img className="mobile-resize" src={poster} alt="poster"></img>
                 <br></br>
-                    <a className="mobile-button" href="https://www.eventbrite.com/e/club-156-presents-dafna-and-dry-ice-tickets-75920272579?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing&fbclid=IwAR2yL2RB7gBr904WaoJbJtn3SFwvCR_bgnE-G-tgWPd8DgaV9rSrrtWTYzY">
+                    <a className="mobile-button" href="https://www.eventbrite.com/e/cu-boulder-homecoming-concert-w-goth-babe-johnny-utah-tickets-75721568249">
                         Go buy tickets to my upcoming show!
                     </a>
 

@@ -14,7 +14,7 @@ import dufhif from '../media/album-covers/do.jpg';
 import bymyself from '../media/album-covers/bymeself.jpg';
 import dove from '../media/album-covers/dove.jpg';
 // import september from './dates/sept20.png';
-import oct18 from './dates/oct18.png';
+import nov5 from './dates/nov5.png';
 // import oct5 from './dates/oct5.png';
 import november from './dates/nov22.png';
 import december from './dates/dec13.png';
@@ -125,15 +125,17 @@ import './News.css';
 				</div>
 				<div className="News-List">
 				<div className="News-Upcoming">
-					<img src={oct18} className="News-Calendar" alt="oct18"></img>
+					<img src={nov5} className="News-Calendar" alt="nov5"></img>
 					<div className="News-Head"> 
-					Dafna with Dry Ice
-					<div className="News-Description">10/18/19 at 7pm</div>
+					<a href="https://www.eventbrite.com/e/cu-boulder-homecoming-concert-w-goth-babe-johnny-utah-tickets-75721568249">
+					Dafna opening for Goth Babe & Johnny Utah
+					</a>
+					<div className="News-Description">11/05/19 at 7:30pm</div>
 					<div className="News-Description">
-						<a href="https://www.google.com/maps/dir/40.0024927,-105.2429703/old+main+chapel+cu+boulder/@40.0073947,-105.2760188,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x876bec317595743b:0xb845b6bff6d88216!2m2!1d-105.2733449!2d40.0092191">
-							Old Main Chapel CU Boulder, 
+					<a href="https://www.google.com/maps/place/Glenn+Miller+Ballroom,+Boulder,+CO+80309/data=!4m2!3m1!1s0x876bec3406141697:0xac945811f87cecc3?sa=X&ved=2ahUKEwiiuZiVhK7lAhWUup4KHbPFDsAQ8gEwAHoECAoQAQ">
+							Glenn Miller Ballroom, 
 							<br></br>
-							1600 Pleasant St,
+							1669 Euclid Ave,
 							<br></br>
 							Boulder, CO 80302
 						</a>
@@ -261,19 +263,22 @@ import './News.css';
 			</div>
 			<div className="News-List-2">
 			<div className="News-Upcoming">
-					<img src={oct18} className="News-Calendar" alt="oct18"></img>
+					<img src={nov5} className="News-Calendar" alt="nov5"></img>
 					<div className="News-Head"> 
-					Dafna with Dry Ice
-					<div className="News-Description">10/18/19 at 7pm</div>
+					<a href="https://www.eventbrite.com/e/cu-boulder-homecoming-concert-w-goth-babe-johnny-utah-tickets-75721568249">
+					Dafna opening for Goth Babe & Johnny Utah
+					</a>
+					<div className="News-Description">11/05/19 at 7:30pm (Doors 6:30pm) </div>
 					<div className="News-Description">
-						<a href="https://www.google.com/maps/dir/40.0024927,-105.2429703/old+main+chapel+cu+boulder/@40.0073947,-105.2760188,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x876bec317595743b:0xb845b6bff6d88216!2m2!1d-105.2733449!2d40.0092191">
-							Old Main Chapel CU Boulder, 
+						<a href="https://www.google.com/maps/place/Glenn+Miller+Ballroom,+Boulder,+CO+80309/data=!4m2!3m1!1s0x876bec3406141697:0xac945811f87cecc3?sa=X&ved=2ahUKEwiiuZiVhK7lAhWUup4KHbPFDsAQ8gEwAHoECAoQAQ">
+							Glenn Miller Ballroom, 
 							<br></br>
-							1600 Pleasant St,
+							1669 Euclid Ave,
 							<br></br>
 							Boulder, CO 80302
 						</a>
 					</div>
+					
 					</div>
 				</div>
 				<div className="News-Upcoming">

@@ -1,0 +1,13 @@
+.Music{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.Select-Service{
+    height: 30vh;
+    width: 50vh;
+    background-color: blue;
+}

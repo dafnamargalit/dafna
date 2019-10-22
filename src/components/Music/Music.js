@@ -4,8 +4,13 @@ import './Music.css'
 
 const Music = () => {
     return(
-        <div>
-
+        <div className="Music">
+            <div className="Select-Service">
+                <div id="select-service-header">
+                    Choose a Streaming Service:
+                </div> 
+                
+            </div>
         </div>
     )
 }
