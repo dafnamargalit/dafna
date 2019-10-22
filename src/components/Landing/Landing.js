@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import album from '../media/album-covers/bymeself.jpg';
+import album from '../media/album-covers/lonely_game.jpg';
 import poster from '../media/images/gothababe-poster.png';
 import vid from '../media/images/val-lyric.png';
 import merch from '../media/images/merch.jpg';
@@ -15,10 +15,10 @@ const Landing = () => {
             <div className="content">
                 <img className="resize" src={album} alt="album"></img>
                 <div className="landing-description">
-                Go listen to my new single, 'by myself'!
+                Go pre-save my upcoming song with Mielo!
                     <br></br>
-                    <a className="landing-button" href="https://dafna.fanlink.to/by-myself">
-                        Listen now!
+                    <a className="landing-button" href="https://ditto.fm/lonely-game">
+                        Pre-Save now!
                     </a>
                 </div>
             </div>
@@ -64,8 +64,8 @@ const Landing = () => {
             <div className="item">
             <img className="mobile-resize" src={album} alt="album"></img>
                 <br></br>
-                    <a className="mobile-button" href="https://dafna.fanlink.to/by-myself">
-                        Go listen to my new single!
+                    <a className="mobile-button" href="https://ditto.fm/lonely-game">
+                        Go pre-save my upcoming song with Mielo!
                     </a>
 
             </div>
