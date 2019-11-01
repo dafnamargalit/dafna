@@ -142,34 +142,6 @@ import './News.css';
 					</div>
 					</div>
 				</div>
-				<div className="News-Upcoming">
-					<img src={november} className="News-Calendar" alt="nov22"></img>
-					<div className="News-Head"> 
-					Dafna at The Laughing Goat
-					<div className="News-Description">11/22/19 at 8pm</div>
-					<div className="News-Description">
-						<a href="https://goo.gl/maps/6qbPLYWCkEt">
-							1709 Pearl St.
-							<br></br>Boulder CO
-							80302
-						</a>
-					</div>
-					</div>
-				</div>
-				<div className="News-Upcoming">
-					<img src={december} className="News-Calendar" alt="dec13"></img>
-					<div className="News-Head"> 
-					Dafna at The Laughing Goat
-					<div className="News-Description">12/13/19 at 8pm</div>
-					<div className="News-Description">
-						<a href="https://goo.gl/maps/6qbPLYWCkEt">
-							1709 Pearl St.
-							<br></br>Boulder CO
-							80302
-						</a>
-					</div>
-					</div>
-				</div>
 				</div>
 			</div>
 		</div>
@@ -279,34 +251,6 @@ import './News.css';
 						</a>
 					</div>
 					
-					</div>
-				</div>
-				<div className="News-Upcoming">
-					<img src={november} className="News-Calendar" alt="nov22"></img>
-					<div className="News-Head"> 
-					Dafna at The Laughing Goat
-					<div className="News-Description">11/22/19 at 8pm</div>
-					<div className="News-Description">
-						<a href="https://goo.gl/maps/6qbPLYWCkEt">
-							1709 Pearl St.
-							<br></br>Boulder CO
-							80302
-						</a>
-					</div>
-					</div>
-				</div>
-				<div className="News-Upcoming">
-					<img src={december} className="News-Calendar" alt="dec13"></img>
-					<div className="News-Head"> 
-					Dafna at The Laughing Goat
-					<div className="News-Description">12/13/19 at 8pm</div>
-					<div className="News-Description">
-						<a href="https://goo.gl/maps/6qbPLYWCkEt">
-							1709 Pearl St.
-							<br></br>Boulder CO
-							80302
-						</a>
-					</div>
 					</div>
 				</div>
 				</div>
