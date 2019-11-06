@@ -124,7 +124,8 @@ import './News.css';
 					SHOWS
 				</div>
 				<div className="News-List">
-				<div className="News-Upcoming">
+				No shows lined up as of now!
+				{/* <div className="News-Upcoming">
 					<img src={nov5} className="News-Calendar" alt="nov5"></img>
 					<div className="News-Head"> 
 					<a href="https://www.eventbrite.com/e/cu-boulder-homecoming-concert-w-goth-babe-johnny-utah-tickets-75721568249">
@@ -141,7 +142,7 @@ import './News.css';
 						</a>
 					</div>
 					</div>
-				</div>
+				</div> */}
 				</div>
 			</div>
 		</div>
@@ -234,7 +235,8 @@ import './News.css';
 				SHOWS
 			</div>
 			<div className="News-List-2">
-			<div className="News-Upcoming">
+			No shows lined up as of now!
+			{/* <div className="News-Upcoming">
 					<img src={nov5} className="News-Calendar" alt="nov5"></img>
 					<div className="News-Head"> 
 					<a href="https://www.eventbrite.com/e/cu-boulder-homecoming-concert-w-goth-babe-johnny-utah-tickets-75721568249">
@@ -252,7 +254,7 @@ import './News.css';
 					</div>
 					
 					</div>
-				</div>
+				</div> */}
 				</div>
 		</div>
 		<div className="News-Footer">

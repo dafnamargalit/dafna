@@ -22,7 +22,7 @@ const Landing = () => {
                     </a>
                 </div>
             </div>
-            <div className="content">
+            {/* <div className="content">
                 <img className="resize" src={poster} alt="poster"></img>
                 <div className="landing-description">
                 Go buy tickets to my upcoming show!
@@ -31,7 +31,7 @@ const Landing = () => {
                         Buy Tix!
                     </a>
                 </div>
-            </div>
+            </div> */}
             <div className="content">
                 <img className="resize" src={merch} alt="merch"></img>
                 <div className="landing-description">
@@ -69,14 +69,14 @@ const Landing = () => {
                     </a>
 
             </div>
-            <div className="item">
+            {/* <div className="item">
             <img className="mobile-resize" src={poster} alt="poster"></img>
                 <br></br>
                     <a className="mobile-button" href="https://www.eventbrite.com/e/cu-boulder-homecoming-concert-w-goth-babe-johnny-utah-tickets-75721568249">
                         Go buy tickets to my upcoming show!
                     </a>
 
-            </div>
+            </div> */}
             <div className="item">
                 <img className="mobile-resize" src={merch} alt="merch"></img>
                 <br></br>
