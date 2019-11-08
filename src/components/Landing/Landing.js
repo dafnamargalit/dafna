@@ -15,10 +15,10 @@ const Landing = () => {
             <div className="content">
                 <img className="resize" src={album} alt="album"></img>
                 <div className="landing-description">
-                Go pre-save my upcoming song with Mielo!
+                Go Listen to my new song with Mielo!
                     <br></br>
                     <a className="landing-button" href="https://ditto.fm/lonely-game">
-                        Pre-Save now!
+                        Listen now!
                     </a>
                 </div>
             </div>
@@ -65,7 +65,7 @@ const Landing = () => {
             <img className="mobile-resize" src={album} alt="album"></img>
                 <br></br>
                     <a className="mobile-button" href="https://ditto.fm/lonely-game">
-                        Go pre-save my upcoming song with Mielo!
+                        Go listen to my new song with Mielo!
                     </a>
 
             </div>
