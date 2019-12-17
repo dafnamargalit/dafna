@@ -1,10 +1,10 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import album from '../media/album-covers/lonely_game.jpg';
-import poster from '../media/images/gothababe-poster.png';
+import album from '../media/album-covers/tasteoflove.jpg';
+// import poster from '../media/images/gothababe-poster.png';
 import vid from '../media/images/val-lyric.png';
-import merch from '../media/images/merch.jpg';
+import merch from '../media/images/merch.png';
 import './Landing.css';
 
 const Landing = () => {
@@ -15,9 +15,9 @@ const Landing = () => {
             <div className="content">
                 <img className="resize" src={album} alt="album"></img>
                 <div className="landing-description">
-                Go Listen to my new song with Mielo!
+                Go Listen to my new song with Covex!
                     <br></br>
-                    <a className="landing-button" href="https://ditto.fm/lonely-game">
+                    <a className="landing-button" href="https://frtyfve.lnk.to/TasteOfLove">
                         Listen now!
                     </a>
                 </div>
@@ -38,7 +38,7 @@ const Landing = () => {
                 Go get some dope new merch!
                     <br></br>
                     <a className="landing-button" href="https://www.bonfire.com/store/dafna/" style={{padding:'1em'}}>
-                        Buy Merch!
+                        Buy Merch
                     </a>
                 </div>
             </div>
@@ -64,8 +64,8 @@ const Landing = () => {
             <div className="item">
             <img className="mobile-resize" src={album} alt="album"></img>
                 <br></br>
-                    <a className="mobile-button" href="https://ditto.fm/lonely-game">
-                        Go listen to my new song with Mielo!
+                    <a className="mobile-button" href="https://frtyfve.lnk.to/TasteOfLove">
+                        Go listen to my new song with Covex!
                     </a>
 
             </div>
