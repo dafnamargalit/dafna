@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import album from '../media/album-covers/tasteoflove.jpg';
+import album from '../media/album-covers/SADDERDAYS.jpeg';
 // import poster from '../media/images/gothababe-poster.png';
 import vid from '../media/images/val-lyric.png';
 import merch from '../media/images/merch.png';
@@ -15,9 +15,9 @@ const Landing = () => {
             <div className="content">
                 <img className="resize" src={album} alt="album"></img>
                 <div className="landing-description">
-                Go Listen to my new song with Covex!
+                Go listen to NEW BEGINNINGS (feat. Dafna) by Guy Margalit
                     <br></br>
-                    <a className="landing-button" href="https://frtyfve.lnk.to/TasteOfLove">
+                    <a className="landing-button" href="https://fanlink.to/SADDERDAYS">
                         Listen now!
                     </a>
                 </div>
@@ -64,8 +64,8 @@ const Landing = () => {
             <div className="item">
             <img className="mobile-resize" src={album} alt="album"></img>
                 <br></br>
-                    <a className="mobile-button" href="https://frtyfve.lnk.to/TasteOfLove">
-                        Go listen to my new song with Covex!
+                    <a className="mobile-button" href="https://fanlink.to/SADDERDAYS">
+                        Go listen to my new song with Guy Margalit!
                     </a>
 
             </div>
