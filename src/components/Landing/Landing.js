@@ -15,7 +15,7 @@ const Landing = () => {
             <div className="content">
                 <img className="resize" src={album} alt="album"></img>
                 <div className="landing-description">
-                Go listen to NEW BEGINNINGS (feat. Dafna) by Guy Margalit
+                Go listen to SADDERDAYS
                     <br></br>
                     <a className="landing-button" href="https://fanlink.to/SADDERDAYS">
                         Listen now!
@@ -65,7 +65,7 @@ const Landing = () => {
             <img className="mobile-resize" src={album} alt="album"></img>
                 <br></br>
                     <a className="mobile-button" href="https://fanlink.to/SADDERDAYS">
-                        Go listen to my new song with Guy Margalit!
+                        Go listen to SADDERDAYS
                     </a>
 
             </div>
