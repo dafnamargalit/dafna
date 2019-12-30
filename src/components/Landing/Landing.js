@@ -15,7 +15,7 @@ const Landing = () => {
             <div className="content">
                 <img className="resize" src={album} alt="album"></img>
                 <div className="landing-description">
-                Go listen to SADDERDAYS
+                Go listen to SADDERDAYS by Guy Margalit
                     <br></br>
                     <a className="landing-button" href="https://fanlink.to/SADDERDAYS">
                         Listen now!
