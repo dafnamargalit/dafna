@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 import album from '../media/album-covers/SADDERDAYS.jpeg';
-// import poster from '../media/images/gothababe-poster.png';
+import poster from '../media/images/poster.png';
 import vid from '../media/images/val-lyric.png';
 import merch from '../media/images/merch.png';
 import './Landing.css';
@@ -22,16 +22,16 @@ const Landing = () => {
                     </a>
                 </div>
             </div>
-            {/* <div className="content">
+            <div className="content">
                 <img className="resize" src={poster} alt="poster"></img>
                 <div className="landing-description">
                 Go buy tickets to my upcoming show!
                     <br></br>
-                    <a className="landing-button" href="https://www.eventbrite.com/e/cu-boulder-homecoming-concert-w-goth-babe-johnny-utah-tickets-75721568249">
+                    <a className="landing-button" href="https://bit.ly/35vhief">
                         Buy Tix!
                     </a>
                 </div>
-            </div> */}
+            </div>
             <div className="content">
                 <img className="resize" src={merch} alt="merch"></img>
                 <div className="landing-description">
