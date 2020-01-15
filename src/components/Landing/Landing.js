@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 import album from '../media/album-covers/SADDERDAYS.jpeg';
-import poster from '../media/images/poster.png';
+import poster from '../media/images/dafna-ymh-sqaure.png';
 import vid from '../media/images/val-lyric.png';
 import merch from '../media/images/merch.png';
 import './Landing.css';
