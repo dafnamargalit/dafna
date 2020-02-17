@@ -11,12 +11,6 @@ import S from '../media/letters/S-green.png';
 import './News.css';
 
 	const News = () => {
-		function scrollToTop(){
-			window.scrollTo({
-				top: 0,
-				behavior: "smooth"
-			  });
-		}
 	return(
 	<div className="News">
 	<Navbar/>
@@ -28,7 +22,7 @@ import './News.css';
 	</div>
 		<div className="News-Content">
 			<div className="Row-1">
-			<a url="http://cravethesound.com/interviews-1/dafna">
+			<a href="http://cravethesound.com/interviews-1/dafna">
 			<Iframe className="News-Embed" url="http://cravethesound.com/interviews-1/dafna"
 					width="500px"
 					height="500px"

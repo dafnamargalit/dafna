@@ -12,7 +12,6 @@ import {Link} from 'react-router-dom';
 	import record from '../media/gifs/record_player.gif';
 	import merch from '../media/gifs/merch.gif';
 	import projects from '../media/gifs/projects.gif';
-	import res from '../media/writing/int-res.png';
 	import '../Ask/Ask.css';
 	import './Folio.css';
 	const Folio = () => {

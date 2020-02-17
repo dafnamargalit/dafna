@@ -9,7 +9,7 @@ const Landing = () => {
         return (
             <div className="Landing">
             <div className="desktop">
-                <img src={submerge} className="landing-image"></img>
+                <img src={submerge} className="landing-image" alt="album"></img>
                 <div className = "centered-text">
                     <div className = "text-type">
                     submerge <br></br> 2.29.20
