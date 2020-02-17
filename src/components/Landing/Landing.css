@@ -4,73 +4,64 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url(../media/images/dafna-web.png);
+  backdrop-filter: blur(1000px);
 
   }
-  .Background{
-    filter: blur(15px);
-    -webkit-filter: blur(15px);
-    height: 100%;
-    width: 100%;
+
+  .centered-text{
     position: absolute;
-    left: 0%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
   }
-/*   
-  a:link{
-    color: rgb(70, 25, 32);
+  .text-type{
+    font-size: 10vh; 
   }
+  .text-link{
+    color:white;  
+    font-size: 4vh;
+  }
+
   a:visited{
-    color: rgb(70, 25, 32);
-  } */
+    color:white;
+  }
+  
+  .landing-image{
+    height:100vh;
+    display: block;
+    /* height: 100vh; */
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+
+  .mobile-landing-image{
+   display:none;
+  }
   
   .landing-button {
-    background-color: rgb(89, 216, 255);
+    background-color: rgba(0, 0, 0, 0.733);
     border: none;
-    color: rgb(0, 0, 0);
-    margin-top: 2em;
-    padding: 1% 2%;
+    color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 85%;
-    position: relative;
-    width: 31%;
+    font-size: 3vh;
+    padding: 0.5em 0.5em;
+    position: absolute;
+    top: 85%;
+    left: 42%;
   }
   
   .landing-button:hover {
-    background-color: rgb(65, 193, 252); 
-    color:rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.644); 
+    color:rgb(255, 255, 255);
     
   }
   
-  .resize{
-    height: 23vh;
-    margin: 2em;
-  }
-
-  .text{
-      color: white;
-      padding: 0.5em;
-
-  }
-.landing-description{
-margin: 2em;
-margin-left: 1em;
-font-family: 'BentonSans-Regular';
-}
-
-  .content{
-    height: 30vh;
-    margin: 2em;
-    background-color: rgba(109, 133, 136, 0.301);
-    border-radius: 2em;
-    width: 100vh;
-    display: flex;
-  }
-  
-  .continue{
-margin: 2em;
-text-align: center;
-  }
 
   .desktop{
     display:block;
@@ -80,35 +71,7 @@ text-align: center;
     display:none;
   }
   @media only screen and (max-width:600px){
-    .desktop{
-      display: none;
-    }
-    .mobile{
-      display: block;
-
-      margin: auto;
-      background-color:rgb(196,248,255);
-      height: 100%;
-      text-align: center;
-    }
-    .mobile-resize{
-      height: 38vh;
-      margin: 2em;
-
-    }
-    .mobile-button{
-      background-color: rgb(89, 216, 255);
-      color: rgb(0, 0, 0);
-      margin-top: 3em;
-      padding: .5em .5em;
-     font-family: 'BentonSans-Regular';
-     text-decoration: none;
-     width: 50%;
-    }
-    .item{
-      height: 55vh;
-    }
-    .small-item{
-      height: 20vh;
+    .landing-button{
+      left: 38%;
     }
   }
