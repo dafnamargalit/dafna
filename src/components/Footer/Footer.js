@@ -8,13 +8,13 @@ import GitHub from './icons/github.svg';
 const Footer = () => {
     return(
         <div className="Footer">
-            <a href="https://instagram.com/dafna_margalit">
+            <a href="https://instagram.com/dafnamusic">
                 <img src={Instagram} className="Footer-Icons" alt="Instagram"/>
             </a>
             <a href="https://open.spotify.com/artist/6FR2ARlfDqNU7BMBaWjGZP?si=PWKSv6lXRqalW_vxZwdlqA">
             <img src={Spotify} className="Footer-Icons" alt="Spotify"/>
             </a>
-            <a href="https://twitter.com/dafnamargalit">
+            <a href="https://twitter.com/dafnamusic">
                 <img src={Twitter} className="Footer-Icons" alt="Twitter"/>
             </a>
             <a href="https://github.com/dafnamargalit">
