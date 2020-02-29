@@ -11,18 +11,25 @@
 
   .centered-text{
     position: absolute;
-  top: 40%;
+  top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
   }
   .text-type{
+    color:white; 
+    margin: -1em;
+    padding: -1em;
+    line-height: 70%;
     font-size: 10vh; 
   }
   .text-link{
-    color:white;  
-    font-size: 4vh;
+    color:white; 
+    margin: -1em;
+    padding: -1em; 
+    font-size: 7vh;
+
   }
 
   a:visited{

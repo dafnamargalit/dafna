@@ -12,12 +12,13 @@ const Landing = () => {
                 <img src={submerge} className="landing-image" alt="album"></img>
                 <div className = "centered-text">
                     <div className = "text-type">
-                    submerge <br></br> 2.29.20
+                    submerge <br></br> 
+                    <a className="text-link" href="https://dafna.fanlink.to/submerge">
+                    out now
+                    </a>
                     <br></br>
                     </div>
-                    <a className="text-link" href="https://distrokid.com/hyperfollow/dafna/submerge">
-                    pre-save now
-                    </a>
+                 
                 </div>
                
                 <Link to="/home" className="landing-button">
