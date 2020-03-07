@@ -22,16 +22,15 @@ import './News.css';
 	</div>
 		<div className="News-Content">
 			<div className="Row-1">
+			<Iframe className="News-Embed" url="https://lefuturewave.com/2020/03/07/introducing-dafna-submerge/"
+					width="500px"
+					height="500px"
+				/>
 				<Iframe className="News-Embed" url="https://fortheloveofbands.com/2020/01/18/dafnas-by-myself-is-your-comfort-blanket-for-loneliness/"
 					width="500px"
 					height="500px"
 				/>
 				<Iframe className="News-Embed" url="https://comeherefloyd.com/dafna-peta%c2%a5an-dakota-stephen-artemis-jr-lunir/"
-					width="500px"
-					height="500px"
-				/>
-
-			<Iframe className="News-Embed" url="http://cravethesound.com/interviews-1/dafna"
 					width="500px"
 					height="500px"
 				/>
