@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import projects from '../media/gifs/projects.gif';
-import fish from '../media/images/go-fish1.jpg';
+import drum from '../media/images/drum.png';
 import fmn from '../media/images/forgetmenot1.jpg';
 import btt from '../media/images/battleship.jpg';
 import click from '../media/writing/clik.png';
@@ -27,17 +27,17 @@ const Projects = () => {
         </div>
         <div className="Projects">
         <div className="projects-container">
-        <a href="https://github.com/dafnamargalit/go-fish">
-        <img className="projects-video" src={fish} alt="fish" ></img>
+        <a href="https://www.hackster.io/313139/mini-electronic-drum-set-64a1fc?utm_campaign=new_respect_for_project&utm_medium=email&utm_source=hackster">
+        <img className="projects-video" src={drum} alt="drum" ></img>
         <div className="projects-overlay">
                 <div className="Projects-description">
                     Language: 
-                    Python
+                    C
                 </div>
             </div>
         </a>
         <div className="Projects-description">
-                   Go Fish
+                   Mini Electronic Drum Set
         </div>
         </div>
 
@@ -122,13 +122,13 @@ const Projects = () => {
 
         <div className="projects-container">
         
-        <a href="https://github.com/dafnamargalit/go-fish">
-        <img className="projects-video" src={fish} alt="fish" ></img>
+        <a href="https://www.hackster.io/313139/mini-electronic-drum-set-64a1fc?utm_campaign=new_respect_for_project&utm_medium=email&utm_source=hackster">
+        <img className="projects-video" src={drum} alt="drum" ></img>
         <div className="projects-overlay">
                 <div className="Projects-description">
-                Project: Go Fish
+                Project:  Electronic Drum Set
                     Language: 
-                    Python
+                    C
                 </div>
             </div>
         </a>

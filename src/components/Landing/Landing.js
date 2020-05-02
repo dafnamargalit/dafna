@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import submerge from '../media/images/dafna-web.png';
+import submerge from '../media/album-covers/header4.jpg';
 
 import './Landing.css';
 
@@ -12,9 +12,9 @@ const Landing = () => {
                 <img src={submerge} className="landing-image" alt="album"></img>
                 <div className = "centered-text">
                     <div className = "text-type">
-                    submerge <br></br> 
-                    <a className="text-link" href="https://dafna.fanlink.to/submerge">
-                    out now
+                    easy <br></br> 
+                    <a className="text-link" href="https://distrokid.com/hyperfollow/dafna/easy">
+                    6.12.2020
                     </a>
                     <br></br>
                     </div>
