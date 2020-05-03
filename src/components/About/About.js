@@ -7,7 +7,7 @@ import O from '../media/letters/O-yellow.png';
 import U from '../media/letters/U-yellow.png';
 import T from '../media/letters/T-yellow.png';
 import about from '../media/writing/about-me.png';
-import Dafna from '../media/images/dafna.jpg';
+import Dafna from '../media/images/prof_pic.jpg';
 
 
 import './About.css';
