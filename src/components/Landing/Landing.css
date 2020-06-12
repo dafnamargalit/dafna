@@ -1,85 +1,123 @@
-.Landing {
-  height: 100%;
-  background-color: rgb(196,248,255);
+.Landing-Desktop{
+  background-image: url("../media/album-covers/header4.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  display: block;
+  justify-content: center;
+  background-position: center;
+}
+
+.Landing-Mobile{
+  display: none;
+}
+.announcement-desktop{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../media/images/dafna-web.png);
-  backdrop-filter: blur(1000px);
+  flex-direction: column;
+  font-size: 10vh;
+  font-family: 'BentonSans-Regular';
+  color: rgb(255, 98, 158);
+  height: 30%;
+  margin-bottom: 3em;
 
-  }
+}
 
-  .centered-text{
-    position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: rgb(255, 119, 187);
-  }
-  .text-type{
-    color: rgb(255, 119, 187);
-    margin: -1em;
-    padding: -1em;
-    line-height: 70%;
-    font-size: 10vh; 
-  }
-  .text-link{
-    color: rgb(255, 119, 187);
-    margin: -1em;
-    padding: -1em; 
-    font-size: 5vh;
-    
-
-  }
-
-  a:visited{
-    color:rgb(255, 167, 226);
-  }
-  
-  .landing-image{
-    height:100vh;
-    display: block;
-    /* height: 100vh; */
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-  }
-
-  .mobile-landing-image{
-   display:none;
-  }
-  
-  .landing-button {
-    background-color: rgba(0, 0, 0, 0.733);
-    border: none;
-    color: white;
+#out-desktop{
+  font-size: 5vh;
+}
+.buttons-desktop{
+    padding: .5em;
+    width: 100%;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 3vh;
-    padding: 0.5em 0.5em;
-    position: absolute;
-    top: 85%;
-    left: 42%;
-  }
-  
-  .landing-button:hover {
-    background-color: rgba(0, 0, 0, 0.644); 
-    color:rgb(255, 255, 255);
-    
-  }
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-  .desktop{
-    display:block;
+.landing-button-desktop{
+  text-align: center;
+  font-family: 'BentonSans-Regular';
+  font-size: 3vh;
+  width: 20%;
+  color: rgb(248, 184, 214);
+  padding: .5em .5em;
+  background-color: rgba(255, 79, 146, 0.644);
+  margin: .5em;
+  text-decoration: none;
+}
+
+.landing-button-desktop:hover{
+  background-color: rgba(247, 47, 124, 0.644);
+}
+
+
+
+@media only screen and (max-width:600px){
+  .Landing-Desktop{
+    display: none;
+  }
+  .Landing-Mobile{
+    background-image: url("../media/album-covers/header4.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: block;
+    justify-content: center;
+    background-position: center;
+  }
+  body{
+    margin:0;
+    padding:0;
+    background-color:rgb(255, 152, 191);
   }
 
-  .mobile{
-    display:none;
+  .announcement-mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 10vh;
+    font-family: 'BentonSans-Regular';
+    color: rgb(255, 98, 158);
+    height: 30%;
+    margin-bottom: 3em;
   }
-  @media only screen and (max-width:600px){
-    .landing-button{
-      left: 38%;
-    }
+
+  #out-mobile{
+    font-size: 5vh;
   }
+
+  .buttons-mobile{
+    padding: .5em;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.landing-button-mobile{
+  text-align: center;
+  font-family: 'BentonSans-Regular';
+  font-size: 3vh;
+  width: 50%;
+  color: rgb(248, 184, 214);
+  padding: .5em .5em;
+  background-color: rgba(255, 79, 146, 0.644);
+  margin: .5em;
+  text-decoration: none;
+}
+
+.landing-button-mobile:hover{
+  background-color: rgba(247, 47, 124, 0.644);
+}
+
+
+}
+
+
+
