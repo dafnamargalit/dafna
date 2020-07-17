@@ -11,12 +11,12 @@ const Landing = () => {
                     <div className="announcement-desktop">
                         yours someday
                         <div id="out-desktop">
-                            7.17.2020
+                            out now
                         </div>
                     </div>
                     <div className="buttons-desktop">
-                        <a href="https://distrokid.com/hyperfollow/dafna/yours-someday-3" id="listen" className="landing-button-desktop">
-                            pre-save now
+                        <a href="https://dafna.fanlink.to/yours-someday" id="listen" className="landing-button-desktop">
+                            listen now
                         </a>
                         <a href="https://linktr.ee/btfacollective" id="donate" className="landing-button-desktop">
                             donate to BTFA
@@ -30,12 +30,12 @@ const Landing = () => {
                     <div className="announcement-mobile">
                         yours someday
                         <div id="out-mobile">
-                           7.17.2020
+                           out now
                         </div>
                     </div>
                     <div className="buttons-mobile">
-                        <a href="https://distrokid.com/hyperfollow/dafna/yours-someday-3" id="listen" className="landing-button-mobile">
-                            pre-save now
+                        <a href="https://dafna.fanlink.to/yours-someday" id="listen" className="landing-button-mobile">
+                            listen now
                         </a>
                         <a href="https://linktr.ee/btfacollective" id="donate" className="landing-button-mobile">
                             donate to BTFA
