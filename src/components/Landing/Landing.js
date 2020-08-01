@@ -1,7 +1,6 @@
 import React from 'react';
  import {Link} from 'react-router-dom';
-
-// import background from "../media/album-covers/header4.jpg";
+ import YouTubePlayer from 'react-player/lib/players/YouTube';
 import './Landing.css';
 
 const Landing = () => {
@@ -13,13 +12,14 @@ const Landing = () => {
                         <div id="out-desktop">
                             out now
                         </div>
+                        
                     </div>
                     <div className="buttons-desktop">
+                         <a href="https://www.youtube.com/watch?v=gdYRMo-R99w&feature=youtu.be" id="watch" className="landing-button-desktop">
+                            watch the video
+                        </a>
                         <a href="https://dafna.fanlink.to/yours-someday" id="listen" className="landing-button-desktop">
                             listen now
-                        </a>
-                        <a href="https://linktr.ee/btfacollective" id="donate" className="landing-button-desktop">
-                            donate to BTFA
                         </a>
                         <Link to="/Home" className="landing-button-desktop">
                             continue to website
@@ -30,15 +30,15 @@ const Landing = () => {
                     <div className="announcement-mobile">
                         yours someday
                         <div id="out-mobile">
-                           out now
+                           music video out now
                         </div>
                     </div>
                     <div className="buttons-mobile">
+                        <a href="https://www.youtube.com/watch?v=gdYRMo-R99w&feature=youtu.be" id="watch" className="landing-button-mobile">
+                            watch the video
+                        </a>
                         <a href="https://dafna.fanlink.to/yours-someday" id="listen" className="landing-button-mobile">
                             listen now
-                        </a>
-                        <a href="https://linktr.ee/btfacollective" id="donate" className="landing-button-mobile">
-                            donate to BTFA
                         </a>
                         <Link to="/Home" className="landing-button-mobile">
                             continue to website
