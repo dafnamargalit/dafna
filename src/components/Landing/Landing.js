@@ -30,7 +30,7 @@ const Landing = () => {
                     <div className="announcement-mobile">
                         yours someday
                         <div id="out-mobile">
-                           music video out now
+                           out now
                         </div>
                     </div>
                     <div className="buttons-mobile">
