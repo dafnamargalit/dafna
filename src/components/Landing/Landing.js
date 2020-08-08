@@ -18,6 +18,9 @@ const Landing = () => {
                          <a href="https://www.youtube.com/watch?v=gdYRMo-R99w&feature=youtu.be" id="watch" className="landing-button-desktop">
                             watch the video
                         </a>
+                        <a href="https://www.youtube.com/watch?v=QOTVDxebru4" id="watch" className="landing-button-desktop">
+                            watch behind the scenes
+                        </a>
                         <a href="https://dafna.fanlink.to/yours-someday" id="listen" className="landing-button-desktop">
                             listen now
                         </a>
@@ -36,6 +39,9 @@ const Landing = () => {
                     <div className="buttons-mobile">
                         <a href="https://www.youtube.com/watch?v=gdYRMo-R99w&feature=youtu.be" id="watch" className="landing-button-mobile">
                             watch the video
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=QOTVDxebru4" id="watch" className="landing-button-mobile">
+                            watch behind the scenes
                         </a>
                         <a href="https://dafna.fanlink.to/yours-someday" id="listen" className="landing-button-mobile">
                             listen now
