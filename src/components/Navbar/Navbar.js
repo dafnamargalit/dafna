@@ -12,7 +12,7 @@ import './Navbar.css';
 const Navbar = () => {
     return(
         <div className="Navbar">
-            <Link to='/home' style={{textDecoration:'none'}}>
+            <Link to='/' style={{textDecoration:'none'}}>
                 <img src={D} className='Letters-D' alt="D"/>
             </Link>
             <Link to="/about" style={{textDecoration:'none'}}>

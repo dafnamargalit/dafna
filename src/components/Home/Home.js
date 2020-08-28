@@ -16,7 +16,7 @@ import React from 'react';
 	<div className='Home'>
 	<img src={click} className='Home-Click' alt="click"/>
 	<img src={here} className="Home-Here" alt="you are here"></img>
-	<Link to="/home" style={{textDecoration:'none'}}>
+	<Link to="/" style={{textDecoration:'none'}}>
 	<img src={D} className='Home-Letters-D' alt="D"/>
 	</Link>
 	<Link to="/about" style={{textDecoration:'none'}}>
