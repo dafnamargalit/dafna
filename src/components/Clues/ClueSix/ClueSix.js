@@ -1,46 +1,33 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import './ClueTwo.css'
+import './ClueSix.css'
 
-const ClueTwo = () => {
+const ClueSix = () => {
     return(
-        <div className="ClueTwo">
+        <div className="ClueSix">
         <div className = "clue-top">
             <Link to="/scavenger-hunt" className="ClueBack">
             <div className="ClueBack">
             <i class="clue-arrow clue-left"></i>
             BACK TO HUNT</div>
             </Link>
-            <div className="ClueHeading">CLUE Two</div>
+            <div className="ClueHeading">CLUE SIX</div>
         </div>
         <div className = "clue-box">
             <div className="clue-text">
-            8 different songs <br></br>
-            8 different riddles<br></br>
-            the journey will be <br></br>
-            anything but simple <br></br>
-            written here<br></br>
-            is your first clue <br></br>
-            the second Two <br></br>
-            will be found at CU<br></br>
-            <br></br>
-            with interim dean keith molenaar <br></br>
-            the building you’re looking for <br></br>
-            isn’t too far <br></br>
-            it’s known to be ugly <br></br>
-            and known to be gray <br></br>
-            but this is the building<br></br>
-            where I spend most of my days <br></br>
-            <br></br>
-            you’ll find me and the next clue <br></br>
-            outside the front entrance <br></br>
-            but please wear a mask <br></br>
-            so I won’t get suspended!
+            <p style={{color:'pink'}}>found at: Century Theaters</p> <br></br>
+            for the <b style={{color:'pink'}}>RECORD</b>, i'm rather impressed <br></br>
+            now let's do a little music history test <br></br>
+            a revolutionary disc created in 1931 <br></br>
+            is now something i love to collect for fun <br></br>
+            atop of <b style={{color:'pink'}}>THE HILL</b> is a wee little shop <br></br>
+            see if you can catch me there, ready or not <br></br>
+            <p style={{color:'pink'}}>reminder: i'll only be here from 6-7pm</p>
             </div>
         </div>
         </div>
     )
 }
 
-export default ClueTwo;
+export default ClueSix;

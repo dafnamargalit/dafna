@@ -22,6 +22,7 @@ const ClueTwo = React.lazy(() => import("../Clues/ClueTwo"));
 const ClueThree = React.lazy(() => import("../Clues/ClueThree"));
 const ClueFour = React.lazy(() => import("../Clues/ClueFour"));
 const ClueFive = React.lazy(() => import("../Clues/ClueFive"));
+const ClueSix = React.lazy(() => import("../Clues/ClueSix"));
 export default class App extends Component {
   render(){
   return (
@@ -54,6 +55,7 @@ export default class App extends Component {
       <Route path='/clue3' component={ClueThree}/>
       <Route path='/clue4' component={ClueFour}/>
       <Route path='/clue5' component={ClueFive}/>
+      <Route path='/clue6' component={ClueSix}/>
       <Route path='*' component={NotFound} />
       </div>
     </Router>

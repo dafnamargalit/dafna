@@ -16,7 +16,7 @@ const ClueFive = () => {
         </div>
         <div className = "clue-box">
             <div className="clue-text">
-            <p style={{color:'pink'}}> found at : University Memorial Center </p>
+            <p style={{color:'pink'}}>found at : The Laughing Goat on Pearl</p>
             <p using style={{color:'pink'}}>using the following format, spell out the location of the next clue: <br></br>
             <b>[song title, line number, word number, letter number]</b><br></br>(all of my lyrics are on genius)</p>
 
