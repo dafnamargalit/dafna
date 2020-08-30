@@ -10,7 +10,7 @@ const WillVill = () => {
         <div className = "clue-top">
             <Link to="/scavenger-hunt" className="ClueBack">
             <div className="ClueBack">
-            <i class="clue-arrow clue-left"></i>
+            <i className="clue-arrow clue-left"></i>
             BACK TO HUNT</div>
             </Link>
             <div className="ClueHeading">LOCATION</div>
