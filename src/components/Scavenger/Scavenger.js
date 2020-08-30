@@ -10,7 +10,7 @@ const Scavenger = () => {
         <div className = "top">
             <Link to="/" className="Back">
             <div className="Back">
-            <i class="arrow left"></i>
+            <i className="arrow left"></i>
             BACK TO WEBSITE</div>
             </Link>
         </div>

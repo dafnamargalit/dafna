@@ -8,10 +8,10 @@ const ClueOne = () => {
     return(
         <div className="ClueOne">
         <div className = "clue-top">
-            <Link to="/" className="ClueBack">
+            <Link to="/scavenger-hunt" className="ClueBack">
             <div className="ClueBack">
             <i class="clue-arrow clue-left"></i>
-            BACK TO WEBSITE</div>
+            BACK TO HUNT</div>
             </Link>
             <div className="ClueHeading">CLUE ONE</div>
         </div>
@@ -34,7 +34,7 @@ const ClueOne = () => {
             but this is the building<br></br>
             where I spend most of my days <br></br>
             <br></br>
-            you’ll find the next clue <br></br>
+            you’ll find me and the next clue <br></br>
             outside the front entrance <br></br>
             but please wear a mask <br></br>
             so I won’t get suspended!

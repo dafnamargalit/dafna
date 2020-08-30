@@ -79,7 +79,13 @@
   }
 
   @media only screen and (max-width: 600px) { 
+      .middle{
+          align-items: top;
+      }
     .LargeHeading{
         font-size: 3em;
+    }
+    .Clue{
+        margin: .2em;
     }
 }
