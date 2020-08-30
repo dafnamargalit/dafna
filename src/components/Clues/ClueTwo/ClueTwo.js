@@ -12,31 +12,25 @@ const ClueTwo = () => {
             <i class="clue-arrow clue-left"></i>
             BACK TO HUNT</div>
             </Link>
-            <div className="ClueHeading">CLUE Two</div>
+            <div className="ClueHeading">CLUE TWO</div>
         </div>
         <div className = "clue-box">
             <div className="clue-text">
-            8 different songs <br></br>
-            8 different riddles<br></br>
-            the journey will be <br></br>
-            anything but simple <br></br>
-            written here<br></br>
-            is your first clue <br></br>
-            the second Two <br></br>
-            will be found at CU<br></br>
+            <p style={{color:'pink'}}>found at: CU Engineering Center</p>
             <br></br>
-            with interim dean keith molenaar <br></br>
-            the building you’re looking for <br></br>
-            isn’t too far <br></br>
-            it’s known to be ugly <br></br>
-            and known to be gray <br></br>
-            but this is the building<br></br>
-            where I spend most of my days <br></br>
+            congratulations! <br></br>
+            you’re quite the sleuth <br></br>
+            are you sure you’re not nancy drew? <br></br>
+            if you found me, post me on your insta story <br></br>
+            don’t forget to tag dafna <br></br>
+            so she can witness your glory
             <br></br>
-            you’ll find me and the next clue <br></br>
-            outside the front entrance <br></br>
-            but please wear a mask <br></br>
-            so I won’t get suspended!
+            <br></br>
+            (@dafnamusic)
+            <br></br>
+            <br></br>
+            so glad to see you’re doing so well <br></br>
+            to find the next clue go to this URL: <Link to="/tRquVs" style={{textDecoration:'none', color: 'pink'}}>https://dafna.rocks/tRquVs</Link>
             </div>
         </div>
         </div>

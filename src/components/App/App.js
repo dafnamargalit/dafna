@@ -5,6 +5,7 @@ import Loader from 'react-loader-spinner';
 import './App.css';
 
 // const Landing = React.lazy(() => import("../Landing"));
+const NotFound = React.lazy(() => import("../NotFound"));
 const Home = React.lazy(() => import("../Home"));
 const About = React.lazy(() => import("../About"));
 const Folio = React.lazy(() => import("../Folio"));
@@ -17,7 +18,7 @@ const Projects = React.lazy(() => import("../Projects"));
 const Scavenger = React.lazy(() => import("../Scavenger"));
 const Rules = React.lazy(() => import("../Rules"));
 const ClueOne = React.lazy(() => import("../Clues/ClueOne"));
-const NotFound = React.lazy(() => import("../NotFound"));
+const ClueTwo = React.lazy(() => import("../Clues/ClueTwo"));
 export default class App extends Component {
   render(){
   return (
@@ -46,6 +47,7 @@ export default class App extends Component {
       <Route path='/scavenger-hunt' component={Scavenger}/>
       <Route path='/rules' component={Rules}/>
       <Route path='/clue1' component={ClueOne}/>
+      <Route path='/clue2' component={ClueTwo}/>
       <Route path='*' component={NotFound} />
       </div>
     </Router>
