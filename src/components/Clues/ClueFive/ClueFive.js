@@ -1,46 +1,48 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import './ClueTwo.css'
+import './ClueFive.css'
 
-const ClueTwo = () => {
+const ClueFive = () => {
     return(
-        <div className="ClueTwo">
+        <div className="ClueFive">
         <div className = "clue-top">
             <Link to="/scavenger-hunt" className="ClueBack">
             <div className="ClueBack">
             <i class="clue-arrow clue-left"></i>
             BACK TO HUNT</div>
             </Link>
-            <div className="ClueHeading">CLUE Two</div>
+            <div className="ClueHeading">CLUE FIVE</div>
         </div>
         <div className = "clue-box">
             <div className="clue-text">
-            8 different songs <br></br>
-            8 different riddles<br></br>
-            the journey will be <br></br>
-            anything but simple <br></br>
-            written here<br></br>
-            is your first clue <br></br>
-            the second Two <br></br>
-            will be found at CU<br></br>
+            <p style={{color:'pink'}}> found at : University Memorial Center </p>
+            <p using style={{color:'pink'}}>using the following format, spell out the location of the next clue: <br></br>
+            <b>[song title, line number, word number, letter number]</b><br></br>(all of my lyrics are on genius)</p>
+
+            "valentine", 6, 6, 1 <br></br>
+            "let u go", 1, 1, 3 <br></br>
+            "yours someday", 11, 2, 3 <br></br>
+            "easy", 25, 10, 10 <br></br>
+            "submerge", 10, 2, 2 <br></br>
+            "do u feel how i feel ?", 13, 5, 2 <br></br>
+            "by myself", 5, 4, 6 <br></br>
             <br></br>
-            with interim dean keith molenaar <br></br>
-            the building you’re looking for <br></br>
-            isn’t too far <br></br>
-            it’s known to be ugly <br></br>
-            and known to be gray <br></br>
-            but this is the building<br></br>
-            where I spend most of my days <br></br>
+            (space)
             <br></br>
-            you’ll find me and the next clue <br></br>
-            outside the front entrance <br></br>
-            but please wear a mask <br></br>
-            so I won’t get suspended!
+            <br></br>
+            "for now", 1, 1, 3 <br></br>
+            "swimming", 8, 3, 6 <br></br>
+            "the devil's dance", 17, 2, 3 <br></br>
+            "oblivion", 3, 4, 3 <br></br>
+            "if you're a dove", 7, 4, 1 <br></br>
+            "holy, 9, 6, 6" <br></br>
+            "stand still", 5, 4, 4 <br></br>
+            <p style={{color:'pink'}}>reminder: i'll only be here from 6-7pm</p>
             </div>
         </div>
         </div>
     )
 }
 
-export default ClueTwo;
+export default ClueFive;

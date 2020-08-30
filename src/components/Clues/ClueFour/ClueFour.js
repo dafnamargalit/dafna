@@ -16,9 +16,7 @@ const ClueFour = () => {
         </div>
         <div className = "clue-box">
             <div className="clue-text">
-            found at : The Laughing Goat on Pearl
-            <br></br>
-            <br></br>
+            <p style={{color:'pink'}}>found at : The Laughing Goat on Pearl</p>
             let's transport to october, 2019<br></br>
             i sang in the ballroom of this big building<br></br>
             i opened for emo baby and keanu reeves<br></br>
