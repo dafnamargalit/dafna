@@ -30,7 +30,8 @@ const ClueTwo = () => {
             <br></br>
             <br></br>
             so glad to see you’re doing so well <br></br>
-            to find the next clue go to this URL: <Link to="/tRquVs" style={{textDecoration:'none', color: 'pink'}}>https://dafna.rocks/tRquVs</Link>
+            to find where i'll be go to this URL: <Link to="/tRquVs" style={{textDecoration:'none', color: 'pink'}}>https://dafna.rocks/tRquVs</Link> <br></br>
+            <p style={{color:'pink'}}>reminder: i'll only be here from 6-7pm</p>
             </div>
         </div>
         </div>

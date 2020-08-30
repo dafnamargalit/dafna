@@ -27,6 +27,7 @@ const ClueThree = () => {
             so I formed a band and we played our first show<br></br>
             the world was my oyster and oysters make <b style={{color:'pink'}}>PEARLS</b><br></br>
             this cafe makes really good cinnamon swirls <br></br>
+            <p style={{color:'pink'}}>reminder: i'll only be here from 6-7pm</p>
             </div>
         </div>
         </div>

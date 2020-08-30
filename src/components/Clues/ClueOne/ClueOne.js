@@ -37,6 +37,8 @@ const ClueOne = () => {
             outside the front entrance <br></br>
             but please wear a mask <br></br>
             so I won’t get suspended!
+            <br></br>
+            <p style={{color:'pink'}}>reminder: i'll only be here from 6-7pm</p>
             </div>
         </div>
         </div>
