@@ -1,3 +1,3 @@
-import ClueTwo from './ClueTwo';
+import ClueEight from './ClueEight';
 
-export default ClueTwo;
+export default ClueEight;

@@ -5,7 +5,7 @@ import Loader from 'react-loader-spinner';
 import './App.css';
 
 // const Landing = React.lazy(() => import("../Landing"));
-const NotFound = React.lazy(() => import("../NotFound"));
+// const NotFound = React.lazy(() => import("../NotFound"));
 const Home = React.lazy(() => import("../Home"));
 const About = React.lazy(() => import("../About"));
 const Folio = React.lazy(() => import("../Folio"));
@@ -23,6 +23,8 @@ const ClueThree = React.lazy(() => import("../Clues/ClueThree"));
 const ClueFour = React.lazy(() => import("../Clues/ClueFour"));
 const ClueFive = React.lazy(() => import("../Clues/ClueFive"));
 const ClueSix = React.lazy(() => import("../Clues/ClueSix"));
+const ClueSeven = React.lazy(() => import("../Clues/ClueSeven"));
+const ClueEight = React.lazy(() => import("../Clues/ClueEight"));
 export default class App extends Component {
   render(){
   return (
@@ -56,7 +58,9 @@ export default class App extends Component {
       <Route path='/clue4' component={ClueFour}/>
       <Route path='/clue5' component={ClueFive}/>
       <Route path='/clue6' component={ClueSix}/>
-      <Route path='*' component={NotFound} />
+      <Route path='/clue7' component={ClueSeven}/>
+      <Route path='/clue8' component={ClueEight}/>
+      {/* <Route path='*' component={NotFound} /> */}
       </div>
     </Router>
 </React.Suspense>

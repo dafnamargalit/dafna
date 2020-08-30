@@ -1,4 +1,4 @@
-.ClueTwo{
+.ClueEight{
     background-image: url('../../media/gifs/glitchy.gif');
     height: 110vh;
     width: 100vw;
@@ -40,7 +40,7 @@
     font-family: 'Courier New', Courier, monospace;
     display: block;
     color: white;
-    width: 30vw;
+    width: 100vw;
     text-align: center;
 }
 
@@ -79,7 +79,7 @@
         font-size: 2em;
     }
     .clue-text{
-        width: 100vw;
+        width: 90vw;
     }
     .clue-box{
         margin: .5em;

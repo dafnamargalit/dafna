@@ -9,7 +9,7 @@ const ClueTwo = () => {
         <div className = "clue-top">
             <Link to="/scavenger-hunt" className="ClueBack">
             <div className="ClueBack">
-            <i class="clue-arrow clue-left"></i>
+            <i className="clue-arrow clue-left"></i>
             BACK TO HUNT</div>
             </Link>
             <div className="ClueHeading">CLUE TWO</div>
@@ -31,7 +31,8 @@ const ClueTwo = () => {
             <br></br>
             so glad to see you’re doing so well <br></br>
             to find where i'll be go to this URL: <Link to="/tRquVs" style={{textDecoration:'none', color: 'pink'}}>https://dafna.rocks/tRquVs</Link> <br></br>
-            <p style={{color:'pink'}}>reminder: i'll only be here from 6-7pm</p>
+            <p style={{color:'pink'}}>reminder: i'll only be here from 6-7pm</p><br></br>
+            <b><a href="https://link.tree/dafnamusic" style={{textDecoration:'none', color:'pink'}}>click here to pre-save I LOVE YOU the album</a></b>
             </div>
         </div>
         </div>

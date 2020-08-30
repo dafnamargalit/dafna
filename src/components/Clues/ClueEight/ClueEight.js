@@ -1,46 +1,39 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import './ClueTwo.css'
+import './ClueEight.css'
 
-const ClueTwo = () => {
+const ClueEight = () => {
     return(
-        <div className="ClueTwo">
+        <div className="ClueEight">
         <div className = "clue-top">
             <Link to="/scavenger-hunt" className="ClueBack">
             <div className="ClueBack">
             <i class="clue-arrow clue-left"></i>
             BACK TO HUNT</div>
             </Link>
-            <div className="ClueHeading">CLUE Two</div>
+            <div className="ClueHeading">CLUE EIGHT</div>
         </div>
         <div className = "clue-box">
             <div className="clue-text">
-            8 different songs <br></br>
-            8 different riddles<br></br>
-            the journey will be <br></br>
-            anything but simple <br></br>
-            written here<br></br>
-            is your first clue <br></br>
-            the second Two <br></br>
-            will be found at CU<br></br>
+            <p style={{color:'pink'}}>found at: The Fox Theatre</p> <br></br>
+            congrats! you're the winner<text style={{color:'pink'}}>*</text> of this little game <br></br>
+            to collect your prize DM me your address and name <br></br>
+            i'll send you some merch, you can choose which you like <br></br>
+            and i'll buy you some coffee, any time, day or night <br></br>
             <br></br>
-            with interim dean keith molenaar <br></br>
-            the building you’re looking for <br></br>
-            isn’t too far <br></br>
-            it’s known to be ugly <br></br>
-            and known to be gray <br></br>
-            but this is the building<br></br>
-            where I spend most of my days <br></br>
-            <br></br>
-            you’ll find me and the next clue <br></br>
-            outside the front entrance <br></br>
-            but please wear a mask <br></br>
-            so I won’t get suspended!
+            and so it ends, i hope you had fun! <br></br>
+            this concludes  <b style={{color:'pink'}}>I LOVE YOU</b> the scavenger hunt <br></br>
+            but don't worry, festivities don't have to end<br></br>
+            <b style={{color:'pink'}}>I LOVE YOU</b> the album comes out tonight at 10!<br></br>
+
+            <p style={{color:'pink'}}>*the winner is the person who found the physical clue</p>
+
+            <b><a href="https://link.tree/dafnamusic" style={{textDecoration:'none', color:'pink'}}>click here to pre-save I LOVE YOU the album</a></b>
             </div>
         </div>
         </div>
     )
 }
 
-export default ClueTwo;
+export default ClueEight;

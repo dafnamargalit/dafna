@@ -38,7 +38,9 @@ const ClueFive = () => {
             "if you're a dove", 7, 4, 1 <br></br>
             "holy, 9, 6, 6" <br></br>
             "stand still", 5, 4, 4 <br></br>
-            <p style={{color:'pink'}}>reminder: i'll only be here from 6-7pm</p>
+            <p style={{color:'pink'}}>reminder: i'll only be here from 6-7pm</p><br></br>
+
+            <b><a href="https://link.tree/dafnamusic" style={{textDecoration:'none', color:'pink'}}>click here to pre-save I LOVE YOU the album</a></b>
             </div>
         </div>
         </div>

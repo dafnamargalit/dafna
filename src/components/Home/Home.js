@@ -15,9 +15,9 @@ import React from 'react';
 	return(
 	<div className='Home'>
 	<div className='Home-Top'>
-	<Link to="/scavenger-hunt" className="Scavenge">
+	{/* <Link to="/scavenger-hunt" className="Scavenge">
 		CLICK HERE TO PLAY THE SCAVENGER HUNT
-	</Link>
+	</Link> */}
 	</div>
 	<div className="Home-Middle">
 		<img src={click} className='Home-Click' alt="click"/>
