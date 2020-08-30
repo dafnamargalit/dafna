@@ -17,6 +17,7 @@ const Scavenger = () => {
         <div className = "middle">
             <div className="LargeHeading">I LOVE YOU</div>
             <div className="Subtitle">the scavenger hunt</div>
+            <Link to='/rules' className="Clue">THE RULES</Link>
             <Link to='/clue1' className="Clue">CLUE #1</Link>
         </div>
         <div className = "bottom">
