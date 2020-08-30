@@ -1,0 +1,87 @@
+.ClueOne{
+    background-image: url('../../media/gifs/glitchy.gif');
+    height: 110vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clue-top{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clue-box{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2em;
+}
+
+.bottom{
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+}
+
+.ClueHeading{
+    font-family:"Arial Black";
+    font-size: 4em;
+    color:rgb(255, 217, 235);
+
+}
+
+.clue-text{
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    color: white;
+    width: 30vw;
+    text-align: center;
+}
+
+.Clue{
+    margin: .5em;
+    font-family: 'BentonSans-Regular';
+    text-decoration:none;
+    color: black;
+}
+
+.Clue:hover{
+    color: white;
+}
+.ClueBack{
+    text-decoration: none;
+    color:white;
+    font-family: 'BentonSans-Regular';
+}
+
+
+.clue-arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: .2em;
+  }
+
+  .clue-left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+  @media only screen and (max-width: 600px) { 
+    .ClueHeading{
+        font-size: 2em;
+    }
+    .clue-text{
+        width: 100vw;
+    }
+    .clue-box{
+        margin: .5em;
+    }
+}

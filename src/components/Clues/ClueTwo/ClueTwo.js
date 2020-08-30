@@ -1,19 +1,18 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import Footer from '../Footer';
 
-import './ClueOne.css'
+import './ClueTwo.css'
 
-const ClueOne = () => {
+const ClueTwo = () => {
     return(
-        <div className="ClueOne">
+        <div className="ClueTwo">
         <div className = "clue-top">
             <Link to="/scavenger-hunt" className="ClueBack">
             <div className="ClueBack">
             <i class="clue-arrow clue-left"></i>
             BACK TO HUNT</div>
             </Link>
-            <div className="ClueHeading">CLUE ONE</div>
+            <div className="ClueHeading">CLUE Two</div>
         </div>
         <div className = "clue-box">
             <div className="clue-text">
@@ -23,7 +22,7 @@ const ClueOne = () => {
             anything but simple <br></br>
             written here<br></br>
             is your first clue <br></br>
-            the second one <br></br>
+            the second Two <br></br>
             will be found at CU<br></br>
             <br></br>
             with interim dean keith molenaar <br></br>
@@ -44,4 +43,4 @@ const ClueOne = () => {
     )
 }
 
-export default ClueOne;
+export default ClueTwo;
