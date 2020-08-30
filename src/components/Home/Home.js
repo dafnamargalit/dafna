@@ -14,23 +14,30 @@ import React from 'react';
 	const Home = () => {
 	return(
 	<div className='Home'>
-	<img src={click} className='Home-Click' alt="click"/>
-	<img src={here} className="Home-Here" alt="you are here"></img>
-	<Link to="/" style={{textDecoration:'none'}}>
-	<img src={D} className='Home-Letters-D' alt="D"/>
+	<div className='Home-Top'>
+	<Link to="/scavenger-hunt" className="Scavenge">
+		CLICK HERE TO PLAY THE SCAVENGER HUNT
 	</Link>
-	<Link to="/about" style={{textDecoration:'none'}}>
-	<img src={A} className='Home-Letters-A' alt="A"/>
-	</Link>
-	<Link to="/folio" style={{textDecoration:'none'}}>
-	<img src={F} className='Home-Letters-F' alt="F"/>
-	</Link>
-	<Link to="/news" style={{textDecoration:'none'}}>
-	<img src={N} className='Home-Letters-N' alt="N"/>
-	</Link>
-	<Link to="/ask" style={{textDecoration:'none'}}>
-	<img src={AP} className='Home-Letters-A' alt="AP"/>
-	</Link>
+	</div>
+	<div className="Home-Middle">
+		<img src={click} className='Home-Click' alt="click"/>
+		<img src={here} className="Home-Here" alt="you are here"></img>
+		<Link to="/" style={{textDecoration:'none'}}>
+		<img src={D} className='Home-Letters-D' alt="D"/>
+		</Link>
+		<Link to="/about" style={{textDecoration:'none'}}>
+		<img src={A} className='Home-Letters-A' alt="A"/>
+		</Link>
+		<Link to="/folio" style={{textDecoration:'none'}}>
+		<img src={F} className='Home-Letters-F' alt="F"/>
+		</Link>
+		<Link to="/news" style={{textDecoration:'none'}}>
+		<img src={N} className='Home-Letters-N' alt="N"/>
+		</Link>
+		<Link to="/ask" style={{textDecoration:'none'}}>
+		<img src={AP} className='Home-Letters-A' alt="AP"/>
+		</Link>
+	</div>
 	<div className="Home-Footer">
 	<Footer/>
 	</div>

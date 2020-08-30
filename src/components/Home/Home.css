@@ -2,10 +2,36 @@
 	background-color: rgb(196, 248, 255);
 	height: 100vh;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	flex-direction: column;
+	}
+
+	.Home-Top{
+		height: 10vh;
+		display:flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.Scavenge{
+		text-decoration:none;
+		font-family: 'BentonSans-Regular';
+		color: black;
+		text-align: center;
 	}
 	
+	.Scavenge:hover{
+		border: solid rgb(255, 217, 235) .05em;
+		border-radius: .2em;
+		background-color: rgb(255, 217, 235);
+		padding: .2em;
+	}
+	.Home-Middle{
+		height: 71vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
 	.Home-Letters-D{
 	height: 18vh;
 	transition: transform .2s;
@@ -59,13 +85,11 @@
 	}
 	
 	.Home-Footer{
-	position: absolute;
-	height: 30vh;
-	top: 65vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
+		height: 15vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
 	}
 
 	.Home-Here{
@@ -119,5 +143,12 @@
 			.Home-Footer{
 				top: 60vh;
 				}
+			.Scavenge{
+				font-size: .8em;
+				border: solid rgb(255, 217, 235) .05em;
+				border-radius: .2em;
+				background-color: rgb(255, 217, 235);
+				padding: .2em;
+			}
 
 	}

@@ -14,6 +14,7 @@ const Merch = React.lazy(() => import("../Merch"));
 const Music = React.lazy(() => import("../Music"));
 const Resume = React.lazy(() => import("../Resume"));
 const Projects = React.lazy(() => import("../Projects"));
+const Scavenger = React.lazy(() => import("../Scavenger"));
 
 export default class App extends Component {
   render(){
@@ -40,6 +41,7 @@ export default class App extends Component {
       <Route path='/music' component={Music}/>
       <Route path='/projects' component={Projects}/>
       <Route path='/resume' component={Resume}/>
+      <Route path='/scavenger-hunt' component={Scavenger}/>
       </div>
     </Router>
 </React.Suspense>
