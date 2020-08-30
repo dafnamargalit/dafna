@@ -21,9 +21,9 @@ const ClueTwo = () => {
             congratulations! <br></br>
             you’re quite the sleuth <br></br>
             are you sure you’re not nancy drew? <br></br>
-            if you found me, post me on your insta story <br></br>
-            don’t forget to tag dafna <br></br>
-            so she can witness your glory
+            if you found this, post it on your insta story <br></br>
+            don’t forget to tag me! <br></br>
+            so I can witness your glory
             <br></br>
             <br></br>
             (@dafnamusic)

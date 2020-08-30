@@ -1,46 +1,36 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import './ClueTwo.css'
+import './ClueThree.css'
 
-const ClueTwo = () => {
+const ClueThree = () => {
     return(
-        <div className="ClueTwo">
+        <div className="ClueThree">
         <div className = "clue-top">
             <Link to="/scavenger-hunt" className="ClueBack">
             <div className="ClueBack">
             <i class="clue-arrow clue-left"></i>
             BACK TO HUNT</div>
             </Link>
-            <div className="ClueHeading">CLUE Two</div>
+            <div className="ClueHeading">CLUE THREE</div>
         </div>
         <div className = "clue-box">
             <div className="clue-text">
-            8 different songs <br></br>
-            8 different riddles<br></br>
-            the journey will be <br></br>
-            anything but simple <br></br>
-            written here<br></br>
-            is your first clue <br></br>
-            the second Two <br></br>
-            will be found at CU<br></br>
+            <p style={{color:'pink'}}>found at: will vill east</p> <br></br>
             <br></br>
-            with interim dean keith molenaar <br></br>
-            the building you’re looking for <br></br>
-            isn’t too far <br></br>
-            it’s known to be ugly <br></br>
-            and known to be gray <br></br>
-            but this is the building<br></br>
-            where I spend most of my days <br></br>
+            i can’t believe you’ve made it this far! <br></br>
+            i hope you don’t find this next clue bizarre <br></br>
             <br></br>
-            you’ll find me and the next clue <br></br>
-            outside the front entrance <br></br>
-            but please wear a mask <br></br>
-            so I won’t get suspended!
+            when i was a freshman, back in 2018<br></br>
+            i set out to live one of my dreams<br></br>
+            i knew that i wanted to be the <b style={{color:'pink'}}>GOAT</b><br></br>
+            so I formed a band and we played our first show<br></br>
+            the world was my oyster and oysters make <b style={{color:'pink'}}>PEARLS</b><br></br>
+            this cafe makes really good cinnamon swirls <br></br>
             </div>
         </div>
         </div>
     )
 }
 
-export default ClueTwo;
+export default ClueThree;
