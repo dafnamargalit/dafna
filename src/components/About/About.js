@@ -31,9 +31,9 @@ return(
 <img src={about} className="About-Me" alt="(about me)"/>
 <div className="About-Content">
 <div className="About-Text">
-<p> Dafna is a 19 year old singer/songwriter, producer, and undergraduate engineering student from Boulder, CO.
+<p> Dafna is a 20 year old singer/songwriter, producer, and undergraduate engineering student from Boulder, CO.
 When she's not making music, studying, or coding, you can find Dafna doing what she loves most: napping.
-Additional hobbies include laughing at her own jokes, eating,
+Additional hobbies include video games, eating,
 rollerblading (but only when the temperature is between 60 and 80 degrees Fahrenheit),
 and creating this website. </p>
 </div>

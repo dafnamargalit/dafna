@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import Footer from '../Footer';
 
 import './Rules.css'
 
@@ -17,7 +16,7 @@ const Rules = () => {
         </div>
         <div className = "rules-box">
             <div className="rules-text">
-            1. There are a total of 8 clues, and I'll be hiding one clue per day from 9/18 to 9/24 <br></br>
+            1. There are a total of 8 clues, and I'll be hiding one clue per day around Boulder from 9/18 to 9/24 <br></br>
             <br></br>
             2. The next clue will only be in its location from 6pm-7pm the day that the previous clue is posted<br></br>
             <br></br>
@@ -32,6 +31,9 @@ const Rules = () => {
             7. It is super important that you WEAR A MASK to all these locations <br></br>
             <br></br>
             8. Whoever finds the most clues (or final clue if it's a tie) gets free merch and free coffee
+            <br></br>
+            <br></br>
+            9. IN CASE OF BAD WEATHER, FIRST PERSON TO DM ME THE LOCATION THE NEXT CLUE AT 6PM THAT DAY RECEIVES THE NEXT CLUE
             <br></br>
             <br></br>
             Questions or confused about the rules? Shoot me an <a style={{color: 'white'}} href="mailto: dafna.business@gmail.com">email</a> or DM me on insta @dafnamusic 

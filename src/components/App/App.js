@@ -17,15 +17,15 @@ const Resume = React.lazy(() => import("../Resume"));
 const Projects = React.lazy(() => import("../Projects"));
 const Scavenger = React.lazy(() => import("../Scavenger"));
 const Rules = React.lazy(() => import("../Rules"));
-const ClueOne = React.lazy(() => import("../Clues/ClueOne"));
-const ClueTwo = React.lazy(() => import("../Clues/ClueTwo"));
-const ClueThree = React.lazy(() => import("../Clues/ClueThree"));
-const ClueFour = React.lazy(() => import("../Clues/ClueFour"));
-const ClueFive = React.lazy(() => import("../Clues/ClueFive"));
-const ClueSix = React.lazy(() => import("../Clues/ClueSix"));
-const ClueSeven = React.lazy(() => import("../Clues/ClueSeven"));
-const ClueEight = React.lazy(() => import("../Clues/ClueEight"));
-const WillVill = React.lazy(() => import("../Clues/WillVill"));
+// const ClueOne = React.lazy(() => import("../Clues/ClueOne"));
+// const ClueTwo = React.lazy(() => import("../Clues/ClueTwo"));
+// const ClueThree = React.lazy(() => import("../Clues/ClueThree"));
+// const ClueFour = React.lazy(() => import("../Clues/ClueFour"));
+// const ClueFive = React.lazy(() => import("../Clues/ClueFive"));
+// const ClueSix = React.lazy(() => import("../Clues/ClueSix"));
+// const ClueSeven = React.lazy(() => import("../Clues/ClueSeven"));
+// const ClueEight = React.lazy(() => import("../Clues/ClueEight"));
+// const WillVill = React.lazy(() => import("../Clues/WillVill"));
 export default class App extends Component {
   render(){
   return (
@@ -53,7 +53,7 @@ export default class App extends Component {
       <Route path='/resume' component={Resume}/>
       <Route path='/scavenger-hunt' component={Scavenger}/>
       <Route path='/rules' component={Rules}/>
-      <Route path='/clue1' component={ClueOne}/>
+      {/* <Route path='/clue1' component={ClueOne}/>
       <Route path='/clue2' component={ClueTwo}/>
       <Route path='/clue3' component={ClueThree}/>
       <Route path='/clue4' component={ClueFour}/>
@@ -61,7 +61,7 @@ export default class App extends Component {
       <Route path='/clue6' component={ClueSix}/>
       <Route path='/clue7' component={ClueSeven}/>
       <Route path='/clue8' component={ClueEight}/>
-      <Route path='/tRquVs' component={WillVill}/>
+      <Route path='/tRquVs' component={WillVill}/> */}
       {/* <Route path='*' component={NotFound} /> */}
       </div>
     </Router>
