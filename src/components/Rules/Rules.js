@@ -18,7 +18,8 @@ const Rules = () => {
             <div className="rules-text">
             1. There are a total of 8 clues, and I'll be hiding one clue per day around Boulder from 9/18 to 9/24 <br></br>
             <br></br>
-            2. The next clue will only be in its location from 6pm-7pm the day that the previous clue is posted<br></br>
+            2. The next clue will only be in its location from <b>6pm-7pm</b> the day that the previous clue is posted <br></br>
+            <b>EXCEPT FOR ON 9/18, only 3-4pm (it's a jewish holiday!)</b><br></br>
             <br></br>
             3. ANYONE and EVERYONE can participate <br></br>
             <br></br>
