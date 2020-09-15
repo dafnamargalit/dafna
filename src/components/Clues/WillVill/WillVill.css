@@ -20,17 +20,16 @@
 }
 
 .clue-box{
-    height: 80vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     margin: 2em;
 }
 
 .bottom{
     height: 10vh;
     display: flex;
-    justify-content: end;
 }
 
 .ClueHeading{
@@ -44,7 +43,6 @@
     font-family: 'Courier New', Courier, monospace;
     display: block;
     color: white;
-    width: 40vw;
     text-align: center;
 }
 
@@ -64,7 +62,12 @@
     font-family: 'BentonSans-Regular';
 }
 
-
+.link{
+    color: white;
+}
+.link:visited{
+    color: white;
+}
 .clue-arrow {
     border: solid white;
     border-width: 0 3px 3px 0;
@@ -78,6 +81,23 @@
     -webkit-transform: rotate(135deg);
   }
 
+  .hide-text{
+      margin: 1em;
+  }
+
+
+  .location-blocker{
+      text-align: center;
+      width: 60vh;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  .text-box{
+      margin: 1em;
+  }
   @media only screen and (max-width: 600px) { 
     .ClueHeading{
         font-size: 2em;
