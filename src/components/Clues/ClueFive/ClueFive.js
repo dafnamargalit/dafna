@@ -21,7 +21,7 @@ const ClueFive = () => {
             <b>[song title, line number, word number, letter number]</b><br></br>(all of my lyrics are on genius)</p>
 
             "valentine", 6, 6, 1 <br></br>
-            "let u go", 1, 1, 3 <br></br>
+            "let u go", 1, 2, 4 <br></br>
             "yours someday", 11, 2, 3 <br></br>
             "easy", 25, 10, 10 <br></br>
             "submerge", 10, 2, 2 <br></br>
@@ -36,9 +36,9 @@ const ClueFive = () => {
             "the devil's dance", 17, 2, 3 <br></br>
             "oblivion", 3, 4, 3 <br></br>
             "if you're a dove", 7, 4, 1 <br></br>
-            "holy, 9, 6, 6" <br></br>
+            "holy", 9, 6, 6 <br></br>
             "stand still", 5, 4, 4 <br></br>
-            <p style={{color:'pink'}}>reminder: i'll only be here from 6-7pm</p><br></br>
+            <p style={{color:'pink'}}>reminder: i'll only be here from 6-7pm on 9/22</p><br></br>
 
             <b><a href="https://link.tree/dafnamusic" style={{textDecoration:'none', color:'pink'}}>click here to pre-save I LOVE YOU the album</a></b>
             </div>

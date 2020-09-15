@@ -30,8 +30,8 @@ const ClueTwo = () => {
             <br></br>
             <br></br>
             so glad to see you’re doing so well <br></br>
-            to find where i'll be go to this URL: <Link to="/tRquVs" style={{color: 'pink'}}>https://dafna.rocks/tRquVs</Link> <br></br>
-            <p style={{color:'pink'}}>reminder: i'll only be here from 6-7pm</p><br></br>
+            to find where i'll be next go to this URL: <Link to="/tRquVs" style={{color: 'pink'}}>https://dafna.rocks/tRquVs</Link> <br></br>
+            <p style={{color:'pink'}}>reminder: i'll only be here from 6-7pm on 9/19</p><br></br>
             <b><a href="https://link.tree/dafnamusic" style={{textDecoration:'none', color:'pink'}}>click here to pre-save I LOVE YOU the album</a></b>
             </div>
         </div>

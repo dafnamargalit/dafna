@@ -24,7 +24,7 @@ const ClueThree = () => {
             <br></br>
             i hope you'll find me, i'll be at the entrance<br></br>
             facing towards broadway, from 6-7<br></br>
-            <p style={{color:'pink'}}>reminder: i'll only be here from 6-7pm</p><br></br>
+            <p style={{color:'pink'}}>reminder: i'll only be here from 6-7pm on 9/20</p><br></br>
 
             <b><a href="https://link.tree/dafnamusic" style={{textDecoration:'none', color:'pink'}}>click here to pre-save I LOVE YOU the album</a></b>
             </div>

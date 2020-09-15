@@ -26,9 +26,9 @@ const ClueFour = () => {
             i knew that i wanted to be the <b style={{color:'pink'}}>GOAT</b><br></br>
             so I formed a band and we played our first show<br></br>
             the world was my oyster and oysters make <b style={{color:'pink'}}>PEARLS</b><br></br>
-            this cafe makes really good cinnamon swirls <br></br>
+            my favorite tea to get here is earl <br></br>
 
-            <p style={{color:'pink'}}>reminder: i'll only be here from 6-7pm</p><br></br>
+            <p style={{color:'pink'}}>reminder: i'll only be here from 6-7pm on 9/21</p><br></br>
 
             <b><a href="https://link.tree/dafnamusic" style={{textDecoration:'none', color:'pink'}}>click here to pre-save I LOVE YOU the album</a></b>
             </div>

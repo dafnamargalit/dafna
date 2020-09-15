@@ -22,7 +22,7 @@ const ClueSeven = () => {
             this show even got written about on crave the sounds blog<br></br>
             the quick brown <b style={{color:'pink'}}>FOX</b> jumps over the lazy dog<br></br>
             <br></br>
-            <p style={{color:'pink'}}>reminder: i'll only be here from 6-7pm</p><br></br>
+            <p style={{color:'pink'}}>reminder: i'll only be here from 6-7pm on 9/24</p><br></br>
 
             <b><a href="https://link.tree/dafnamusic" style={{textDecoration:'none', color:'pink'}}>click here to pre-save I LOVE YOU the album</a></b>
            </div>

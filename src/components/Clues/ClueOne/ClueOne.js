@@ -30,7 +30,7 @@ const ClueOne = () => {
             isn’t too far <br></br>
             it’s known to be ugly <br></br>
             and known to be gray <br></br>
-            but this is the building<br></br>
+            but this building is
             where I spend most of my days <br></br>
             <br></br>
             you’ll find me and the next clue <br></br>
@@ -38,7 +38,7 @@ const ClueOne = () => {
             but please wear a mask <br></br>
             so I won’t get suspended!
             <br></br>
-            <p style={{color:'pink'}}>reminder: i'll only be here from 6-7pm</p><br></br>
+            <p style={{color:'pink'}}>reminder: i'll only be here from 3-4pm</p><br></br>
 
             <b><a href="https://link.tree/dafnamusic" style={{textDecoration:'none', color:'pink'}}>click here to pre-save I LOVE YOU the album</a></b>
             </div>
