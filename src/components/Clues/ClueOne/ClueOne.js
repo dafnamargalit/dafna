@@ -23,20 +23,14 @@ const ClueOne = () => {
             written here<br></br>
             is your first clue <br></br>
             the second one <br></br>
-            will be found at CU<br></br>
+            will be found somewhere new<br></br>
             <br></br>
-            with interim dean keith molenaar <br></br>
-            the building you’re looking for <br></br>
-            isn’t too far <br></br>
-            it’s known to be ugly <br></br>
-            and known to be gray <br></br>
-            but this building is
-            where I spend most of my days <br></br>
-            <br></br>
-            you’ll find me and the next clue <br></br>
-            outside the front entrance <br></br>
-            but please wear a mask <br></br>
-            so I won’t get suspended!
+            in 1959 the Mercury Seven <br></br>
+            set out into space on a special mission <br></br>
+            one of the astronauts who was very well known <br></br>
+            was lucky enough to call Boulder his home <br></br>
+            i'll be at the park that is this man's namesake <br></br>
+            but only from 3-4pm so don't keep me waiting!<br></br>
             <br></br>
             <p style={{color:'pink'}}>reminder: i'll only be here from 3-4pm</p><br></br>
 

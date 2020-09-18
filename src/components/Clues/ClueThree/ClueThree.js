@@ -16,7 +16,7 @@ const ClueThree = () => {
         </div>
         <div className = "clue-box">
             <div className="clue-text">
-            <p style={{color:'pink'}}>found at: Williams Village East</p> <br></br>
+            <p style={{color:'pink'}}>found at: 29th Street Mall</p> <br></br>
             let's transport to november, 2019<br></br>
             i sang in the ballroom of this big building<br></br>
             i opened for emo baby and keanu reeves<br></br>

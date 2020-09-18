@@ -16,7 +16,7 @@ const ClueTwo = () => {
         </div>
         <div className = "clue-box">
             <div className="clue-text">
-            <p style={{color:'pink'}}>found at: CU Engineering Center</p>
+            <p style={{color:'pink'}}>found at: Scott Carpenter Park</p>
             <br></br>
             congratulations! <br></br>
             you’re quite the sleuth <br></br>

@@ -18,8 +18,9 @@ const Scavenger = () => {
             <div className="LargeHeading">I LOVE YOU</div>
             <div className="Subtitle">the scavenger hunt</div>
             <Link to='/rules' className="Clue">THE RULES</Link>
-            {/* <Link to='/clue1' className="Clue">CLUE 1</Link>
+            <Link to='/clue1' className="Clue">CLUE 1</Link>
             <Link to='/clue2' className="Clue">CLUE 2</Link>
+            {/* 
             <Link to='/clue3' className="Clue">CLUE 3</Link>
             <Link to='/clue4' className="Clue">CLUE 4</Link>
             <Link to='/clue5' className="Clue">CLUE 5</Link>

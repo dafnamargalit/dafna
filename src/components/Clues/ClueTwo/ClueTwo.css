@@ -16,17 +16,16 @@
 }
 
 .clue-box{
-    height: 80vh;
+    height: 60vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 2em;
 }
 
 .bottom{
     height: 10vh;
     display: flex;
-    justify-content: end;
+ 
 }
 
 .ClueHeading{
@@ -40,7 +39,7 @@
     font-family: 'Courier New', Courier, monospace;
     display: block;
     color: white;
-    width: 40vw;
+    width: 60vw;
     text-align: center;
 }
 
@@ -83,5 +82,6 @@
     }
     .clue-box{
         margin: .5em;
+        height: 80vh;
     }
 }

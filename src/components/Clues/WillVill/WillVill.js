@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import Weast from './weast.jpg';
+import Weast from './sur.jpg';
 
 import './WillVill.css'
 
@@ -40,8 +40,7 @@ class WillVill extends Component {
                 </Link>
                 <div className="ClueHeading">LOCATION</div>
             </div>
-            <div className = "clue-box">
-                <div className="clue-text">
+            <div className="clue-text">
                     {this.state.location ? (<div className="location-blocker"><img src={Weast} className="image" alt="weast"/></div>) : (<div className="location-blocker">
                         <div className="hide-text">
                         To unlock the next location, type in the most used word in my song "<a href="https://genius.com/Dafna-let-u-go-lyrics" className="link">let u go</a>":
@@ -51,7 +50,6 @@ class WillVill extends Component {
                     </div>)}
                 <b><a href="https://link.tree/dafnamusic" style={{textDecoration:'none', color:'pink'}}>click here to pre-save I LOVE YOU the album</a></b>
                 </div>
-            </div>
             </div>
         );
     }

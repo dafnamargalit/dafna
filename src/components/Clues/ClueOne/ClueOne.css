@@ -26,7 +26,6 @@
 .bottom{
     height: 10vh;
     display: flex;
-    justify-content: end;
 }
 
 .ClueHeading{
@@ -40,7 +39,7 @@
     font-family: 'Courier New', Courier, monospace;
     display: block;
     color: white;
-    width: 40vw;
+    width: 50vw;
     text-align: center;
 }
 
