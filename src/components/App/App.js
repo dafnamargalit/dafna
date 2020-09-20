@@ -19,7 +19,7 @@ const Scavenger = React.lazy(() => import("../Scavenger"));
 const Rules = React.lazy(() => import("../Rules"));
 const ClueOne = React.lazy(() => import("../Clues/ClueOne"));
 const ClueTwo = React.lazy(() => import("../Clues/ClueTwo"));
-// const ClueThree = React.lazy(() => import("../Clues/ClueThree"));
+const ClueThree = React.lazy(() => import("../Clues/ClueThree"));
 // const ClueFour = React.lazy(() => import("../Clues/ClueFour"));
 // const ClueFive = React.lazy(() => import("../Clues/ClueFive"));
 // const ClueSix = React.lazy(() => import("../Clues/ClueSix"));
@@ -56,8 +56,8 @@ export default class App extends Component {
       <Route path='/tRquVs' component={WillVill}/> 
       <Route path='/clue1' component={ClueOne}/>
       <Route path='/clue2' component={ClueTwo}/>
-      {/* 
       <Route path='/clue3' component={ClueThree}/>
+      {/* 
       <Route path='/clue4' component={ClueFour}/>
       <Route path='/clue5' component={ClueFive}/>
       <Route path='/clue6' component={ClueSix}/>
