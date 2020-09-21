@@ -29,6 +29,10 @@
  
 }
 
+.hidden{
+    display: none;
+}
+
 .ClueHeading{
     font-family:"Arial Black";
     font-size: 4em;

@@ -6,10 +6,11 @@ import './ClueFive.css'
 const ClueFive = () => {
     return(
         <div className="ClueFive">
+                    <p className="hidden">the answer is: Century Theatre</p>
         <div className = "clue-top">
             <Link to="/scavenger-hunt" className="ClueBack">
             <div className="ClueBack">
-            <i class="clue-arrow clue-left"></i>
+            <i className="clue-arrow clue-left"></i>
             BACK TO HUNT</div>
             </Link>
             <div className="ClueHeading">CLUE FIVE</div>
@@ -17,9 +18,8 @@ const ClueFive = () => {
         <div className = "clue-box">
             <div className="clue-text">
             <p style={{color:'pink'}}>found at : The Laughing Goat on Pearl</p>
-            <p using style={{color:'pink'}}>using the following format, spell out the location of the next clue: <br></br>
+            <p style={{color:'pink'}}>using the following format, spell out the location of the next clue: <br></br>
             <b>[song title, line number, word number, letter number]</b><br></br>(all of my lyrics are on genius)</p>
-
             "valentine", 6, 6, 1 <br></br>
             "let u go", 1, 2, 4 <br></br>
             "yours someday", 11, 2, 3 <br></br>
@@ -39,7 +39,6 @@ const ClueFive = () => {
             "holy", 9, 6, 6 <br></br>
             "stand still", 5, 4, 4 <br></br>
             <p style={{color:'pink'}}>reminder: i'll only be here from 6-7pm on 9/22</p><br></br>
-
             <b><a href="https://link.tree/dafnamusic" style={{textDecoration:'none', color:'pink'}}>click here to pre-save I LOVE YOU the album</a></b>
             </div>
         </div>
