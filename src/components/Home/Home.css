@@ -2,6 +2,8 @@
 	background-color: rgb(196, 248, 255);
 	height: 100vh;
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	flex-direction: column;
 	}
 
@@ -17,14 +19,18 @@
 		font-family: 'BentonSans-Regular';
 		color: black;
 		text-align: center;
-	}
-	
-	.Scavenge:hover{
 		border: solid rgb(255, 217, 235) .05em;
 		border-radius: .2em;
 		background-color: rgb(255, 217, 235);
 		padding: .2em;
 	}
+	
+	/* .Scavenge:hover{
+		border: solid rgb(255, 217, 235) .05em;
+		border-radius: .2em;
+		background-color: rgb(255, 217, 235);
+		padding: .2em;
+	} */
 	.Home-Middle{
 		height: 71vh;
 		display: flex;
@@ -97,35 +103,28 @@
 		padding-bottom: 7em;
 		
 	}
-	@media only screen and (max-width: 600px) { 
-		.Home{	
-			background-color: rgb(196, 248, 255);
-			height: 100vh;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			}
+	@media only screen and (max-width: 1024px) { 
 			
 			.Home-Letters-D{
-			height: 10vh;
+			height: 9vh;
 			padding: 0em;
 			user-select: none;
 			}
 			
 			.Home-Letters-A{
-			height: 10vh;
+			height: 9vh;
 			padding: 0em;
 			user-select: none;
 			}
 			
 			.Home-Letters-F{
-			height: 9.5vh;
+			height: 8.5vh;
 			padding-left: .4em;
 			user-select: none;
 			}
 			
 			.Home-Letters-N{
-			height: 10vh;
+			height: 9vh;
 			padding: 0em;
 			user-select: none;
 			}

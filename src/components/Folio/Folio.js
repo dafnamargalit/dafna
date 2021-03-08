@@ -36,7 +36,7 @@ import {Link} from 'react-router-dom';
 			<a className="circle" href="https://open.spotify.com/artist/6FR2ARlfDqNU7BMBaWjGZP?si=DS6OPf6fQQOned7Nbz4HrQ">
 			<img className="Folio-Video" src={record} alt="record player" ></img>
 			</a>
-			<a className="circle" href="https://www.bonfire.com/store/dafna/">
+			<a className="circle" href="https://shop.dafna.rocks">
 			<img className="Folio-Video" src={merch} alt="merch" ></img>
 			</a>
 

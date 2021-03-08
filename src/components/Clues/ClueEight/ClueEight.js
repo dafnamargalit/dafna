@@ -9,7 +9,7 @@ const ClueEight = () => {
         <div className = "clue-top">
             <Link to="/scavenger-hunt" className="ClueBack">
             <div className="ClueBack">
-            <i class="clue-arrow clue-left"></i>
+            <i className="clue-arrow clue-left"></i>
             BACK TO HUNT</div>
             </Link>
             <div className="ClueHeading">CLUE EIGHT</div>
@@ -17,7 +17,7 @@ const ClueEight = () => {
         <div className = "clue-box">
             <div className="clue-text">
             <p style={{color:'pink'}}>found at: The Fox Theatre</p> <br></br>
-            congrats! you're the winner<text style={{color:'pink'}}>*</text> of this little game <br></br>
+            congrats! you're the winner<div style={{color:'pink'}}>*</div> of this little game <br></br>
             to collect your prize DM me your address and name <br></br>
             i'll send you some merch, you can choose which you like <br></br>
             and i'll buy you some coffee, any time, day or night <br></br>

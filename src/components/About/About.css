@@ -97,7 +97,7 @@
 
 	@media only screen and (max-width: 600px){			
 			.About-Title-Large{
-			height:10vh;
+			height:8vh;
 			margin-bottom: 2em;
 			user-select: none;
 			}
@@ -136,6 +136,19 @@
 			background-color: rgb(196, 248, 255);
 			}
 			
+			.About-Text{
+				font-family: 'BentonSans-Regular';
+				width: 100%;
+				padding: 0.2em;
+				text-align: center;
+				background-color: white;
+				height: 50%;
+				font-size: 0.9em;
+				border-radius: 2em;
+				box-shadow: 0.5em 0.5em #ffd6e5;
+				transition: transform .2s;
+				margin: 1em;
+			}
 			
 			.About-Content{
 			height: 80vh;
@@ -144,18 +157,69 @@
 			background-color: rgb(196, 248, 255);
 			
 			}
+
+	}
+
+	@media only screen and (min-width: 600px) and (max-width: 1024px){			
+		.About-Title-Large{
+		height:8vh;
+		margin-bottom: 2em;
+		user-select: none;
+		}
+		
+		.About-Title{
+		height:4vh;
+		margin-bottom: 2em;
+		user-select: none;
+		}
+		
+		.About-Wrapper{
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+		}
+		
+		.About-Image{
+		height: 30vh;
+		padding: 0.35em;
+		margin-left: 1em;
+		border-radius: 20em;
+		user-select: none;
+		transition: transform .2s;
+		background-image: url('../media/images/rainbow.jpg');
+		}
+		
+		.About-Header{
+		height: 16vh;
+		display:flex;
+		align-items: center;
+		justify-content: center;
+		padding: 1em;
+		padding-bottom: 0em;
+		padding-top:3em;
+		background-color: rgb(196, 248, 255);
+		}
+		
 		.About-Text{
 			font-family: 'BentonSans-Regular';
-			width: 35em;
+			width: 100%;
 			padding: 0.2em;
 			text-align: center;
 			background-color: white;
-			height: 22em;
 			font-size: 0.9em;
 			border-radius: 2em;
 			box-shadow: 0.5em 0.5em #ffd6e5;
 			transition: transform .2s;
 			margin: 1em;
-			
-			}
-	}
+		}
+		
+		.About-Content{
+		height: 60vh;
+		display: flex;
+		justify-content: center;
+		background-color: rgb(196, 248, 255);
+		
+		}
+
+}

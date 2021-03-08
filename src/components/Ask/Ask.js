@@ -34,7 +34,7 @@ const Ask = () => {
 
 <div className="Ask-Content">
 <p>
-Any questions? Inquiries? Shoot me an  <a href="mailto: dafna.business@gmail.com"> email</a>.
+Any questions? Inquiries? Shoot me an  <a href="mailto: mgmt@dafna.rocks"> email</a>.
 </p>
 </div>
 	<div className="Ask-Footer">

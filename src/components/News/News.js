@@ -22,15 +22,15 @@ import './News.css';
 	</div>
 		<div className="News-Content">
 			<div className="Row-1">
+			<Iframe className="News-Embed" url="https://www.theothersidereviews.com/a-chat-with-dafna-24-09-2020/"
+				width="500px"
+				height="500px"
+			/>
 			<Iframe className="News-Embed" url="https://lefuturewave.com/2020/03/07/introducing-dafna-submerge/"
 					width="500px"
 					height="500px"
 				/>
 				<Iframe className="News-Embed" url="https://fortheloveofbands.com/2020/01/18/dafnas-by-myself-is-your-comfort-blanket-for-loneliness/"
-					width="500px"
-					height="500px"
-				/>
-				<Iframe className="News-Embed" url="https://comeherefloyd.com/dafna-peta%c2%a5an-dakota-stephen-artemis-jr-lunir/"
 					width="500px"
 					height="500px"
 				/>
@@ -43,8 +43,8 @@ import './News.css';
 				<Iframe className="News-Embed" url="https://www.eartothegroundmusic.co/2019/09/06/singer-songwriters-to-steal-your-heart-this-weekend/"
 					width="500px"
 					height="500px"
-				/>
-							<Iframe className="News-Embed" url="http://cravethesound.com/reviews/2019/10/9/dafna-concert-review"
+					/>
+				<Iframe className="News-Embed" url="https://comeherefloyd.com/dafna-peta%c2%a5an-dakota-stephen-artemis-jr-lunir/"
 					width="500px"
 					height="500px"
 				/>

@@ -22,11 +22,12 @@ const ClueTwo = React.lazy(() => import("../Clues/ClueTwo"));
 const ClueThree = React.lazy(() => import("../Clues/ClueThree"));
 const ClueFour = React.lazy(() => import("../Clues/ClueFour"));
 const ClueFive = React.lazy(() => import("../Clues/ClueFive"));
-// const ClueSix = React.lazy(() => import("../Clues/ClueSix"));
-// const ClueSeven = React.lazy(() => import("../Clues/ClueSeven"));
-// const ClueEight = React.lazy(() => import("../Clues/ClueEight"));
+const ClueSix = React.lazy(() => import("../Clues/ClueSix"));
+const ClueSeven = React.lazy(() => import("../Clues/ClueSeven"));
+const ClueEight = React.lazy(() => import("../Clues/ClueEight"));
 const WillVill = React.lazy(() => import("../Clues/WillVill"));
 export default class App extends Component {
+
   render(){
   return (
   <React.Suspense fallback={
@@ -59,10 +60,9 @@ export default class App extends Component {
       <Route path='/clue3' component={ClueThree}/>
       <Route path='/clue4' component={ClueFour}/>
       <Route path='/clue5' component={ClueFive}/>
-      {/* 
       <Route path='/clue6' component={ClueSix}/>
       <Route path='/clue7' component={ClueSeven}/>
-      <Route path='/clue8' component={ClueEight}/>*/}
+    <Route path='/clue8' component={ClueEight}/>
       {/* <Route path='*' component={NotFound} /> */}
       </div>
     </Router>
